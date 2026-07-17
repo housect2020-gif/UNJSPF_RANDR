@@ -1,0 +1,48 @@
+{
+ "document": {
+  "id": "video-validation-restoration-transfer",
+  "title": "Validation, Restoration and Transfer — UNJSPF Video",
+  "revision": "UNJSPF Video: Validation, Restoration and Transfer of Pension Rights",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-validation-restoration-transfer.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-validation-restoration-transfer-001",
+   "part": "Validation, Restoration and Transfer of Pension Rights",
+   "heading": "Can I increase my pension with contributions from my previous periods of employment?",
+   "page": null,
+   "text": "Yes, in some cases. If you separated from service from a UNJSPF member organization and then started a new contract with the same or another UNJSPF member organization, you could increase your future pension benefit by adding contributions from previous periods of work, where allowed, through validation or restoration of your pension rights. Acquired pension rights may also be transferred from or to an organization that is not a UNJSPF member organization if there is a transfer agreement between that entity and the UNJSPF."
+  },
+  {
+   "id": "video-validation-restoration-transfer-002",
+   "part": "Validation, Restoration and Transfer of Pension Rights",
+   "heading": "What is validation, and how do I apply?",
+   "page": null,
+   "text": "Validation is the option to make previously non-contributory service pensionable by paying the corresponding contributions. If you are a staff member of a UNJSPF member organization and participant in the Fund but were not immediately eligible to participate (for example, because your initial staff contract was less than 6 months), you can opt to make that prior service period pensionable. Apply via the Validation tab in your UNJSPF Member Self-Service (MSS) account, or in writing by submitting form PENS.B1 (downloadable from MSS or the Fund's website). Once the Fund confirms eligibility, they will tell you the cost, and you decide whether to proceed; your employing organization then pays its share of contributions for that period. There is a strict 12-month deadline to apply for validation, counting from the date you joined the Fund."
+  },
+  {
+   "id": "video-validation-restoration-transfer-003",
+   "part": "Validation, Restoration and Transfer of Pension Rights",
+   "heading": "What is restoration, and what are the two kinds?",
+   "page": null,
+   "text": "Restoration is a mechanism to add contributory service from a previous participation to your current participation. There are two kinds, depending on whether you took a withdrawal settlement or elected a deferred retirement benefit when you previously separated. If you received a withdrawal settlement, you can buy back the prior contributory service by reimbursing the Fund the full amount received plus compound interest — all of your prior contributory service is reactivated, combined with your current service, and credited to your current participation, increasing your future benefit. Apply via the Restoration tab in MSS or by submitting form PENS.C1. Once eligibility is confirmed, the Fund tells you the cost, and you decide whether to proceed."
+  },
+  {
+   "id": "video-validation-restoration-transfer-004",
+   "part": "Validation, Restoration and Transfer of Pension Rights",
+   "heading": "How does restoration work if I previously elected a deferred retirement benefit not yet in payment?",
+   "page": null,
+   "text": "It depends on the date of election. If elected before 1 April 2007, you can fully restore the prior contributory service linked to the deferred benefit on a one-for-one basis, cancelling the deferred benefit — apply via the Restoration tab in MSS or form PENS.C1. If elected on or after 1 April 2007, restoration must be cost-neutral for the Fund, and is advantageous only in a very limited number of scenarios; submit form PENS.C8 to get an estimate of the impact — once eligibility is confirmed, the Fund provides an estimate of the contributory service period restoration would buy you, and you decide whether to proceed. There is a strict 12-month deadline to apply for restoration, counting from the date you requalified for UNJSPF participation."
+  },
+  {
+   "id": "video-validation-restoration-transfer-005",
+   "part": "Validation, Restoration and Transfer of Pension Rights",
+   "heading": "How do I transfer pension rights out of or into UNJSPF membership?",
+   "page": null,
+   "text": "If you move between a UNJSPF member organization and an organization that is not a member, you may be eligible to transfer your acquired pension rights from one pension plan to another, provided a transfer agreement exists between the Fund and the other organization/pension plan. Each transfer agreement sets out specific eligibility criteria, conditions, and strict application deadlines. All existing transfer agreements are published on the Fund's website under \"Transfer Agreements.\""
+  }
+ ]
+}

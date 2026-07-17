@@ -1,0 +1,41 @@
+{
+ "document": {
+  "id": "video-benefit-fluctuation",
+  "title": "Benefit Fluctuation — UNJSPF Video",
+  "revision": "UNJSPF Video: Benefit Fluctuation",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-benefit-fluctuation.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-benefit-fluctuation-001",
+   "part": "Why Your Benefit Amount May Fluctuate",
+   "heading": "Why might my monthly pension benefit vary due to health insurance deductions?",
+   "page": null,
+   "text": "Your monthly benefit might vary due to fluctuations in After-Service Health Insurance (ASHI) premiums if you have opted for those deductions. You can check these deduction amounts in the Member Self-Service Portal under the Disbursement tab. For details on how these premiums are calculated, contact your ASHI provider directly, as the Fund does not determine these amounts."
+  },
+  {
+   "id": "video-benefit-fluctuation-002",
+   "part": "Why Your Benefit Amount May Fluctuate",
+   "heading": "Can bank charges affect the amount I actually receive?",
+   "page": null,
+   "text": "Yes. Variations may result from bank charges. While the UNJSPF absorbs remittance fees, it has no control over charges applied by your bank or its correspondent banks. It is recommended to speak with your bank to request they waive charges for pension benefits."
+  },
+  {
+   "id": "video-benefit-fluctuation-003",
+   "part": "Why Your Benefit Amount May Fluctuate",
+   "heading": "How do cost-of-living adjustments and exchange rates affect my benefit amount?",
+   "page": null,
+   "text": "Benefit amounts may change due to the application of the quarterly Cost of Living Adjustment (COLA) or changes in the quarterly exchange rate. You can view these changes in the quarterly statements available in the Member Self-Service Portal under the Documents tab."
+  },
+  {
+   "id": "video-benefit-fluctuation-004",
+   "part": "Why Your Benefit Amount May Fluctuate",
+   "heading": "How does the discontinuation of a child benefit affect my total payment?",
+   "page": null,
+   "text": "The discontinuation of a child benefit will impact your total amount. The Fund stops paying child benefits when a child turns 21, unless they are recognized as disabled. You will see a reduction in the month after the child turns 21."
+  }
+ ]
+}

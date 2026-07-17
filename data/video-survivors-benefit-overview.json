@@ -1,0 +1,34 @@
+{
+ "document": {
+  "id": "video-survivors-benefit-overview",
+  "title": "Survivor's Benefit — UNJSPF Video",
+  "revision": "UNJSPF Video: Survivor's Benefit",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-survivors-benefit-overview.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-survivors-benefit-overview-001",
+   "part": "Survivor's Benefit — Video Overview",
+   "heading": "When are participants covered for death, and who may be entitled to benefits if a participant dies in service?",
+   "page": null,
+   "text": "Participants are covered for death in service from their first day of participation. If a participant dies, their surviving spouse (payable for life) or children under 21 (unless disabled) may be entitled to benefits. Divorced spouses or secondary dependants (e.g., parents/siblings) may also be eligible if specific conditions are met. It is crucial to report all dependants to the employing organization and HR in a timely manner."
+  },
+  {
+   "id": "video-survivors-benefit-overview-002",
+   "part": "Survivor's Benefit — Video Overview",
+   "heading": "What happens to survivor eligibility if a participant dies after separation (retirement or disability)?",
+   "page": null,
+   "text": "The same logic applies for spouses and children as for death in service. However, children conceived after retirement are not entitled to benefits. If a participant marries after separation, the new spouse is ineligible for a survivor's benefit unless an annuity is purchased for them, which must be requested in writing within one year of the marriage."
+  },
+  {
+   "id": "video-survivors-benefit-overview-003",
+   "part": "Survivor's Benefit — Video Overview",
+   "heading": "What documentation should participants and survivors prepare and keep on file?",
+   "page": null,
+   "text": "Upon separation, the UNJSPF requires government-issued IDs and birth certificates for the participant, spouses, former spouses, and eligible children, as well as marriage, divorce, or death certificates for previous spouses. It is recommended that participants and their survivors maintain a file containing these supporting documents, the survivor's benefits booklet, and UNJSPF contact details to ensure accessibility."
+  }
+ ]
+}

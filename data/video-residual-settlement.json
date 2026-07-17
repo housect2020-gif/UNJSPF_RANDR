@@ -1,0 +1,34 @@
+{
+ "document": {
+  "id": "video-residual-settlement",
+  "title": "Residual Settlement — UNJSPF Video",
+  "revision": "UNJSPF Video: Residual Settlement",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-residual-settlement.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-residual-settlement-001",
+   "part": "Residual Settlement — Video Walkthrough",
+   "heading": "When does the Fund consider a residual settlement after a participant's death?",
+   "page": null,
+   "text": "In some cases after death, the total amount paid to the participant and their survivors is less than the participant's total pension contributions. The Fund first checks for survivors entitled to a regular monthly benefit (like a spouse or a child under age 21). A residual settlement is only considered if there are no such entitled survivors."
+  },
+  {
+   "id": "video-residual-settlement-002",
+   "part": "Residual Settlement — Video Walkthrough",
+   "heading": "What is a residual settlement, and how is it calculated?",
+   "page": null,
+   "text": "A residual settlement is a final payment of the remaining part of the participant's contributions plus interest that was not paid out during their lifetime or to survivors. The Fund calculates this by comparing total contributions plus interest against the total benefits already paid out."
+  },
+  {
+   "id": "video-residual-settlement-003",
+   "part": "Residual Settlement — Video Walkthrough",
+   "heading": "How does the Fund determine who receives a residual settlement?",
+   "page": null,
+   "text": "Participants should complete and submit the Designation of Recipient of a Residual Settlement form (A2 form). The Fund uses the most recent, signed A2 form on file to determine who receives the payment. If no A2 form is on file, the residual settlement is paid to the participant's estate."
+  }
+ ]
+}

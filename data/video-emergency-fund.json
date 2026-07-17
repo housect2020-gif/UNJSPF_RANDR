@@ -1,0 +1,41 @@
+{
+ "document": {
+  "id": "video-emergency-fund",
+  "title": "Emergency Fund — UNJSPF Video",
+  "revision": "UNJSPF Video: Emergency Fund",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-emergency-fund.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-emergency-fund-001",
+   "part": "Emergency Fund — Video Walkthrough",
+   "heading": "What is the Emergency Fund, and who is eligible?",
+   "page": null,
+   "text": "The UN Pension Fund administers an emergency fund for retirees and beneficiaries impacted by unforeseen financial hardships. If you are a recipient of a monthly benefit and face unforeseen hardship, you could be eligible for emergency fund assistance."
+  },
+  {
+   "id": "video-emergency-fund-002",
+   "part": "Emergency Fund — Video Walkthrough",
+   "heading": "What kinds of expenses can Emergency Fund applications cover?",
+   "page": null,
+   "text": "Applications can be for medical expenses of an exceptional nature (e.g., procedures not covered by insurance), which may be subject to screening by UN medical service physicians. Assistance may also be available for expenses arising from natural disasters — for widespread events, the Fund often uses a fast-track procedure for a standard amount. In cases of financial hardship, the Fund may also provide assistance to help cover funeral expenses for a retiree, beneficiary, or their immediate dependent relative."
+  },
+  {
+   "id": "video-emergency-fund-003",
+   "part": "Emergency Fund — Video Walkthrough",
+   "heading": "How do I apply for Emergency Fund assistance, and how are applications assessed?",
+   "page": null,
+   "text": "To apply, use the Member Self-Service account or write to the Fund, providing details on the circumstances and supporting documentation. Applications are reviewed based on criteria set out in the \"framework for emergency fund payments\" annexed to the Fund's regulations."
+  },
+  {
+   "id": "video-emergency-fund-004",
+   "part": "Emergency Fund — Video Walkthrough",
+   "heading": "How and when is Emergency Fund assistance paid out?",
+   "page": null,
+   "text": "If eligible, the Fund pays out only after receiving an invoice and proof of payment for the costs sought. Amounts paid are once-off and limited, and may not cover the full costs. If there has been an overpayment to a deceased beneficiary, it must be cleared before emergency fund assistance can be granted."
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "document": {
+  "id": "video-slwop",
+  "title": "Special Leave Without Pay — UNJSPF Video",
+  "revision": "UNJSPF Video: Special Leave Without Pay",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-slwop.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-slwop-001",
+   "part": "Special Leave Without Pay (SLWOP)",
+   "heading": "Is it mandatory to continue paying pension contributions during special leave without pay?",
+   "page": null,
+   "text": "No, it is optional. If you take a period of special leave without pay, you have the choice (not a requirement) to continue paying pension contributions to the Fund during that time."
+  },
+  {
+   "id": "video-slwop-002",
+   "part": "Special Leave Without Pay (SLWOP)",
+   "heading": "What must I do before starting a period of special leave without pay if I want to continue contributions?",
+   "page": null,
+   "text": "You must inform and make arrangements with your employing organization (not the Fund) before your leave starts."
+  },
+  {
+   "id": "video-slwop-003",
+   "part": "Special Leave Without Pay (SLWOP)",
+   "heading": "How much do I have to pay if I continue contributions during SLWOP?",
+   "page": null,
+   "text": "If you continue, you are responsible for paying both your own and your employer's contribution shares. To calculate the monthly cost, multiply your own monthly pension contribution by three."
+  },
+  {
+   "id": "video-slwop-004",
+   "part": "Special Leave Without Pay (SLWOP)",
+   "heading": "What are the benefits of continuing contributions during SLWOP?",
+   "page": null,
+   "text": "Continuing contributions allows you to accrue contributory service, which increases your future pension rights and can lower the early retirement reduction factor if you reach 25 years of service."
+  },
+  {
+   "id": "video-slwop-005",
+   "part": "Special Leave Without Pay (SLWOP)",
+   "heading": "What happens to the employer's contribution share if I later elect a withdrawal settlement?",
+   "page": null,
+   "text": "If you later elect a withdrawal settlement, the employer's contribution share you paid during SLWOP will not be returned to you."
+  },
+  {
+   "id": "video-slwop-006",
+   "part": "Special Leave Without Pay (SLWOP)",
+   "heading": "What happens if I choose not to pay contributions during SLWOP?",
+   "page": null,
+   "text": "If you choose not to pay contributions, you remain an inactive participant and do not accrue contributory service during that period."
+  },
+  {
+   "id": "video-slwop-007",
+   "part": "Special Leave Without Pay (SLWOP)",
+   "heading": "When do I recommence accruing service, and what is the limit on unpaid leave?",
+   "page": null,
+   "text": "You will recommence accruing service upon resuming active duty, provided your total unpaid leave does not exceed 36 months. Exceeding 36 months in one period of participation means the Fund deems you to have separated from service."
+  },
+  {
+   "id": "video-slwop-008",
+   "part": "Special Leave Without Pay (SLWOP)",
+   "heading": "How can I track periods of special leave without pay?",
+   "page": null,
+   "text": "You can track periods of special leave without pay via your annual pension statement in your Member Self-Service account."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "document": {
+  "id": "video-break-in-service",
+  "title": "Break in Service — UNJSPF Video",
+  "revision": "UNJSPF Video: Break in Service",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-break-in-service.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-break-in-service-001",
+   "part": "Break in Service",
+   "heading": "What does a \"break in service\" mean for my Fund participation?",
+   "page": null,
+   "text": "A break in service does not necessarily mean the end of your participation period; it simply refers to an interruption in your contributory service. Your participation in the Fund pauses when you take a break from your employing organization."
+  },
+  {
+   "id": "video-break-in-service-002",
+   "part": "Break in Service",
+   "heading": "What must I decide upon separation if I intend to return to a UNJSPF member organization?",
+   "page": null,
+   "text": "Upon separation, you must decide whether to make a benefit election or postpone this decision (deferment) if you intend to return to a UNJSPF member organization."
+  },
+  {
+   "id": "video-break-in-service-003",
+   "part": "Break in Service",
+   "heading": "What happens if I return to a UNJSPF member organization within 36 months of separation?",
+   "page": null,
+   "text": "You may choose to defer your benefit election. If you rejoin a member organization during this time, your participation is considered continued. The gap itself is a break in service that cannot be made pensionable."
+  },
+  {
+   "id": "video-break-in-service-004",
+   "part": "Break in Service",
+   "heading": "What happens if my break in service exceeds 36 months?",
+   "page": null,
+   "text": "You start a new period of participation with a new date of entry, and you must make a benefit election for the earlier period."
+  },
+  {
+   "id": "video-break-in-service-005",
+   "part": "Break in Service",
+   "heading": "What happens if I already received a payment from the Fund after separation?",
+   "page": null,
+   "text": "If you already received a payout from the Fund after separation, that participation period has ended regardless of the length of the break."
+  },
+  {
+   "id": "video-break-in-service-006",
+   "part": "Break in Service",
+   "heading": "How can I track periods of break in service?",
+   "page": null,
+   "text": "Periods of break in service are tracked in your annual pension statement, available via your Member Self-Service account."
+  }
+ ]
+}

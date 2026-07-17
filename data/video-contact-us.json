@@ -1,0 +1,48 @@
+{
+ "document": {
+  "id": "video-contact-us",
+  "title": "Contact Us — UNJSPF Video",
+  "revision": "UNJSPF Video: Contact Us",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-contact-us.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-contact-us-001",
+   "part": "Contact Us",
+   "heading": "What are the three ways to contact the Fund?",
+   "page": null,
+   "text": "There are three ways to contact the Fund: in writing (via the contact form), by calling the Client Service Center, or by scheduling a personal consultation."
+  },
+  {
+   "id": "video-contact-us-002",
+   "part": "Contact Us",
+   "heading": "How do I contact the Fund in writing?",
+   "page": null,
+   "text": "Use the online contact form at unjspf.org rather than sending queries directly to specific staff members. Your inquiry will be tracked and routed to the relevant unit in New York or Geneva. A pension specialist will respond in due time, typically within 15 business days, though labor-intensive queries such as two-track estimates may take longer."
+  },
+  {
+   "id": "video-contact-us-003",
+   "part": "Contact Us",
+   "heading": "How do I contact the Fund's Client Service Center by phone?",
+   "page": null,
+   "text": "You can call the Fund's Client Service Center during the opening hours listed on the \"Contact Us\" page of the website, using the toll-free numbers listed there."
+  },
+  {
+   "id": "video-contact-us-004",
+   "part": "Contact Us",
+   "heading": "How do I schedule a personal consultation with the Fund?",
+   "page": null,
+   "text": "You can schedule a consultation by phone, video call, or in person. To make an appointment, use the website or call the Client Service Center."
+  },
+  {
+   "id": "video-contact-us-005",
+   "part": "Contact Us",
+   "heading": "How should I report an urgent query, such as the death of a retiree or an interruption of a monthly benefit payment?",
+   "page": null,
+   "text": "Queries regarding the death of a retiree or interruption of a monthly benefit payment are prioritized. These should be reported via the online contact form, the Client Service Center, or the email address listed on the Urgent Assistance webpage."
+  }
+ ]
+}
