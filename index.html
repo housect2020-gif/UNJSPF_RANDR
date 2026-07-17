@@ -213,6 +213,7 @@ async function loadKB() {
       docs.push(d.document);
       for (const c of d.chunks) { c.doc = d.document; chunks.push(c); }
     }
+    buildIndex();
     $("kbStatus").innerHTML = `<span class="dot ok"></span><b>${docs.length}</b> document${docs.length===1?"":"s"} · <b>${chunks.length}</b> sections loaded`;
     $("docCount").textContent = docs.map(d => `${d.revision || d.title} (eff. ${d.effective_date})`).join(" · ");
     updateReady();
@@ -240,12 +241,36 @@ $("saveKey").onclick = () => {
 };
 $("clearKey").onclick = () => { store.del("anthropic_key"); refreshKeyStatus(); };
 
-/* ---------- retrieval: keyword scoring over chunks ---------- */
-const STOP = new Set("the a an of to in for and or is are what how when who which with under on by as at be can does do i my".split(" "));
+/* ---------- retrieval: IDF-weighted keyword scoring over chunks ---------- */
+const STOP = new Set("the a an of to in for and or is are what how when who which with under on by as at be can does do i my from this that your you have has had it its if not no me will would could should".split(" "));
 function tokens(s) {
   return s.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").split(/\s+/).filter(w => w.length > 2 && !STOP.has(w));
 }
-function retrieve(question, topN = 6) {
+function escapeRegExp(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+// Document-frequency index, built once after the knowledge base loads. Common
+// words that appear in most chunks (e.g. "unjspf", "fund", "retirement") get a
+// low weight; rare, specific words (e.g. "borrow", "annuity") get a high one —
+// otherwise a chunk that repeats common words often can drown out the one
+// chunk that actually answers the question with a single precise term.
+let docFreq = {};
+let totalChunks = 0;
+function buildIndex() {
+  totalChunks = chunks.length;
+  docFreq = {};
+  for (const c of chunks) {
+    const seen = new Set(tokens(c.text + " " + c.heading + " " + c.part));
+    for (const t of seen) docFreq[t] = (docFreq[t] || 0) + 1;
+  }
+}
+function idf(t) { return Math.log((totalChunks + 1) / ((docFreq[t] || 0) + 1)) + 1; }
+function countWord(textLower, word) {
+  const re = new RegExp("\\b" + escapeRegExp(word) + "\\b", "g");
+  const m = textLower.match(re);
+  return m ? m.length : 0;
+}
+
+function retrieve(question, topN = 8) {
   const qTokens = tokens(question);
   const qSet = new Set(qTokens);
   const qLower = question.toLowerCase();
@@ -254,11 +279,10 @@ function retrieve(question, topN = 6) {
     const headLower = (c.heading + " " + c.part).toLowerCase();
     let score = 0;
     for (const t of qSet) {
-      // term frequency in body, capped
-      let idx = 0, hits = 0;
-      while ((idx = textLower.indexOf(t, idx)) !== -1 && hits < 6) { hits++; idx += t.length; }
-      score += hits;
-      if (headLower.includes(t)) score += 4;           // heading match boost
+      const w = idf(t);
+      const hits = countWord(textLower, t);
+      score += Math.log(1 + hits) * w;             // saturating term frequency, IDF-weighted
+      if (countWord(headLower, t) > 0) score += w * 2;  // heading match boost, also IDF-weighted
     }
     // bonus for consecutive-word phrases from the question
     for (let i = 0; i < qTokens.length - 1; i++) {
