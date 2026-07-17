@@ -1,0 +1,90 @@
+{
+ "document": {
+  "id": "video-benefit-options",
+  "title": "Benefit Options — UNJSPF Video",
+  "revision": "UNJSPF Video: Benefit Options",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-benefit-options.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-benefit-options-001",
+   "part": "Benefit Options",
+   "heading": "What determines my benefit options when separating from service or retiring?",
+   "page": null,
+   "text": "Your benefit options are determined by your age and the length of your contributory service with a UNJSPF member organization."
+  },
+  {
+   "id": "video-benefit-options-002",
+   "part": "Benefit Options",
+   "heading": "What is the Withdrawal Settlement option?",
+   "page": null,
+   "text": "Available for those with less than 5 years of service — a one-time payment of contributions plus interest. Those with 5 or more years may also receive an additional 10% increment per year of service, capped at 100%."
+  },
+  {
+   "id": "video-benefit-options-003",
+   "part": "Benefit Options",
+   "heading": "What is the Deferred Periodic Retirement Benefit option?",
+   "page": null,
+   "text": "Available if you have 5 or more years of service and separate before your early or normal retirement age. Benefits are paid starting at your normal retirement age, or upon request between your early and normal retirement ages (with a reduction factor applied if taken early)."
+  },
+  {
+   "id": "video-benefit-options-004",
+   "part": "Benefit Options",
+   "heading": "What is the Early Retirement Benefit option?",
+   "page": null,
+   "text": "Available if you have 5 or more years of service and have reached early retirement age. This results in a monthly payment, though reduced compared to waiting until normal retirement age."
+  },
+  {
+   "id": "video-benefit-options-005",
+   "part": "Benefit Options",
+   "heading": "What is the Full Retirement Benefit option?",
+   "page": null,
+   "text": "Available if you have 5 or more years of service and separate at normal retirement age. You are entitled to a full, unreduced monthly benefit."
+  },
+  {
+   "id": "video-benefit-options-006",
+   "part": "Benefit Options",
+   "heading": "Can I delay my election of a benefit, and for how long?",
+   "page": null,
+   "text": "If you haven't reached the mandatory age of separation, you can delay your choice for up to 36 months to seek new employment within the UNJSPF network."
+  },
+  {
+   "id": "video-benefit-options-007",
+   "part": "Benefit Options",
+   "heading": "What are the early and normal retirement ages relevant to these benefit options?",
+   "page": null,
+   "text": "Early Retirement: age 55 if you joined before 1 January 2014, or age 58 if you joined on or after 1 January 2014. Normal Retirement: age 60 if you separated before 1 January 1990, age 62 if between 1 January 1990 and 1 January 2014, or age 65 if on or after 1 January 2014."
+  },
+  {
+   "id": "video-benefit-options-008",
+   "part": "Benefit Options",
+   "heading": "Khalid has less than 5 years of contributory service and is separating — what are his benefit options?",
+   "page": null,
+   "text": "With less than 5 years of contributory service, Khalid's only option is a withdrawal settlement."
+  },
+  {
+   "id": "video-benefit-options-009",
+   "part": "Benefit Options",
+   "heading": "Priya has 5 or more years of contributory service and is separating before reaching retirement age — what are her benefit options?",
+   "page": null,
+   "text": "With 5 or more years of service and separating before retirement age, Priya can choose a withdrawal settlement, defer her choice of benefit, or elect a deferred retirement benefit."
+  },
+  {
+   "id": "video-benefit-options-010",
+   "part": "Benefit Options",
+   "heading": "Louise has 5 or more years of contributory service and has reached early retirement age — what are her benefit options?",
+   "page": null,
+   "text": "Having reached early retirement age with 5 or more years of service, Louise can choose a withdrawal settlement, delay her choice, elect a deferred retirement benefit, or elect an early retirement benefit."
+  },
+  {
+   "id": "video-benefit-options-011",
+   "part": "Benefit Options",
+   "heading": "Carlos has 5 or more years of contributory service and has reached normal retirement age — what are his benefit options?",
+   "page": null,
+   "text": "Having reached normal retirement age with 5 or more years of service, Carlos can choose to delay his election or take the full retirement benefit."
+  }
+ ]
+}

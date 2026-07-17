@@ -1,0 +1,41 @@
+{
+ "document": {
+  "id": "video-member-self-service",
+  "title": "Member Self-Service — UNJSPF Video",
+  "revision": "UNJSPF Video: Member Self-Service",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-member-self-service.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-member-self-service-001",
+   "part": "Member Self-Service (MSS)",
+   "heading": "What is Member Self-Service (MSS)?",
+   "page": null,
+   "text": "The Fund's Member Self-Service (MSS) is a secure digital portal for managing your participation and pension with the Fund. Once registered, you can use it to submit pension forms, manage pension information, and run estimates."
+  },
+  {
+   "id": "video-member-self-service-002",
+   "part": "Member Self-Service (MSS)",
+   "heading": "What can I do in MSS as an active participant?",
+   "page": null,
+   "text": "As a participant, you can: check your personal information; run estimates of future pension benefits and options; access your annual pension statement; access UNJSPF forms pre-completed with your name and unique ID; track the Fund's receipt of separation documents; electronically submit required forms; and apply to validate, restore, or transfer pension rights."
+  },
+  {
+   "id": "video-member-self-service-003",
+   "part": "Member Self-Service (MSS)",
+   "heading": "What can I do in MSS as a retiree or beneficiary?",
+   "page": null,
+   "text": "As a retiree or beneficiary, you can: track all payments from the Fund and after-service health insurance premium deductions; access important pension documents; access the PDF of your annual Certificate of Entitlement (CE), unless paid under the two-track system; track whether your returned CE was received by the Fund; upload and submit signed pension forms and supporting documents; update your address and provide an emergency contact; submit an initial emergency fund request in case of severe financial hardship; and run an estimate of entitlement under the two-track option if you retired after 2 August 2015."
+  },
+  {
+   "id": "video-member-self-service-004",
+   "part": "Member Self-Service (MSS)",
+   "heading": "How do I register for MSS and where can I find more information?",
+   "page": null,
+   "text": "For more information and to register, visit unjspf.org."
+  }
+ ]
+}

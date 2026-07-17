@@ -1,0 +1,69 @@
+{
+ "document": {
+  "id": "video-certificate-of-entitlement",
+  "title": "Certificate of Entitlement — UNJSPF Video",
+  "revision": "UNJSPF Video: Certificate of Entitlement",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-certificate-of-entitlement.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-certificate-of-entitlement-001",
+   "part": "Certificate of Entitlement (CE) — Video Walkthrough",
+   "heading": "Who needs to submit a Certificate of Entitlement (CE), and why?",
+   "page": null,
+   "text": "If you are a retiree or beneficiary you need to submit a Certificate of Entitlement (CE) annually to confirm that you are alive and continue to be entitled to a pension benefit."
+  },
+  {
+   "id": "video-certificate-of-entitlement-002",
+   "part": "Certificate of Entitlement (CE) — Video Walkthrough",
+   "heading": "What are the two ways to submit my CE?",
+   "page": null,
+   "text": "You can submit your CE in two ways: via the Digital CE (DCE) mobile app, or by using the paper CE."
+  },
+  {
+   "id": "video-certificate-of-entitlement-003",
+   "part": "Certificate of Entitlement (CE) — Video Walkthrough",
+   "heading": "How do I submit my proof of life inside the DCE mobile app?",
+   "page": null,
+   "text": "To use the DCE mobile app, you will need to complete an initial enrollment process which includes a one-time video appointment with a Fund representative to confirm your identity. Once enrolled, you can submit your digital CE via the app every year."
+  },
+  {
+   "id": "video-certificate-of-entitlement-004",
+   "part": "Certificate of Entitlement (CE) — Video Walkthrough",
+   "heading": "What happens if I am on the two-track system and use the DCE app?",
+   "page": null,
+   "text": "If you are on the two-track, you must physically be in your declared country of residence when issuing your digital CE, otherwise you may be required to submit a new proof of residence to the Fund."
+  },
+  {
+   "id": "video-certificate-of-entitlement-005",
+   "part": "Certificate of Entitlement (CE) — Video Walkthrough",
+   "heading": "What happens if I have not made my digital CE submission by June?",
+   "page": null,
+   "text": "If you have not made your digital CE submission by June, a paper CE form will be mailed to you."
+  },
+  {
+   "id": "video-certificate-of-entitlement-006",
+   "part": "Certificate of Entitlement (CE) — Video Walkthrough",
+   "heading": "How do I submit my proof of life using the paper-based CE form?",
+   "page": null,
+   "text": "You are not required to use the DCE app — if you prefer the paper CE, simply do not enroll in the digital CE app. A barcoded paper form will be sent to your registered mailing address each year in June or July. You can also download and print the barcoded CE form from the Documents tab in your Member Self-Service (MSS) account, but this download option is not available to those on the two-track, who must wait for postal delivery. Even if you have enrolled in the DCE app, you can still change back to using the paper CE at any time."
+  },
+  {
+   "id": "video-certificate-of-entitlement-007",
+   "part": "Certificate of Entitlement (CE) — Video Walkthrough",
+   "heading": "What should I do with my paper CE form once I receive it?",
+   "page": null,
+   "text": "Hand sign and date the CE form, then either submit the physical CE form to the Fund by mail, or submit an electronic copy using the MSS document upload feature. If mailing, send the physical original CE form using one of the addresses on the Fund's website. If submitting electronically, scan the duly signed CE form and upload it via MSS document upload — this option can also be used if you're on the two-track."
+  },
+  {
+   "id": "video-certificate-of-entitlement-008",
+   "part": "Certificate of Entitlement (CE) — Video Walkthrough",
+   "heading": "How can I track whether the Fund has received my CE, and what happens if it isn't received?",
+   "page": null,
+   "text": "To verify if the Fund has received your barcoded CE form, check the Proof Documents tab in MSS. If the Fund has not received your DCE or signed CE form by mid-September, another CE form will be mailed to you. If no CE or DCE is received by the Fund by the end of December, your benefit may be suspended the following June."
+  }
+ ]
+}
