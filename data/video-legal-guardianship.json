@@ -1,0 +1,48 @@
+{
+ "document": {
+  "id": "video-legal-guardianship",
+  "title": "Legal Guardianship — UNJSPF Video",
+  "revision": "UNJSPF Video: Legal Guardianship",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-legal-guardianship.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-legal-guardianship-001",
+   "part": "Legal Guardianship — Video Walkthrough",
+   "heading": "When does the Fund require a legal guardian for a retiree or beneficiary?",
+   "page": null,
+   "text": "As a retiree or beneficiary, in situations where you become incapacitated or are unable to manage your own affairs due to ill health or infirmity, the Fund requires the appointment of a legal guardian to act on your behalf. The legal guardian must be appointed by the appropriate judicial authority in the beneficiary's country of residence. The Fund does not recognize the appointment of third parties by means of power of attorney or affidavit."
+  },
+  {
+   "id": "video-legal-guardianship-002",
+   "part": "Legal Guardianship — Video Walkthrough",
+   "heading": "What documentation must a legal guardian submit to the Fund?",
+   "page": null,
+   "text": "Once appointed, the guardian must submit: a copy of the decision of the appropriate judicial authority; a copy of the guardian's government-issued identification document showing a photograph and signature; and the guardian's contact details. Documents must be submitted in English or French, or accompanied by a translation into one of these languages."
+  },
+  {
+   "id": "video-legal-guardianship-003",
+   "part": "Legal Guardianship — Video Walkthrough",
+   "heading": "How does the Fund communicate with and pay benefits through a legal guardian?",
+   "page": null,
+   "text": "The legal guardian must sign the Fund's forms with respect to managing the retiree's or beneficiary's UNJSPF benefits, and the Fund will communicate only with the legal guardian on all issues concerning these benefits. A UNJSPF benefit can only be paid to a bank account in the name of the beneficiary; a guardian without access to that account should open a guardianship/trust bank account in the name of or on behalf of the retiree/beneficiary, or a joint account with the guardian, and submit the Change in Payment Instructions form (PF.23) along with a bank account statement or letter confirming the account name(s)."
+  },
+  {
+   "id": "video-legal-guardianship-004",
+   "part": "Legal Guardianship — Video Walkthrough",
+   "heading": "What provisions apply for a child if there is no surviving parent to care for them?",
+   "page": null,
+   "text": "A UNJSPF child benefit is usually paid to the former Fund participant on the child's behalf, or to the child's surviving parent in the case of the participant's death. If the child is in the custody of someone who is not a biological parent, a legal guardian should be appointed by the appropriate judicial authority in the child's country of residence, following the same documentary requirements (judicial decision, guardian's government-issued ID, and contact details)."
+  },
+  {
+   "id": "video-legal-guardianship-005",
+   "part": "Legal Guardianship — Video Walkthrough",
+   "heading": "When can a child's benefit be paid directly to the child instead of through a guardian?",
+   "page": null,
+   "text": "The child's benefit can be paid directly to the child if: the child is at least 16 years old, they can manage their financial affairs, and they have a bank account in their name. If any of these conditions are not met, the UNJSPF requires that the child have a legal guardian."
+  }
+ ]
+}

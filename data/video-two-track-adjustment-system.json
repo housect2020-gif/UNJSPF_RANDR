@@ -1,0 +1,48 @@
+{
+ "document": {
+  "id": "video-two-track-adjustment-system",
+  "title": "The Two-Track Pension Adjustment System — UNJSPF Video",
+  "revision": "UNJSPF Video: The Two-Track Pension Adjustment System",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-two-track-adjustment-system.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-two-track-adjustment-system-001",
+   "part": "The Two-Track Pension Adjustment System — Video Walkthrough",
+   "heading": "How does the Fund initially calculate periodic benefits, and how is the dollar track adjusted?",
+   "page": null,
+   "text": "The Fund initially calculates all periodic benefits in U.S. dollars, and every beneficiary starts on the U.S. dollar track. The U.S. dollar track amount is then adjusted over time following movements of the official U.S. Consumer Price Index (CPI), regardless of where you reside. You can request to be paid in any of the Fund's payroll currencies while remaining on the U.S. dollar track."
+  },
+  {
+   "id": "video-two-track-adjustment-system-002",
+   "part": "The Two-Track Pension Adjustment System — Video Walkthrough",
+   "heading": "Why might I choose the two-track system, and is the choice reversible?",
+   "page": null,
+   "text": "If you live outside the U.S., your purchasing power may fluctuate due to exchange rates and inflation. To protect your purchasing power in your country of residence, you can choose the two-track system. Once this choice is implemented, it is permanent and irreversible."
+  },
+  {
+   "id": "video-two-track-adjustment-system-003",
+   "part": "The Two-Track Pension Adjustment System — Video Walkthrough",
+   "heading": "How are the dollar track and local track compared under the two-track system?",
+   "page": null,
+   "text": "Two sets of calculations (U.S. dollar track and local currency track) are compared quarterly. Generally, you receive the higher value, subject to specific maximums and minimums, including a guarantee of at least 80% of the U.S. dollar track."
+  },
+  {
+   "id": "video-two-track-adjustment-system-004",
+   "part": "The Two-Track Pension Adjustment System — Video Walkthrough",
+   "heading": "How is the local track amount calculated?",
+   "page": null,
+   "text": "The local track is calculated by converting the initial dollar amount using the average UN exchange rate for the previous 36 months, adjusted by a cost-of-living differential, and then adjusted by the local CPI."
+  },
+  {
+   "id": "video-two-track-adjustment-system-005",
+   "part": "The Two-Track Pension Adjustment System — Video Walkthrough",
+   "heading": "How do I apply for the two-track system?",
+   "page": null,
+   "text": "Before opting in, review an estimate via your Member Self-Service (MSS) account. To apply, submit a completed \"Declaration of Country of Residence\" form (PENS.E/10) with proof of residence, confirming you live there for at least six months of the year."
+  }
+ ]
+}

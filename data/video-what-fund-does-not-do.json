@@ -1,0 +1,48 @@
+{
+ "document": {
+  "id": "video-what-fund-does-not-do",
+  "title": "What the Fund Does Not Do — UNJSPF Video",
+  "revision": "UNJSPF Video: What Does the Fund Not Do",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-what-fund-does-not-do.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-what-fund-does-not-do-001",
+   "part": "What the Fund Does Not Do",
+   "heading": "Does the UNJSPF provide tax advice?",
+   "page": null,
+   "text": "No. The Fund does not provide tax advice, as tax liabilities depend on individual national legislation in over 190 countries. It recommends consulting local tax authorities or specialists."
+  },
+  {
+   "id": "video-what-fund-does-not-do-002",
+   "part": "What the Fund Does Not Do",
+   "heading": "How do I get a statement of pension income for tax purposes?",
+   "page": null,
+   "text": "Submit a one-time written request via the online contact form on the Fund's website. Subsequently, statements are generated automatically each year in your Member Self-Service account."
+  },
+  {
+   "id": "video-what-fund-does-not-do-003",
+   "part": "What the Fund Does Not Do",
+   "heading": "Does the Fund provide financial advice?",
+   "page": null,
+   "text": "No. The Fund does not provide financial advice and suggests seeking assistance from a qualified specialist."
+  },
+  {
+   "id": "video-what-fund-does-not-do-004",
+   "part": "What the Fund Does Not Do",
+   "heading": "Does the Fund administer After-Service Health Insurance (ASHI)?",
+   "page": null,
+   "text": "No. The Fund does not administer After-Service Health Insurance. Questions regarding ASHI, including monthly premium deductions visible in the Member Self-Service disbursement tab, should be directed to the health insurance section of your former employing organization."
+  },
+  {
+   "id": "video-what-fund-does-not-do-005",
+   "part": "What the Fund Does Not Do",
+   "heading": "What else does the Fund not do?",
+   "page": null,
+   "text": "The Fund does not process final pay entitlements, issue retiree/beneficiary ID cards, or manage compensation for service-incurred injuries."
+  }
+ ]
+}

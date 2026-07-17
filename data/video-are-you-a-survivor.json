@@ -1,0 +1,41 @@
+{
+ "document": {
+  "id": "video-are-you-a-survivor",
+  "title": "Are You a Survivor? — UNJSPF Video",
+  "revision": "UNJSPF Video: Are You a Survivor of a UNJSPF Retiree/Beneficiary?",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-are-you-a-survivor.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-are-you-a-survivor-001",
+   "part": "Are You a Survivor of a UNJSPF Retiree/Beneficiary?",
+   "heading": "How do I notify the Fund of the death of a retiree or beneficiary, and what information should I include?",
+   "page": null,
+   "text": "It's important to inform the Fund about the death of a retiree or beneficiary as soon as possible to avoid an overpayment, which would have to be reimbursed to the Fund. You can inform the Fund using the online contact form, by sending an email to the dedicated mailbox for death-related cases (death-related@un.org), or by calling the Fund's call center. Include the late retiree's or beneficiary's full name, date of birth, Unique Identification Number (UID), and the date of death."
+  },
+  {
+   "id": "video-are-you-a-survivor-002",
+   "part": "Are You a Survivor of a UNJSPF Retiree/Beneficiary?",
+   "heading": "What documents does the Fund need to process a survivor's benefit?",
+   "page": null,
+   "text": "If survivor's benefits are payable, the Fund needs: a certified copy of the official death certificate of the retiree or beneficiary; a payment instructions form for each survivor claiming a benefit, with the signature verified by a UN or government official or a notary public; a copy of a valid government-issued official identification document (such as a passport) showing the survivor's full name, date of birth, photograph, and signature; a copy of a recent bank statement matching the survivor's name and the account details on the payment instructions form; and copies of birth, marriage, and/or divorce certificates as applicable for each entitled survivor."
+  },
+  {
+   "id": "video-are-you-a-survivor-003",
+   "part": "Are You a Survivor of a UNJSPF Retiree/Beneficiary?",
+   "heading": "How long does it take the Fund to process a survivor's benefit once documents are received?",
+   "page": null,
+   "text": "The Fund will review the case to determine eligibility according to its regulations and rules, then inform the entitled survivors. It usually processes the benefits within four weeks from the date it receives the complete set of documents."
+  },
+  {
+   "id": "video-are-you-a-survivor-004",
+   "part": "Are You a Survivor of a UNJSPF Retiree/Beneficiary?",
+   "heading": "What happens once a survivor's benefit has been implemented?",
+   "page": null,
+   "text": "Each new beneficiary is given their own UNJSPF Unique Identification Number (UID) to register in the Fund's Member Self-Service, where they can track payments and access other tools."
+  }
+ ]
+}

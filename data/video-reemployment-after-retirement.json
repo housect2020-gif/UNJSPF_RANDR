@@ -1,0 +1,48 @@
+{
+ "document": {
+  "id": "video-reemployment-after-retirement",
+  "title": "Re-employment After Retirement — UNJSPF Video",
+  "revision": "UNJSPF Video: Re-employment After Retirement",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-video-reemployment-after-retirement.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "video-reemployment-after-retirement-001",
+   "part": "Re-employment After Retirement",
+   "heading": "What happens to my UNJSPF benefit if I am reemployed by a company that is not a UNJSPF member organization?",
+   "page": null,
+   "text": "Your new employment will have no impact on your UNJSPF entitlements. Your monthly retirement benefit payments will continue as usual, and you don't need to inform the Fund of your reemployment."
+  },
+  {
+   "id": "video-reemployment-after-retirement-002",
+   "part": "Re-employment After Retirement",
+   "heading": "What determines the impact on my benefit if I am reemployed by a UNJSPF member organization?",
+   "page": null,
+   "text": "The impact depends on whether you again qualify for UNJSPF participation, which depends on the type and length of your new employment contract. Only staff contracts qualify you for Fund participation, and only if they are for 6 months or longer. You will also qualify once you've completed 6 months on a shorter-term staff contract that is then extended beyond 6 months."
+  },
+  {
+   "id": "video-reemployment-after-retirement-003",
+   "part": "Re-employment After Retirement",
+   "heading": "What happens if my new employment contract does NOT qualify me for UNJSPF participation?",
+   "page": null,
+   "text": "Your retirement benefit will not be suspended — you continue to receive your regular UNJSPF retirement benefit payments while reemployed. However, UNJSPF member organizations impose earning limitations on active staff receiving UNJSPF retirement benefits; these are enforced by the employing organization, not UNJSPF. Inform the HR department of your new organization about your UNJSPF retiree status and the conditions related to your reemployment. If your contract is initially under 6 months but later extended to meet the 6-month requirement, you will then qualify for UNJSPF participation and the rules for a qualifying contract apply instead."
+  },
+  {
+   "id": "video-reemployment-after-retirement-004",
+   "part": "Re-employment After Retirement",
+   "heading": "What happens if my new employment contract DOES qualify me for a new period of UNJSPF participation?",
+   "page": null,
+   "text": "You will be re-enrolled in the Fund, and payments of your existing retirement benefit will be suspended, since you cannot receive regular UNJSPF benefit payments while contributing to the Fund as an active participant. Once re-enrolled, you make regular pension contributions and earn a new future entitlement. If there is a delay between when you requalify for participation and when your organization reports this to the Fund, the Fund will suspend your retirement benefit payments retrospectively and request that you return any overpayments made during that gap. When you separate from service again, both you and your employing organization must submit the usual separation documents so your suspended retirement benefit can be reinstated and your new entitlement processed."
+  },
+  {
+   "id": "video-reemployment-after-retirement-005",
+   "part": "Re-employment After Retirement",
+   "heading": "What should I always do regardless of which re-employment scenario applies to me?",
+   "page": null,
+   "text": "Always inform your employing organization's HR team that you are in receipt of a UNJSPF retirement benefit, so they can provide the relevant information for your situation."
+  }
+ ]
+}
