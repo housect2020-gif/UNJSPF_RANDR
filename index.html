@@ -291,9 +291,10 @@ async function ask() {
 async function callClaude(question, hits) {
   const key = store.get("anthropic_key");
   const context = hits.length
-    ? hits.map((c, i) =>
-        `[Source ${i + 1}] ${c.doc.revision} — ${c.part}, ${c.heading}, p.${c.page} (effective ${c.doc.effective_date}):\n${c.text}`
-      ).join("\n\n---\n\n")
+    ? hits.map((c, i) => {
+        const loc = c.page ? `, p.${c.page}` : "";
+        return `[Source ${i + 1}] ${c.doc.revision} — ${c.part}, ${c.heading}${loc} (effective ${c.doc.effective_date}):\n${c.text}`;
+      }).join("\n\n---\n\n")
     : "(No matching provisions were found in the loaded documents.)";
 
   const system =
@@ -348,7 +349,7 @@ function renderAnswer(el, text, hits) {
           <div class="prov-head" role="button" tabindex="0">
             <span class="prov-part">${escapeHtml(c.part)}</span>
             <span class="prov-ref">${escapeHtml(c.heading)}</span>
-            <span class="prov-page">${escapeHtml(c.doc.revision)} · p.${c.page}</span>
+            <span class="prov-page">${escapeHtml(c.doc.revision)}${c.page ? " · p." + c.page : ""}</span>
           </div>
           <div class="prov-text">${escapeHtml(c.text)}</div>
         </div>`).join("") + `</div>`;
