@@ -1,0 +1,76 @@
+{
+ "document": {
+  "id": "booklet-validation",
+  "title": "Validation — UNJSPF Booklet",
+  "revision": "UNJSPF Booklet: Validation",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-validation.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "booklet-validation-001",
+   "part": "Validation FAQ",
+   "heading": "Is there a deadline to validate?",
+   "page": null,
+   "text": "Yes. You have the opportunity to validate only once in each period of participation. You must elect to validate within one year following the date your participation in the Fund starts, or prior to separation from service, whichever is earlier. Once the deadline has elapsed, your right to validate is irrevocably forfeited."
+  },
+  {
+   "id": "booklet-validation-002",
+   "part": "Validation FAQ",
+   "heading": "What is validation?",
+   "page": null,
+   "text": "Validation is an option which allows you to pay contributions retroactively for period(s) of employment prior to the date your participation in the Fund began, for which you were not eligible to participate in the Fund."
+  },
+  {
+   "id": "booklet-validation-003",
+   "part": "Validation FAQ",
+   "heading": "Is validation costly?",
+   "page": null,
+   "text": "It costs the same amount of contributions as if you had been in the Fund during this period, plus interest. Your employing organization will pay its share."
+  },
+  {
+   "id": "booklet-validation-004",
+   "part": "Validation FAQ",
+   "heading": "What are the advantages of validation?",
+   "page": null,
+   "text": "Upon separation from service, your monthly pension is worked out in part according to your contributory service. By validating, you increase your total years and months of contributory service and hence your future pension entitlement. Validation can also help towards reaching thresholds such as: (i) accomplishing the minimum 5-year vesting period to be entitled to a periodic benefit upon separation; and (ii) reaching 25 or 30 years of contributory service, to take advantage of more preferential reduction rates for an early retirement benefit."
+  },
+  {
+   "id": "booklet-validation-005",
+   "part": "Validation FAQ",
+   "heading": "Are there other conditions for validation?",
+   "page": null,
+   "text": "Yes. The prior period(s) of employment should not have been expressly excluded from participation (e.g., Junior Professional Officer contracts, freelance Interpreters and Translators contracts); participation in the Fund must have commenced within 2 years of finishing the non-contributory service; all eligible periods of prior employment must be validated; and participation in the Fund must not have been interrupted by a break of more than one year."
+  },
+  {
+   "id": "booklet-validation-006",
+   "part": "Validation FAQ",
+   "heading": "What do I have to do to validate?",
+   "page": null,
+   "text": "Apply formally in one of two ways: by completing form PENS.B/1 (downloadable from the Fund's website or Member Self-Service, submitted electronically via MSS Document Upload or by mail — those employed by specialized agencies submit to their local Staff Pension Committee); or online via Member Self-Service under the \"Validation\" tab, filling out the table with the periods to validate and submitting."
+  },
+  {
+   "id": "booklet-validation-007",
+   "part": "Validation FAQ",
+   "heading": "What will happen next after I submit my validation request?",
+   "page": null,
+   "text": "Submitting the request does not commit you to pay. The Fund or the Secretary of your Staff Pension Committee will review your application; if eligible, they calculate the contribution due for the period(s) of prior non-contributory service, based on the pensionable remuneration rates that applied during those periods, and inform you in writing of the amount due. If deemed ineligible, you will receive written notification."
+  },
+  {
+   "id": "booklet-validation-008",
+   "part": "Validation FAQ",
+   "heading": "Is there a deadline to pay for the validation?",
+   "page": null,
+   "text": "Yes. If you decide to pay, you have 90 days from the date of notification of the amount due to pay it to your employer (not the Fund). If you fail to do so within 90 days, your right to validate is irrevocably cancelled. If you pay in time, the Fund will ask your employer to pay its share (twice your contributions)."
+  },
+  {
+   "id": "booklet-validation-009",
+   "part": "Validation FAQ",
+   "heading": "What are the key things to keep in mind about validation?",
+   "page": null,
+   "text": "You must elect to validate within 1 year of starting to contribute to the Fund or prior to separation from service, whichever is earlier. It must cover ALL eligible prior periods of service with breaks of LESS THAN 1 year — you cannot validate part of an eligible prior period. Participation in the Fund must not have been expressly excluded for the periods you request to validate. Participation must commence WITHIN 2 years after the end of prior non-contributory service. Payment must be made in one lump sum within 90 days of the Fund's notification — it cannot be paid in installments. Failure to validate an eligible period cancels the right; if not validated during the current participation, it does not reopen at a new period of participation (Administrative Rule E.5)."
+  }
+ ]
+}

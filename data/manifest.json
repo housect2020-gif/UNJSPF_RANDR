@@ -7,6 +7,11 @@
     "booklet-info-for-beneficiaries.json",
     "booklet-legal-guardianship.json",
     "booklet-participation.json",
-    "booklet-restoration.json"
+    "booklet-restoration.json",
+    "booklet-separation.json",
+    "booklet-survivors-benefits.json",
+    "booklet-transfer-agreements.json",
+    "booklet-two-track.json",
+    "booklet-validation.json"
   ]
 }

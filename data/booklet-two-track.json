@@ -1,0 +1,90 @@
+{
+ "document": {
+  "id": "booklet-two-track",
+  "title": "The Two-Track Feature — UNJSPF Booklet",
+  "revision": "UNJSPF Booklet: Two-Track",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-two-track.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "booklet-two-track-001",
+   "part": "Introducing the Two-Track Feature",
+   "heading": "What is the two-track feature of the Pension Adjustment System, and what does opting in mean?",
+   "page": null,
+   "text": "The Pension Adjustment System (PAS) is designed to protect the purchasing power of your UNJSPF periodic benefits. The two-track is an optional feature within the PAS aimed at retirees and beneficiaries residing outside the United States, designed to protect purchasing power based on the cost-of-living of the country where they reside, rather than directly linking benefits to the US Consumer Price Index (CPI). Opting into the two-track is one of the most significant pension decisions you can make: your pension will be adjusted according to the cost-of-living of your country of residence, based on inflation data reported by the United Nations. Once elected, the decision is irrevocable except in very limited circumstances. Over time there will be periods when the two-track is more advantageous and periods when it is not — it is not designed to provide financial gain to a particular retiree/beneficiary, but to provide income stability in real terms within the declared country of residence. The two-track is only available in countries consistently publishing official CPI data and exhibiting suitable economic conditions; benefits should not vary significantly depending on entitlement date within the same country. The Chief Executive of Pension Administration (CEPA) has authority to suspend the two-track feature in a country when such conditions are not met, and to reinstate a suspended country when specific conditions are again satisfied."
+  },
+  {
+   "id": "booklet-two-track-002",
+   "part": "How the Two-Track Works",
+   "heading": "How does the two-track work, and what is the \"dollar track\"?",
+   "page": null,
+   "text": "The name \"two-track\" arises from periodic benefits being calculated, adjusted and maintained in both US dollars (\"dollar track\") and the currency of the country of residence (\"local track\") for retirees and beneficiaries who opted in; subject to certain maximum and minimum amounts, each is paid the higher of the two tracks. All pensions are initially calculated in US dollars and adjusted over time for movements in the US CPI. If you do not opt into the two-track, your benefit is always linked to US cost-of-living, regardless of where you live or the currency you choose for payment (converted using the exchange rate for the month preceding the calendar quarter of payment, so it fluctuates with the exchange rate but remains adjusted by US CPI, not the country you reside in)."
+  },
+  {
+   "id": "booklet-two-track-003",
+   "part": "How the Two-Track Works",
+   "heading": "What is the \"local track\" and how is it calculated?",
+   "page": null,
+   "text": "If you opt into the two-track, you provide proof of residence in a country other than the US to establish your local track benefit. It is calculated by converting the value of your dollar track on the first day of retirement, using an average exchange rate between the US dollar and your local currency, computed over the 36 consecutive calendar months up to and including the month of separation. Once established, the local track amount is adjusted based on the CPI in your country of residence."
+  },
+  {
+   "id": "booklet-two-track-004",
+   "part": "How the Two-Track Works",
+   "heading": "How is the benefit I actually receive determined, and are there caps?",
+   "page": null,
+   "text": "Every quarter, your dollar track amount is compared to the local track amount and you are generally entitled to the higher, subject to: a maximum cap — if the dollar track is higher than the local track, your benefit is capped at 110% of the local track amount (no maximum cap applies if the local track is higher); and a minimum guaranteed amount — the greater of 80% of your US dollar track, or the initial US dollar amount of your benefit converted using the current exchange rate. The minimum guaranteed amount takes precedence over the maximum cap when the minimum is higher than the cap."
+  },
+  {
+   "id": "booklet-two-track-005",
+   "part": "Consequences of the Two-Track",
+   "heading": "What are the consequences and risks of electing the two-track?",
+   "page": null,
+   "text": "Once you elect the two-track and submit proof of country of residence, you remain permanently on it except in certain limited conditions. In countries where the local currency later experiences a devaluation against the US dollar without corresponding changes in the official CPI, opting for the two-track may result in receiving less in US dollar terms than if you had remained solely on the dollar track. Consider your decision very carefully."
+  },
+  {
+   "id": "booklet-two-track-006",
+   "part": "Future Adjustments",
+   "heading": "How and when will my two-track pension be adjusted for inflation in the future?",
+   "page": null,
+   "text": "Your pension will be adjusted over time based on inflation, generally on an annual basis, provided the relevant CPI of your country of residence has moved by at least 2% since the last adjustment."
+  },
+  {
+   "id": "booklet-two-track-007",
+   "part": "Making Your Decision",
+   "heading": "How can I get an estimate before deciding whether to opt into the two-track?",
+   "page": null,
+   "text": "You may contact the Fund any time after separating from service to obtain an estimate. The estimate is not a permanent situation — any advantage or disadvantage can change over time due to currency exchange rate fluctuations and relative inflation."
+  },
+  {
+   "id": "booklet-two-track-008",
+   "part": "Application Process",
+   "heading": "What is the timeline and documentation required to opt into the two-track?",
+   "page": null,
+   "text": "You may opt in by providing proof of residence and making the election any time after separation. If you provide acceptable proof and make the election within six months of your benefit coming into payment, the two-track becomes effective from your benefit commencement date, with any difference paid retroactively; if after six months, your benefit is still recalculated as of your entitlement date, but payment under the two-track begins only from the quarter following the one in which proof of residence was received. Required documentation: Form PENS.E/10 \"Declaration of Country of Residence\" (downloadable from the UNJSPF website or E-Forms in MSS), and a certificate of residence (specific requirements vary by country; examples are on form PENS.E/10). Documents can be submitted via MSS document upload or mailed to the UNJSPF in New York or Geneva."
+  },
+  {
+   "id": "booklet-two-track-009",
+   "part": "Country of Residence",
+   "heading": "What is required to maintain my declared country of residence, and how do I confirm it annually?",
+   "page": null,
+   "text": "There is a requirement to spend at least six months of every year in your declared country of residence — actual physical presence, not \"legal residence.\" To continue receiving periodic benefits, you must annually send the Fund, as proof of life, a Certificate of Entitlement (CE), either through the Digital CE app (DCE) or by mailing the paper-based CE form, to confirm continued eligibility for your benefit under the two-track in your declared country. Willful misrepresentation of country of residence is considered fraud. If using the DCE app, you must be in your declared country of residence at the time of issuance; issuing it in another country will prompt the Fund to request new proof of residence. If using the paper-based CE form, it is sent to your declared mailing address and can be returned by post or via MSS document upload."
+  },
+  {
+   "id": "booklet-two-track-010",
+   "part": "Country of Residence",
+   "heading": "What do I need to do if I move to another country?",
+   "page": null,
+   "text": "No later than six months from your arrival in the new country, you must submit Form PENS.E/11 \"Change of Country of Residence\" and new proof of residence. It's in your interest to do this as soon as possible to avoid recovery of overpayments. Your benefit is recalculated based on the new country of residence effective the first day of the quarter following acceptance of satisfactory proof, and thereafter the local-currency track is adjusted by the movement of the new country's CPI. If you relocate to the US, your local-currency track becomes the same as your dollar track and benefits are adjusted in line with US CPI; if you relocate again, you must provide proof of residence in the new country and remain on the two-track."
+  },
+  {
+   "id": "booklet-two-track-011",
+   "part": "Suspending and Reinstating a Country on the Two-Track",
+   "heading": "Under what conditions can a country be suspended from, or reinstated to, the two-track?",
+   "page": null,
+   "text": "Under paragraphs 26(a) and (b) of the Pension Adjustment System, the Chief Executive of Pension Administration (CEPA) has authority to suspend the two-track feature in a country where local-currency track amounts exhibit wide fluctuations depending on benefit commencement date, or up-to-date CPI data is not available. If suspended, benefits revert to the dollar track, adjusted based on US CPI movements — this is not a frequent event, but retirees/beneficiaries opting into the two-track should be aware it is possible. Under paragraph 26(c), a suspended country remains suspended until the Fund determines the local-currency track can again be expected to consistently preserve purchasing power. After reinstatement, all retirees and beneficiaries residing in that country at the date of reinstatement are permitted to opt into the two-track, subject to providing acceptable proof."
+  }
+ ]
+}
