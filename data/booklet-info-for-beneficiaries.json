@@ -1,0 +1,335 @@
+{
+ "document": {
+  "id": "booklet-info-for-beneficiaries",
+  "title": "Information for Retirees/Beneficiaries — UNJSPF Booklet",
+  "revision": "UNJSPF Booklet: Information for Retirees/Beneficiaries",
+  "effective_date": "current",
+  "language": "English",
+  "source_file": "booklet-info-for-beneficiaries.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "booklet-info-for-beneficiaries-001",
+   "part": "Certificate of Entitlement (CE)",
+   "heading": "How do I complete the annual Certificate of Entitlement (CE) exercise?",
+   "page": null,
+   "text": "Each year the Fund conducts an exercise to verify the continuing eligibility of retirees and beneficiaries to the benefits they are receiving. As part of this exercise, each person in receipt of a benefit from the Fund must submit a Certificate of Entitlement (CE) to the Fund every year. There are four ways to complete the CE exercise: 1) Using the Digital Certificate of Entitlement application (DCE app), available for use on a mobile device, to provide 'proof of life' in biometric format inside the app — all retirees and beneficiaries can enroll. 2) Using the CE form (received by postal mail or printed from Member Self-Service (MSS)) and submitting it electronically inside the MSS account by uploading a scanned copy of the dated and hand-signed barcoded CE form via the Document Upload tab. 3) Using the CE form and mailing the physical original dated and signed CE form with an original ink signature to the Fund. 4) Using the CE form and dropping it off in person at the Fund's New York or Geneva offices in a dedicated UNJSPF mailbox. Note that if you are paid under the two-track you will not be able to download and print the CE form from MSS, so if you opt for the paper version you will have to wait to receive it by postal mail."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-002",
+   "part": "Certificate of Entitlement (CE)",
+   "heading": "When is the paper CE form normally sent to me?",
+   "page": null,
+   "text": "Paper CEs are mailed out in June of each year. A second mailing to those persons who have not returned their CEs is undertaken in October of the same year. If you are not on the two-track, you can also download and print your paper CE inside your Member Self-Service account (made available at the end of June)."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-003",
+   "part": "Certificate of Entitlement (CE)",
+   "heading": "Can I fax or e-mail my CE back to the UNJSPF, or may I use an old form from a prior year?",
+   "page": null,
+   "text": "No. The UNJSPF must receive an original CE from the current year's exercise for a benefit to continue in payment. No facsimiles, e-mails or old forms will be accepted. However, you can upload your CE in your Member Self-Service account using the Document Upload feature."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-004",
+   "part": "Certificate of Entitlement (CE)",
+   "heading": "What happens if I do not complete the CE exercise?",
+   "page": null,
+   "text": "If your CE is not received by the Fund, your benefit will be suspended until you return your CE or provide the Fund with acceptable proof that you are still alive."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-005",
+   "part": "Certificate of Entitlement (CE)",
+   "heading": "What should I do in case I have not received the CE form mailed by the Fund and cannot download it from MSS (e.g., retirees/beneficiaries paid under the two-track)?",
+   "page": null,
+   "text": "Those who have not received their paper-based CE form by the end of November and who cannot download the CE form from MSS are strongly encouraged to mail/special courier/pouch a letter to the Fund with the subject line \"20XX(year) CE Exercise\", providing their full name, address, UNJSPF reference number (UID), and original handwritten signature. The Fund will exceptionally accept such a letter in lieu of the CE form; it may also be submitted electronically via MSS Document Upload."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-006",
+   "part": "Taxation of UNJSPF benefits",
+   "heading": "Am I liable for taxes on my monthly benefit?",
+   "page": null,
+   "text": "Each country determines, based on its own national tax legislation and policies, whether and to what extent UNJSPF pensions are subject to national taxation. The UNJSPF makes no tax reimbursements to its retirees and beneficiaries under any circumstances. Any reimbursement of national income taxes that may be payable on certain UNJSPF benefits is done by the former employing organization."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-007",
+   "part": "Taxation of UNJSPF benefits",
+   "heading": "What do I do if I need a certificate from the UNJSPF for the tax authorities in my country of residence?",
+   "page": null,
+   "text": "You should submit a request via the Contact Us form on the UNJSPF website for a certificate of benefits paid for the tax year in question. Once requested, the Fund will automatically send the required information each year, usually one month following the end of the relevant fiscal year."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-008",
+   "part": "Taxation of UNJSPF benefits",
+   "heading": "How do I calculate the amount of my own contributions, and those of my former employing organization?",
+   "page": null,
+   "text": "Information on your own contributions and those of your former employing organization (twice your contributions) is provided in the benefit entitlement letter sent to you as soon as your first benefit payment has been processed. You may request a copy if misplaced; it is also available inside your Member Self-Service account."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-009",
+   "part": "Taxation of UNJSPF benefits",
+   "heading": "Can the UNJSPF help me calculate my taxes?",
+   "page": null,
+   "text": "The UNJSPF does not provide tax advice. For authoritative advice, consult your local tax authority, an attorney, or an accountant specializing in such matters. A local association of the Federation of Associations of Former International Civil Servants (FAFICS, www.fafics.org) may also be able to help."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-010",
+   "part": "Change of mailing address",
+   "heading": "If I move to another address, how do I notify the UNJSPF?",
+   "page": null,
+   "text": "Should you move permanently, you must notify the UNJSPF in writing of your new address, using the change of address form (Form PF.23M) downloadable from the website or MSS, or a letter signed with your original signature. It may be submitted electronically via MSS document upload, mailed, or dropped off at a Fund location."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-011",
+   "part": "Change of mailing address",
+   "heading": "How much notice should I give the UNJSPF for a change in address?",
+   "page": null,
+   "text": "Normally a change of address is processed within 15 days of receipt of the request, but it may take longer during busy periods or over year end."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-012",
+   "part": "Change of mailing address",
+   "heading": "Do I notify the UNJSPF if my change of address is temporary?",
+   "page": null,
+   "text": "The UNJSPF can only accommodate one official address per retiree/beneficiary. For a temporary move of six months or less, it is not necessary to notify the UNJSPF, but you should ensure mail is forwarded to you at the temporary address."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-013",
+   "part": "Change in payment instructions",
+   "heading": "How do I notify the UNJSPF of a change in my payment/banking instructions?",
+   "page": null,
+   "text": "Use the change in payment instructions form PF.23, downloadable from the website or MSS. All requests must be signed by the retiree/beneficiary with an original signature, and the currency you wish to receive your benefit in should be confirmed. The form may be submitted electronically via MSS document upload, mailed, or dropped off at a Fund location."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-014",
+   "part": "Change in payment instructions",
+   "heading": "May I provide the changes by fax or by e-mail?",
+   "page": null,
+   "text": "No. The UNJSPF does not accept changes to payment instructions by fax or by e-mail."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-015",
+   "part": "Change in payment instructions",
+   "heading": "How much time must I allow for a change in payment instructions to take effect?",
+   "page": null,
+   "text": "Normally a change is processed for the next month's benefit payment, since the Fund's payroll is finalized by no later than the 9th or 10th of the prior month (e.g., by 10 September for a benefit payment issued on 30 September). Take this into account before closing an old bank account and opening a new one."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-016",
+   "part": "Change in payment instructions",
+   "heading": "May I change the currency in which I am paid?",
+   "page": null,
+   "text": "Yes. The Fund can pay your benefit in any of 18 different currencies. If you choose a currency other than the US dollar, the Fund applies the UN monthly rate of exchange for the month prior to the quarter (e.g., for benefit payments due 1 April, 1 May and 1 June, the March exchange rate is used)."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-017",
+   "part": "Change in payment instructions",
+   "heading": "If I am in receipt of more than one benefit, how many different payment instructions may I provide?",
+   "page": null,
+   "text": "Those in receipt of more than one benefit from the Fund are requested to submit the same payment instructions for all benefits."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-018",
+   "part": "After service health insurance (ASHI)",
+   "heading": "Can I have my ASHI premium automatically deducted from my pension benefit?",
+   "page": null,
+   "text": "Yes. You must fill out a form with your former employer's Insurance Section, which will advise the Fund of the monthly premium to be deducted from your pension benefit."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-019",
+   "part": "After service health insurance (ASHI)",
+   "heading": "Who do I call if I have a question regarding my health insurance premium?",
+   "page": null,
+   "text": "You should always call the Insurance Section of your former employing organization for queries on ASHI. The UNJSPF is only given the monthly amount to deduct and does not have information on how it is calculated."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-020",
+   "part": "After service health insurance (ASHI)",
+   "heading": "How does the UNJSPF know how much to deduct from my benefit each month for ASHI?",
+   "page": null,
+   "text": "The Insurance Section of your former employing organization advises the UNJSPF of the amount to deduct from your monthly benefit for the ASHI premium, which is then paid to your former employing organization. Fluctuations in ASHI premiums affect the amount of the monthly benefit payable to you."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-021",
+   "part": "Child's benefit",
+   "heading": "If I have dependent children, are they eligible for benefits and, if so, for how long?",
+   "page": null,
+   "text": "A child's benefit is payable to each child of a beneficiary in receipt of a retirement, early retirement or disability benefit, while the child remains unmarried and under the age of 21. For those in receipt of an early retirement benefit, the child's benefit starts only when the beneficiary dies or reaches normal retirement age, except that for a child recognized as disabled, the child's benefit is payable immediately upon separation from service. A child's benefit is never payable if a beneficiary has elected a deferred retirement benefit or a withdrawal settlement."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-022",
+   "part": "Child's benefit",
+   "heading": "If I have a child after separation from service, is that child eligible for a benefit?",
+   "page": null,
+   "text": "For the Fund, a child means a child existing on the date of a participant's separation from service or death in service, including a step-child, adopted child, or a child conceived prior to separation from service. The child must have been reported to the Fund by the former employing organization during service, and a birth certificate must be sent to the Fund for processing."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-023",
+   "part": "Child's benefit",
+   "heading": "Would payment of a child's benefit be continued beyond the age of 21 if the child were in full-time attendance at an educational institution?",
+   "page": null,
+   "text": "No, the UNJSPF does not provide a benefit for children who continue their education after reaching age 21."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-024",
+   "part": "Child's benefit",
+   "heading": "What if my child is disabled — will he/she be eligible for a benefit for life?",
+   "page": null,
+   "text": "Provided the child has been formally recognized by the Fund as disabled, a child's benefit is payable beyond age 21 for as long as the child remains disabled within the meaning of the UNJSPF Regulations."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-025",
+   "part": "Child's benefit",
+   "heading": "If there is an entitlement to a child's benefit, may I request the Fund to pay it directly to my child?",
+   "page": null,
+   "text": "Yes, provided the child is over age 16 and has his or her own bank account. Submit the original completed Payment Instructions form under Article 36 (Child's benefit), form PF.23B."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-026",
+   "part": "Cost-of-living adjustments",
+   "heading": "Is my benefit adjusted for cost-of-living increases?",
+   "page": null,
+   "text": "Your initial benefit is adjusted over time for movements of the consumer price index in the United States. New periodic benefits qualify for the full adjustment only if first awarded at least 12 months before the normal adjustment date of 1 April; a benefit awarded less than one year earlier gets a pro-rata reduced adjustment. All beneficiaries are subject to a 0.5 percentage point reduction in their initial cost-of-living adjustments. In most cases, no adjustments are made to a deferred retirement benefit before the retiree reaches age 55."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-027",
+   "part": "Cost-of-living adjustments",
+   "heading": "How often will my benefit be adjusted?",
+   "page": null,
+   "text": "Normally benefits are adjusted once a year, in April, provided the relevant consumer price index has moved by at least 2% since the last adjustment. In a high-inflation situation (the index moving 10% or more since the last adjustment), benefits are adjusted semi-annually, on 1 April and 1 October."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-028",
+   "part": "Cost-of-living adjustments",
+   "heading": "Will my benefit be adjusted for changes in the cost-of-living in my country of residence?",
+   "page": null,
+   "text": "It depends: if your benefit is on the dollar track, it is adjusted according to the movement of the US Consumer Price Index (CPI). If you have opted for the two-track system and submitted proof of residence for a country other than the USA, your local track pension amount will also take into account the CPI of your country of residence."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-029",
+   "part": "Cost-of-living adjustments",
+   "heading": "Will I be sure to have an adjustment each year?",
+   "page": null,
+   "text": "Adjustments are only made if the consumer price index has moved by 2% or more since the prior adjustment."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-030",
+   "part": "Cost-of-living adjustments",
+   "heading": "Will I be notified if there is a change in the amount of my benefit?",
+   "page": null,
+   "text": "Yes, the Fund will inform you whenever there is a change in the amount of your periodic benefit, such as cost-of-living adjustments, application of the pension adjustment system, change of exchange rate, or discontinuation of a child's benefit. A change in ASHI premium will also change the amount paid."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-031",
+   "part": "Two-track system",
+   "heading": "Where can I find information on the two-track system so that I can understand what it is?",
+   "page": null,
+   "text": "You can find more information on the two-track page of the UNJSPF website, or review Annex IV of the UNJSPF Regulations and Rules, which describes the Pension Adjustment System."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-032",
+   "part": "Two-track system",
+   "heading": "If I am on the two-track system, can I change to the dollar track whenever I wish?",
+   "page": null,
+   "text": "Once you have elected the two-track system you will remain on it and cannot revert to the dollar track except under certain very stringent conditions."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-033",
+   "part": "Two-track system",
+   "heading": "If I am on the dollar track, can I change to the two-track system at any time?",
+   "page": null,
+   "text": "Yes, you may decide at any time to move from the dollar to the two-track system, but you cannot then revert to the dollar track."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-034",
+   "part": "Re-employment in the common system",
+   "heading": "If I am re-employed by a member organization of the UNJSPF, am I still eligible for a monthly benefit?",
+   "page": null,
+   "text": "If you are re-employed on a contract of six months or longer, or after being employed for a total of six months without an interruption of more than thirty days, you will normally become a participant of the UNJSPF again and payment of your benefit will be suspended. When you separate from this re-employment, payment resumes, but you will not receive payment for the suspended period. At the end of this period you may opt for a withdrawal settlement or a second periodic benefit (even if the additional participation was less than five years)."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-035",
+   "part": "Re-employment in the common system",
+   "heading": "How does my benefit get reinstated if it is suspended?",
+   "page": null,
+   "text": "Advise the UNJSPF as soon as your contract has expired and provide a copy of your separating personnel action. You should also advise the UNJSPF of the election of your second entitlement on form PENS.E/8 (if participation was less than 5 years) or PENS.E/7 (5 or more years of contributory service)."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-036",
+   "part": "Emergency Fund",
+   "heading": "Can I ask for financial assistance if I am temporarily unable to meet my basic expenses due to an emergency situation such as medical expenses of an exceptional nature?",
+   "page": null,
+   "text": "Yes, you may seek assistance from the UNJSPF Emergency Fund, set up to provide financial assistance in case of hardship to retirees and beneficiaries receiving a periodic benefit from the Fund."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-037",
+   "part": "Death of spouse/child or of retiree",
+   "heading": "What do I do if my spouse or my dependent child dies?",
+   "page": null,
+   "text": "You must notify the UNJSPF as soon as possible and provide a death certificate so that your family situation can be updated in your Fund records and appropriate action can be taken."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-038",
+   "part": "Death of spouse/child or of retiree",
+   "heading": "What happens if I, as the main beneficiary, die? What information does the UNJSPF require?",
+   "page": null,
+   "text": "A family member or friend should notify the UNJSPF as soon as possible and provide a death certificate. The UNJSPF will then review the file to determine whether there are further benefits payable. Should notification not be made in a timely manner, there will be a need to recall payments made."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-039",
+   "part": "Death of spouse/child or of retiree",
+   "heading": "What benefit would my spouse obtain in the event of my death?",
+   "page": null,
+   "text": "If you were married to your spouse at the time you separated from service and remained married until your death, your spouse would be eligible for a survivor's benefit from the UNJSPF, normally payable at the standard annual rate of half the retirement, early retirement or disability benefit (including any part commuted into a lump sum). If you die before payment of a deferred retirement benefit starts, your surviving spouse's benefit begins immediately at half the value of your benefit at the time of death. In certain cases a divorced surviving spouse may also become entitled to a benefit after your death, with the total apportioned between multiple surviving spouses in accordance with the Regulations. If you marry/remarry after separation from service, a benefit would only be payable to that spouse if you had purchased an annuity from the UNJSPF."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-040",
+   "part": "Death of spouse/child or of retiree",
+   "heading": "In the event of my death how long would it take for my spouse to obtain a benefit?",
+   "page": null,
+   "text": "The UNJSPF prioritizes the review of the file on the death of a retiree to determine what survivor's benefits, if any, are applicable. It is important for the UNJSPF to obtain a certified copy of the death certificate and the spouse's payment instructions on form PENS.E/2, along with copies of the marriage certificate, birth certificate, and a verified signature of the spouse. Submitting these documents, plus birth certificates of children under 21 at the time of separation, in advance helps expedite the survivor's benefit."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-041",
+   "part": "Death of spouse/child or of retiree",
+   "heading": "What happens to my benefit if I become very ill and I am unable to manage my own affairs or sign my Certificate of Entitlement? What do my family members/friends have to do?",
+   "page": null,
+   "text": "If you are unable to sign your Certificate of Entitlement due to ill health, the UNJSPF would need a medical certificate or statement on official stationery from your treating physician indicating the nature of your medical condition. If you are no longer able to take care of your financial affairs, the UNJSPF will require the appointment of a legal guardian to act on your behalf; the Fund does not recognize a \"power of attorney.\""
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-042",
+   "part": "Death of spouse/child or of retiree",
+   "heading": "Would my family members be eligible for a residual settlement in the event of my death?",
+   "page": null,
+   "text": "A residual settlement is only payable if, upon your death and the death of any survivors entitled to periodic benefits, the total amount of benefits paid to you and your survivors is less than the amount of your own contributions to the Fund. The difference would be paid to the person(s) designated by you on form PENS.A/2, or to your estate if no one is designated or the designated person(s) die first."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-043",
+   "part": "General questions",
+   "heading": "May I obtain a statement from the UNJSPF confirming that I am receiving a periodic benefit?",
+   "page": null,
+   "text": "Yes, upon receipt of your written request submitted via the Contact Us page on the UNJSPF website."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-044",
+   "part": "General questions",
+   "heading": "Can I borrow against my pension?",
+   "page": null,
+   "text": "No, there is no provision in the Fund's Regulations that would permit you to borrow against your pension."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-045",
+   "part": "General questions",
+   "heading": "Can I get an identity card from the UNJSPF?",
+   "page": null,
+   "text": "The Fund does not issue identity cards to its retirees and beneficiaries. Your former employer, generally through their Security and Safety Service, may provide a retiree identification card."
+  },
+  {
+   "id": "booklet-info-for-beneficiaries-046",
+   "part": "General questions",
+   "heading": "Will information on my pension status be released to a third party?",
+   "page": null,
+   "text": "Under the Fund's Administrative Rules, no information as to a retiree or beneficiary may be given to a third party without prior written consent, except in response to a court order or a request from a judicial or civil authority in the context of divorce or family maintenance obligations."
+  }
+ ]
+}
