@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNJSPF Reference — Rules &amp; Regulations Q&amp;A</title>
+<style>
+  :root {
+    --ink: #1b2733;
+    --ink-soft: #4a5a6a;
+    --paper: #f7f9fb;
+    --card: #ffffff;
+    --un-blue: #0069a8;
+    --un-blue-deep: #00517f;
+    --blue-tint: #e9f2f8;
+    --gold: #b08a2e;
+    --line: #d8e0e7;
+    --danger: #a33c2e;
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
+
+  header {
+    background: linear-gradient(160deg, var(--un-blue-deep), var(--un-blue));
+    color: #fff; padding: 26px 20px 22px;
+  }
+  .head-inner { max-width: 880px; margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .brand { font-family: var(--serif); font-size: 1.45rem; letter-spacing: .02em; }
+  .brand small { display: block; font-family: var(--sans); font-size: .78rem; opacity: .85; letter-spacing: .12em; text-transform: uppercase; margin-top: 3px; }
+  #settingsBtn {
+    background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.4); color: #fff;
+    padding: 7px 14px; border-radius: 6px; font-size: .85rem; cursor: pointer;
+  }
+  #settingsBtn:hover, #settingsBtn:focus-visible { background: rgba(255,255,255,.22); }
+
+  main { max-width: 880px; margin: 0 auto; padding: 24px 20px 80px; }
+
+  .status-bar {
+    display: flex; gap: 14px; flex-wrap: wrap; font-size: .8rem; color: var(--ink-soft);
+    padding: 10px 0 18px; border-bottom: 1px solid var(--line); margin-bottom: 20px;
+  }
+  .status-bar b { color: var(--ink); font-weight: 600; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+  .dot.ok { background: #2e8b57; } .dot.warn { background: var(--gold); } .dot.err { background: var(--danger); }
+
+  /* Settings panel */
+  #settings {
+    display: none; background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 20px; margin-bottom: 22px;
+  }
+  #settings.open { display: block; }
+  #settings h2 { font-size: 1rem; margin-bottom: 10px; }
+  #settings label { font-size: .82rem; color: var(--ink-soft); display: block; margin-bottom: 5px; }
+  .key-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  #apiKey { flex: 1; min-width: 240px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: .9rem; font-family: monospace; }
+  .btn {
+    background: var(--un-blue); color: #fff; border: none; border-radius: 6px;
+    padding: 9px 18px; font-size: .9rem; cursor: pointer;
+  }
+  .btn:hover, .btn:focus-visible { background: var(--un-blue-deep); }
+  .btn.ghost { background: transparent; color: var(--danger); border: 1px solid var(--line); }
+  .hint { font-size: .78rem; color: var(--ink-soft); margin-top: 9px; }
+
+  /* Ask box */
+  .ask-box { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  #question {
+    width: 100%; border: none; resize: vertical; min-height: 64px; font-size: 1rem;
+    font-family: var(--sans); outline: none; color: var(--ink);
+  }
+  .ask-actions { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; flex-wrap: wrap; gap: 8px; }
+  .ask-actions .note { font-size: .76rem; color: var(--ink-soft); }
+  #askBtn:disabled { opacity: .5; cursor: default; }
+
+  /* Thread */
+  #thread { margin-top: 26px; display: flex; flex-direction: column; gap: 22px; }
+  .turn-q {
+    font-family: var(--serif); font-size: 1.08rem; color: var(--un-blue-deep);
+    border-left: 3px solid var(--un-blue); padding-left: 14px;
+  }
+  .turn-a { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; }
+  .turn-a .answer { font-family: var(--serif); font-size: 1.0rem; line-height: 1.7; }
+  .turn-a .answer p { margin-bottom: .9em; }
+  .turn-a .answer p:last-child { margin-bottom: 0; }
+  .turn-a .answer strong { color: var(--un-blue-deep); }
+
+  /* Provision citations — the signature element */
+  .provisions { margin-top: 16px; border-top: 1px dashed var(--line); padding-top: 12px; }
+  .provisions-label { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+  .prov-card {
+    border: 1px solid var(--line); border-radius: 7px; margin-bottom: 7px; overflow: hidden;
+  }
+  .prov-head {
+    display: flex; gap: 10px; align-items: baseline; padding: 8px 12px; cursor: pointer;
+    background: var(--blue-tint); font-size: .82rem;
+  }
+  .prov-head:hover { background: #ddebf5; }
+  .prov-part { color: var(--un-blue-deep); font-weight: 600; }
+  .prov-ref { color: var(--ink); }
+  .prov-page { margin-left: auto; color: var(--ink-soft); font-size: .76rem; white-space: nowrap; }
+  .prov-text { display: none; padding: 12px 14px; font-family: var(--serif); font-size: .86rem; white-space: pre-wrap; color: var(--ink-soft); max-height: 300px; overflow-y: auto; background: #fff; }
+  .prov-card.open .prov-text { display: block; }
+
+  .thinking { color: var(--ink-soft); font-size: .9rem; font-style: italic; }
+  .error-msg { color: var(--danger); background: #fbf0ee; border: 1px solid #eccfc9; border-radius: 8px; padding: 12px 16px; font-size: .9rem; }
+
+  footer { max-width: 880px; margin: 0 auto; padding: 0 20px 30px; font-size: .74rem; color: var(--ink-soft); }
+
+  @media (max-width: 560px) {
+    .brand { font-size: 1.15rem; }
+    .turn-a { padding: 16px; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .turn-a { animation: rise .25s ease; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <div class="brand">UNJSPF Reference
+      <small>Regulations · Rules · Pension Adjustment System</small>
+    </div>
+    <button id="settingsBtn">Settings</button>
+  </div>
+</header>
+
+<main>
+  <div class="status-bar">
+    <span id="kbStatus"><span class="dot warn"></span>Loading knowledge base…</span>
+    <span id="keyStatus"><span class="dot warn"></span>Checking API key…</span>
+  </div>
+
+  <section id="settings" aria-label="Settings">
+    <h2>Anthropic API key</h2>
+    <label for="apiKey">Stored only in this browser. Get a key at console.anthropic.com.</label>
+    <div class="key-row">
+      <input type="password" id="apiKey" placeholder="sk-ant-…" autocomplete="off">
+      <button class="btn" id="saveKey">Save key</button>
+      <button class="btn ghost" id="clearKey">Remove</button>
+    </div>
+    <p class="hint">The key is sent only to api.anthropic.com when you ask a question. It is never written into this website's files or repository.</p>
+  </section>
+
+  <section class="ask-box" aria-label="Ask a question">
+    <textarea id="question" placeholder="Ask about the Regulations, Administrative Rules, Rules of Procedure, or the Pension Adjustment System — e.g. “What are the eligibility conditions for a deferred retirement benefit?”"></textarea>
+    <div class="ask-actions">
+      <span class="note" id="docCount"></span>
+      <button class="btn" id="askBtn" disabled>Ask</button>
+    </div>
+  </section>
+
+  <div id="thread"></div>
+</main>
+
+<footer>
+  Answers are generated from the loaded UNJSPF documents and cite the provisions used. Always verify against the official text before acting; this tool is a research aid, not legal or benefits advice.
+</footer>
+
+<script>
+"use strict";
+
+/* ---------- storage (localStorage with in-memory fallback) ---------- */
+const mem = {};
+const store = {
+  get(k) { try { return localStorage.getItem(k) ?? mem[k] ?? null; } catch { return mem[k] ?? null; } },
+  set(k, v) { mem[k] = v; try { localStorage.setItem(k, v); } catch {} },
+  del(k) { delete mem[k]; try { localStorage.removeItem(k); } catch {} },
+};
+
+/* ---------- state ---------- */
+let chunks = [];      // all knowledge chunks across documents
+let docs = [];        // document metadata
+let history = [];     // conversation turns for follow-up context
+
+const $ = id => document.getElementById(id);
+
+/* ---------- load knowledge base ---------- */
+async function loadKB() {
+  try {
+    const manifest = await (await fetch("data/manifest.json", { cache: "no-store" })).json();
+    for (const file of manifest.files) {
+      const d = await (await fetch("data/" + file, { cache: "no-store" })).json();
+      docs.push(d.document);
+      for (const c of d.chunks) { c.doc = d.document; chunks.push(c); }
+    }
+    $("kbStatus").innerHTML = `<span class="dot ok"></span><b>${docs.length}</b> document${docs.length===1?"":"s"} · <b>${chunks.length}</b> sections loaded`;
+    $("docCount").textContent = docs.map(d => `${d.revision || d.title} (eff. ${d.effective_date})`).join(" · ");
+    updateReady();
+  } catch (e) {
+    $("kbStatus").innerHTML = `<span class="dot err"></span>Could not load data/manifest.json — check the data folder`;
+  }
+}
+
+/* ---------- api key handling ---------- */
+function refreshKeyStatus() {
+  const k = store.get("anthropic_key");
+  $("keyStatus").innerHTML = k
+    ? `<span class="dot ok"></span>API key saved`
+    : `<span class="dot warn"></span>No API key — open Settings`;
+  updateReady();
+}
+function updateReady() {
+  $("askBtn").disabled = !(chunks.length && store.get("anthropic_key"));
+}
+$("settingsBtn").onclick = () => $("settings").classList.toggle("open");
+$("saveKey").onclick = () => {
+  const v = $("apiKey").value.trim();
+  if (v) { store.set("anthropic_key", v); $("apiKey").value = ""; $("settings").classList.remove("open"); }
+  refreshKeyStatus();
+};
+$("clearKey").onclick = () => { store.del("anthropic_key"); refreshKeyStatus(); };
+
+/* ---------- retrieval: keyword scoring over chunks ---------- */
+const STOP = new Set("the a an of to in for and or is are what how when who which with under on by as at be can does do i my".split(" "));
+function tokens(s) {
+  return s.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").split(/\s+/).filter(w => w.length > 2 && !STOP.has(w));
+}
+function retrieve(question, topN = 6) {
+  const qTokens = tokens(question);
+  const qSet = new Set(qTokens);
+  const qLower = question.toLowerCase();
+  const scored = chunks.map(c => {
+    const textLower = c.text.toLowerCase();
+    const headLower = (c.heading + " " + c.part).toLowerCase();
+    let score = 0;
+    for (const t of qSet) {
+      // term frequency in body, capped
+      let idx = 0, hits = 0;
+      while ((idx = textLower.indexOf(t, idx)) !== -1 && hits < 6) { hits++; idx += t.length; }
+      score += hits;
+      if (headLower.includes(t)) score += 4;           // heading match boost
+    }
+    // bonus for consecutive-word phrases from the question
+    for (let i = 0; i < qTokens.length - 1; i++) {
+      const phrase = qTokens[i] + " " + qTokens[i + 1];
+      if (textLower.includes(phrase)) score += 3;
+    }
+    // explicit article/section references, e.g. "article 35" or "section H"
+    const artRef = qLower.match(/article\s+(\d+(?:\s*bis)?)/);
+    if (artRef) {
+      const ref = "article " + artRef[1].replace(/\s+/g, " ");
+      const head = c.heading.toLowerCase().replace(/\s*\(part.*\)/, "");
+      if (head === ref) score += 40;                  // exact article match
+      else if (head.includes(ref)) score += 25;       // e.g. "35 bis" for "35"
+    }
+    const secRef = qLower.match(/section\s+([a-l])\b/);
+    if (secRef && c.heading.toLowerCase().includes("section " + secRef[1])) score += 15;
+    return { c, score };
+  }).filter(x => x.score > 0).sort((a, b) => b.score - a.score);
+  return scored.slice(0, topN).map(x => x.c);
+}
+
+/* ---------- ask flow ---------- */
+$("askBtn").onclick = ask;
+$("question").addEventListener("keydown", e => {
+  if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) ask();
+});
+
+async function ask() {
+  const q = $("question").value.trim();
+  if (!q || $("askBtn").disabled) return;
+  $("question").value = "";
+  $("askBtn").disabled = true;
+
+  const thread = $("thread");
+  const qEl = document.createElement("div");
+  qEl.className = "turn-q"; qEl.textContent = q;
+  thread.prepend(qEl);
+
+  const aEl = document.createElement("div");
+  aEl.className = "turn-a";
+  aEl.innerHTML = `<div class="thinking">Searching the regulations and drafting an answer…</div>`;
+  qEl.after(aEl);
+
+  const hits = retrieve(q);
+  try {
+    const answer = await callClaude(q, hits);
+    renderAnswer(aEl, answer, hits);
+    history.push({ role: "user", content: q }, { role: "assistant", content: answer });
+    if (history.length > 8) history = history.slice(-8);
+  } catch (err) {
+    aEl.innerHTML = `<div class="error-msg">${escapeHtml(err.message)}</div>`;
+  }
+  updateReady();
+}
+
+async function callClaude(question, hits) {
+  const key = store.get("anthropic_key");
+  const context = hits.length
+    ? hits.map((c, i) =>
+        `[Source ${i + 1}] ${c.doc.revision} — ${c.part}, ${c.heading}, p.${c.page} (effective ${c.doc.effective_date}):\n${c.text}`
+      ).join("\n\n---\n\n")
+    : "(No matching provisions were found in the loaded documents.)";
+
+  const system =
+`You are a careful reference assistant for the United Nations Joint Staff Pension Fund (UNJSPF) Regulations, Administrative Rules, Rules of Procedure, and Pension Adjustment System.
+
+Rules for answering:
+- Base your answer ONLY on the provided source excerpts. If they do not contain the answer, say so plainly and suggest which Article or Section likely covers it.
+- Cite the specific provision for every claim, in bold, e.g. **Article 30** or **Section H, Administrative Rules**.
+- Note the document's effective date when relevant; older or newer provisions may differ.
+- Be precise with conditions, ages, percentages, and time limits — quote figures exactly as written.
+- Keep answers focused and structured in short paragraphs. This is a research aid, not personal benefits advice, and you may remind the reader of that when a question is about their individual entitlement.`;
+
+  const resp = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": key,
+      "anthropic-version": "2023-06-01",
+      "anthropic-dangerous-direct-browser-access": "true",
+    },
+    body: JSON.stringify({
+      model: "claude-sonnet-4-6",
+      max_tokens: 1500,
+      system,
+      messages: [
+        ...history,
+        { role: "user", content: `Source excerpts from the loaded UNJSPF documents:\n\n${context}\n\nQuestion: ${question}` },
+      ],
+    }),
+  });
+
+  if (!resp.ok) {
+    let detail = "";
+    try { detail = (await resp.json())?.error?.message || ""; } catch {}
+    if (resp.status === 401) throw new Error("The API key was rejected (401). Open Settings and re-enter your key.");
+    throw new Error(`API request failed (${resp.status}). ${detail}`);
+  }
+  const data = await resp.json();
+  return (data.content || []).map(b => b.type === "text" ? b.text : "").join("\n").trim();
+}
+
+/* ---------- rendering ---------- */
+function renderAnswer(el, text, hits) {
+  const html = escapeHtml(text)
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .split(/\n{2,}/).map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`).join("");
+  let provHtml = "";
+  if (hits.length) {
+    provHtml = `<div class="provisions"><div class="provisions-label">Provisions consulted</div>` +
+      hits.map(c => `
+        <div class="prov-card">
+          <div class="prov-head" role="button" tabindex="0">
+            <span class="prov-part">${escapeHtml(c.part)}</span>
+            <span class="prov-ref">${escapeHtml(c.heading)}</span>
+            <span class="prov-page">${escapeHtml(c.doc.revision)} · p.${c.page}</span>
+          </div>
+          <div class="prov-text">${escapeHtml(c.text)}</div>
+        </div>`).join("") + `</div>`;
+  }
+  el.innerHTML = `<div class="answer">${html}</div>${provHtml}`;
+  el.querySelectorAll(".prov-head").forEach(h => {
+    const toggle = () => h.parentElement.classList.toggle("open");
+    h.addEventListener("click", toggle);
+    h.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } });
+  });
+}
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+}
+
+/* ---------- init ---------- */
+loadKB();
+refreshKeyStatus();
+</script>
+</body>
+</html>
