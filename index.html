@@ -385,10 +385,23 @@ async function ask() {
 
   const aEl = document.createElement("div");
   aEl.className = "turn-a";
-  aEl.innerHTML = `<div class="thinking">Searching the regulations and drafting an answer…</div>`;
+  aEl.innerHTML = `<div class="thinking">Searching the regulations…</div>`;
   qEl.after(aEl);
 
-  const hits = retrieve(q);
+  const candidates = retrieve(q, 24);          // wide net: keyword recall
+  let hits = candidates.slice(0, 8);           // fallback if reranking is unavailable
+  try {
+    if (candidates.length) {
+      aEl.querySelector(".thinking").textContent = "Reading the most relevant sections…";
+      const reranked = await rerankWithClaude(q, candidates, store.get("anthropic_key"));
+      if (reranked.length) hits = reranked;
+    }
+  } catch (e) {
+    // Reranking is a quality improvement, not a requirement — silently fall
+    // back to the keyword-ranked candidates already selected above.
+  }
+
+  aEl.querySelector(".thinking").textContent = "Drafting an answer…";
   try {
     const { answer, userContent } = await callClaude(q, hits, mode, img);
     renderAnswer(aEl, answer, hits);
@@ -398,6 +411,43 @@ async function ask() {
     aEl.innerHTML = `<div class="error-msg">${escapeHtml(err.message)}</div>`;
   }
   updateReady();
+}
+
+// Ask Claude to pick the genuinely relevant sections out of a wide keyword-matched
+// candidate pool, using its actual language understanding rather than literal word
+// overlap — this is what lets a question about "borrowing money" correctly match a
+// section titled "Can I borrow against my pension?" even with different wording.
+async function rerankWithClaude(question, candidates, key) {
+  if (!key || !candidates.length) return [];
+  const list = candidates
+    .map(c => `${c.id} :: ${c.doc.revision} — ${c.part} — ${c.heading}`)
+    .join("\n");
+  const system =
+`You help select which document sections are relevant to a question about UNJSPF (UN pension fund) rules. You'll get a question and a list of candidate sections (id :: source — part — heading). Some candidates use different wording than the question but are still the right match — e.g. a question about "borrowing money" is answered by a section titled "Can I borrow against my pension?" even though it shares no distinctive words with the question. Select the sections that would genuinely help answer the question, ordered most to least relevant. Respond with ONLY a JSON array of the selected ids, at most 8, e.g. ["id1","id2"]. If nothing is relevant, respond with [].`;
+
+  const resp = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": key,
+      "anthropic-version": "2023-06-01",
+      "anthropic-dangerous-direct-browser-access": "true",
+    },
+    body: JSON.stringify({
+      model: "claude-sonnet-4-6",
+      max_tokens: 300,
+      system,
+      messages: [{ role: "user", content: `Question: ${question || "(see attached image)"}\n\nCandidate sections:\n${list}` }],
+    }),
+  });
+  if (!resp.ok) throw new Error("rerank request failed: " + resp.status);
+  const data = await resp.json();
+  const text = (data.content || []).map(b => b.type === "text" ? b.text : "").join("").trim();
+  const jsonMatch = text.match(/\[[\s\S]*\]/);
+  if (!jsonMatch) throw new Error("no JSON array in rerank response");
+  const ids = JSON.parse(jsonMatch[0]);
+  const byId = new Map(candidates.map(c => [c.id, c]));
+  return ids.map(id => byId.get(id)).filter(Boolean);
 }
 
 async function callClaude(question, hits, mode, img) {
