@@ -194,7 +194,7 @@
 
 <footer>
   Answers are generated from the loaded UNJSPF documents and cite the provisions used. Always verify against the official text before acting; this tool is a research aid, not legal or benefits advice.
-  <div id="site-version" style="margin-top:8px; opacity:.55;">Site version: 2026_7_26_b</div>
+  <div id="site-version" style="margin-top:8px; opacity:.55;">Site version: 2026_7_26_c</div>
   <!-- Version format: YYYY_M_D_<letter>. Bump the letter (a, b, c...) for
        another update the same day; reset to "a" and use the new date on the
        first update of a new day. -->
@@ -418,12 +418,30 @@ async function ask(mode, btn) {
   }
 
   aEl.querySelector(".thinking").textContent = "Searching the regulations…";
-  const candidates = retrieve(searchQuery, 24);  // wide net: keyword recall
-  let hits = candidates.slice(0, 8);           // fallback if reranking is unavailable
+  // A single image (or a single typed message) can contain several distinct
+  // questions on unrelated topics — e.g. one about a form number, one about
+  // the DCE app. Doing one merged keyword search and capping at a handful of
+  // chunks lets whichever topic has the most matching text (often the dense
+  // Regulations document) crowd out a topic that only has a couple of short
+  // FAQ chunks, even though that topic was asked about too. So search each
+  // sub-question separately and merge the results.
+  const blocks = splitSearchBlocks(searchQuery);
+  let candidates;
+  if (blocks.length > 1) {
+    const merged = new Map();
+    for (const block of blocks) {
+      for (const c of retrieve(block, 10)) merged.set(c.id, c);
+    }
+    candidates = [...merged.values()];
+  } else {
+    candidates = retrieve(searchQuery, 24);
+  }
+  const maxSelect = Math.min(Math.max(8, blocks.length * 6), 32); // wide net: keyword recall
+  let hits = candidates.slice(0, maxSelect);   // fallback if reranking is unavailable
   try {
     if (candidates.length) {
       aEl.querySelector(".thinking").textContent = "Reading the most relevant sections…";
-      const reranked = await rerankWithClaude(searchQuery, candidates, store.get("anthropic_key"));
+      const reranked = await rerankWithClaude(searchQuery, candidates, store.get("anthropic_key"), maxSelect);
       if (reranked.length) hits = reranked;
     }
   } catch (e) {
@@ -444,6 +462,20 @@ async function ask(mode, btn) {
   updateReady();
 }
 
+// Split transcribed/typed text into separate question blocks so each can be
+// searched independently. Primary signal: the "---" delimiter the image
+// transcription is instructed to insert between distinct questions. Falls
+// back to splitting on "Question N" labels (common in quiz-style text) if
+// present, otherwise treats the whole thing as one block.
+function splitSearchBlocks(text) {
+  if (!text) return [];
+  let parts = text.split(/\n\s*-{3,}\s*\n/).map(s => s.trim()).filter(Boolean);
+  if (parts.length > 1) return parts;
+  parts = text.split(/(?=^\s*Question\s*\d+\s*[:.\)]?)/im).map(s => s.trim()).filter(Boolean);
+  if (parts.length > 1) return parts;
+  return [text.trim()].filter(Boolean);
+}
+
 // Extract the visible question text from an attached image so it can drive
 // keyword retrieval and reranking, the same way typed text does. This is a
 // small, fast vision call separate from the main answer call.
@@ -460,7 +492,7 @@ async function transcribeImage(img, key) {
     body: JSON.stringify({
       model: "claude-sonnet-4-6",
       max_tokens: 500,
-      system: "You will be shown an image that contains one or more questions about UNJSPF (UN pension fund) rules, possibly with multiple-choice options. Transcribe ONLY the question text (and answer option text, if present) as plain text, exactly as written, so it can be used to search a document index. No commentary, no formatting, no markdown.",
+      system: "You will be shown an image that contains one or more questions about UNJSPF (UN pension fund) rules, possibly with multiple-choice options. Transcribe ONLY the question text (and answer option text, if present) as plain text, exactly as written, so it can be used to search a document index. If the image contains more than one distinct question, transcribe each one as a separate block and put a line containing only --- between blocks. No commentary, no markdown, no numbering added beyond what's in the image.",
       messages: [{
         role: "user",
         content: [
@@ -479,13 +511,13 @@ async function transcribeImage(img, key) {
 // candidate pool, using its actual language understanding rather than literal word
 // overlap — this is what lets a question about "borrowing money" correctly match a
 // section titled "Can I borrow against my pension?" even with different wording.
-async function rerankWithClaude(question, candidates, key) {
+async function rerankWithClaude(question, candidates, key, maxSelect = 8) {
   if (!key || !candidates.length) return [];
   const list = candidates
     .map(c => `${c.id} :: ${c.doc.revision} — ${c.part} — ${c.heading}`)
     .join("\n");
   const system =
-`You help select which document sections are relevant to a question about UNJSPF (UN pension fund) rules. You'll get a question and a list of candidate sections (id :: source — part — heading). Some candidates use different wording than the question but are still the right match — e.g. a question about "borrowing money" is answered by a section titled "Can I borrow against my pension?" even though it shares no distinctive words with the question. Select the sections that would genuinely help answer the question, ordered most to least relevant. When several candidates cover the same general topic, include both the most specific match and any general one — don't drop a specific match just because a more general one uses similar wording to the question. Respond with ONLY a JSON array of the selected ids, at most 8, e.g. ["id1","id2"]. If nothing is relevant, respond with [].`;
+`You help select which document sections are relevant to a question about UNJSPF (UN pension fund) rules. You'll get a question and a list of candidate sections (id :: source — part — heading). Some candidates use different wording than the question but are still the right match — e.g. a question about "borrowing money" is answered by a section titled "Can I borrow against my pension?" even though it shares no distinctive words with the question. Select the sections that would genuinely help answer the question, ordered most to least relevant. When several candidates cover the same general topic, include both the most specific match and any general one — don't drop a specific match just because a more general one uses similar wording to the question. If the question is actually several distinct questions (e.g. separated by "---" or numbered), make sure your selections cover EVERY distinct question, not just whichever topic has the most candidates — don't let one well-represented topic crowd out a topic with only one or two matching sections. Respond with ONLY a JSON array of the selected ids, at most ${maxSelect}, e.g. ["id1","id2"]. If nothing is relevant, respond with [].`;
 
   const resp = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -497,7 +529,7 @@ async function rerankWithClaude(question, candidates, key) {
     },
     body: JSON.stringify({
       model: "claude-sonnet-4-6",
-      max_tokens: 300,
+      max_tokens: 400,
       system,
       messages: [{ role: "user", content: `Question: ${question || "(see attached image)"}\n\nCandidate sections:\n${list}` }],
     }),
@@ -507,7 +539,7 @@ async function rerankWithClaude(question, candidates, key) {
   const text = (data.content || []).map(b => b.type === "text" ? b.text : "").join("").trim();
   const jsonMatch = text.match(/\[[\s\S]*\]/);
   if (!jsonMatch) throw new Error("no JSON array in rerank response");
-  const ids = JSON.parse(jsonMatch[0]);
+  const ids = JSON.parse(jsonMatch[0]).slice(0, maxSelect);
   const byId = new Map(candidates.map(c => [c.id, c]));
   return ids.map(id => byId.get(id)).filter(Boolean);
 }
