@@ -194,7 +194,7 @@
 
 <footer>
   Answers are generated from the loaded UNJSPF documents and cite the provisions used. Always verify against the official text before acting; this tool is a research aid, not legal or benefits advice.
-  <div id="site-version" style="margin-top:8px; opacity:.55;">Site version: 2026_7_26_a</div>
+  <div id="site-version" style="margin-top:8px; opacity:.55;">Site version: 2026_7_26_b</div>
   <!-- Version format: YYYY_M_D_<letter>. Bump the letter (a, b, c...) for
        another update the same day; reset to "a" and use the new date on the
        first update of a new day. -->
@@ -399,12 +399,31 @@ async function ask(mode, btn) {
   aEl.innerHTML = `<span class="turn-mode-badge">${mode === "short" ? "Short answer" : "Detailed answer"}</span><div class="thinking">Searching the regulations…</div>`;
   qEl.after(aEl);
 
-  const candidates = retrieve(q, 24);          // wide net: keyword recall
+  // If a question is attached as an image, the keyword search below has no
+  // typed text to work with — a blank query matches nothing, silently
+  // skipping retrieval and rerank entirely and leaving the model to answer
+  // from its own background knowledge instead of the loaded documents. So
+  // transcribe the visible question text out of the image first, and use
+  // that transcription (merged with any typed text) to drive search.
+  let searchQuery = q;
+  if (img) {
+    try {
+      aEl.querySelector(".thinking").textContent = "Reading the attached image…";
+      const transcribed = await transcribeImage(img, store.get("anthropic_key"));
+      if (transcribed) searchQuery = (q ? q + "\n" : "") + transcribed;
+    } catch (e) {
+      // Transcription is a search-quality aid, not a requirement — fall back
+      // to whatever typed text (if any) is already in searchQuery.
+    }
+  }
+
+  aEl.querySelector(".thinking").textContent = "Searching the regulations…";
+  const candidates = retrieve(searchQuery, 24);  // wide net: keyword recall
   let hits = candidates.slice(0, 8);           // fallback if reranking is unavailable
   try {
     if (candidates.length) {
       aEl.querySelector(".thinking").textContent = "Reading the most relevant sections…";
-      const reranked = await rerankWithClaude(q, candidates, store.get("anthropic_key"));
+      const reranked = await rerankWithClaude(searchQuery, candidates, store.get("anthropic_key"));
       if (reranked.length) hits = reranked;
     }
   } catch (e) {
@@ -423,6 +442,37 @@ async function ask(mode, btn) {
   }
   btn.disabled = false;
   updateReady();
+}
+
+// Extract the visible question text from an attached image so it can drive
+// keyword retrieval and reranking, the same way typed text does. This is a
+// small, fast vision call separate from the main answer call.
+async function transcribeImage(img, key) {
+  if (!key) return "";
+  const resp = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": key,
+      "anthropic-version": "2023-06-01",
+      "anthropic-dangerous-direct-browser-access": "true",
+    },
+    body: JSON.stringify({
+      model: "claude-sonnet-4-6",
+      max_tokens: 500,
+      system: "You will be shown an image that contains one or more questions about UNJSPF (UN pension fund) rules, possibly with multiple-choice options. Transcribe ONLY the question text (and answer option text, if present) as plain text, exactly as written, so it can be used to search a document index. No commentary, no formatting, no markdown.",
+      messages: [{
+        role: "user",
+        content: [
+          { type: "image", source: { type: "base64", media_type: img.mediaType, data: img.base64 } },
+          { type: "text", text: "Transcribe the question(s) and options from this image." },
+        ],
+      }],
+    }),
+  });
+  if (!resp.ok) throw new Error("transcription request failed: " + resp.status);
+  const data = await resp.json();
+  return (data.content || []).map(b => b.type === "text" ? b.text : "").join(" ").trim();
 }
 
 // Ask Claude to pick the genuinely relevant sections out of a wide keyword-matched
