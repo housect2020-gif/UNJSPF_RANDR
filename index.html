@@ -75,12 +75,16 @@
   .sources-toggle:hover { color: var(--ink); }
   #docCount { display: none; margin-top: 6px; max-height: 220px; overflow-y: auto; }
   #docCount.open { display: block; }
-  #askBtn:disabled { opacity: .5; cursor: default; }
+  .ask-btn-group .btn:disabled { opacity: .5; cursor: default; }
 
   .mode-row { display: flex; gap: 18px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); flex-wrap: wrap; align-items: center; }
   .mode-check { display: flex; align-items: center; gap: 6px; font-size: .84rem; color: var(--ink-soft); cursor: pointer; user-select: none; }
   .mode-check input { accent-color: var(--un-blue); width: 15px; height: 15px; cursor: pointer; }
   .mode-check:has(input:checked) { color: var(--un-blue-deep); font-weight: 600; }
+  .ask-btn-group { display: flex; gap: 8px; }
+  .btn.outline { background: transparent; color: var(--un-blue-deep); border: 1px solid var(--un-blue); }
+  .btn.outline:hover, .btn.outline:focus-visible { background: rgba(0,94,184,.08); }
+  .turn-mode-badge { display: inline-block; font-size: .68rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; color: var(--un-blue-deep); background: rgba(0,94,184,.1); border-radius: 999px; padding: 2px 9px; margin-bottom: 8px; }
   .img-attach-label { margin-left: auto; }
 
   .img-preview-row { display: flex; align-items: center; gap: 10px; margin-top: 10px; padding: 8px; background: var(--blue-tint); border-radius: 7px; }
@@ -170,8 +174,6 @@
       <button type="button" class="btn ghost small" id="imgRemove">Remove image</button>
     </div>
     <div class="mode-row" role="group" aria-label="Answer length">
-      <label class="mode-check"><input type="checkbox" id="modeDetailed" checked> Detailed</label>
-      <label class="mode-check"><input type="checkbox" id="modeShort"> Short answer</label>
       <label class="mode-check img-attach-label" for="imgInput">
         <input type="file" id="imgInput" accept="image/png,image/jpeg,image/webp,image/gif" hidden>
         📎 Attach image
@@ -179,7 +181,10 @@
     </div>
     <div class="ask-actions">
       <button type="button" class="sources-toggle" id="sourcesToggle">Show sources</button>
-      <button class="btn" id="askBtn" disabled>Ask</button>
+      <div class="ask-btn-group">
+        <button class="btn outline" id="askShortBtn" disabled>Short answer</button>
+        <button class="btn" id="askDetailedBtn" disabled>Detailed answer</button>
+      </div>
     </div>
     <div class="note" id="docCount"></div>
   </section>
@@ -237,7 +242,9 @@ function refreshKeyStatus() {
   updateReady();
 }
 function updateReady() {
-  $("askBtn").disabled = !(chunks.length && store.get("anthropic_key"));
+  const ready = !!(chunks.length && store.get("anthropic_key"));
+  $("askDetailedBtn").disabled = !ready;
+  $("askShortBtn").disabled = !ready;
 }
 $("settingsBtn").onclick = () => $("settings").classList.toggle("open");
 $("sourcesToggle").onclick = () => {
@@ -316,17 +323,7 @@ function retrieve(question, topN = 8) {
   return scored.slice(0, topN).map(x => x.c);
 }
 
-/* ---------- answer-length mode (mutually exclusive checkboxes) ---------- */
-const modeDetailed = $("modeDetailed"), modeShort = $("modeShort");
-modeDetailed.addEventListener("change", () => {
-  if (modeDetailed.checked) modeShort.checked = false;
-  else if (!modeShort.checked) modeDetailed.checked = true; // never allow both off
-});
-modeShort.addEventListener("change", () => {
-  if (modeShort.checked) modeDetailed.checked = false;
-  else if (!modeDetailed.checked) modeShort.checked = true;
-});
-function getMode() { return modeShort.checked ? "short" : "detailed"; }
+/* ---------- answer-length mode: chosen directly by which ask button is clicked ---------- */
 
 /* ---------- image attach (paste or file picker) ---------- */
 let attachedImage = null; // { mediaType, base64, name }
@@ -368,19 +365,17 @@ $("question").addEventListener("paste", e => {
 });
 
 /* ---------- ask flow ---------- */
-$("askBtn").onclick = ask;
+$("askDetailedBtn").onclick = () => ask("detailed", $("askDetailedBtn"));
+$("askShortBtn").onclick = () => ask("short", $("askShortBtn"));
 $("question").addEventListener("keydown", e => {
-  if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) ask();
+  if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) ask("detailed", $("askDetailedBtn"));
 });
 
-async function ask() {
+async function ask(mode, btn) {
   const q = $("question").value.trim();
   const img = attachedImage;
-  if ((!q && !img) || $("askBtn").disabled) return;
-  $("question").value = "";
-  clearAttachedImage();
-  $("askBtn").disabled = true;
-  const mode = getMode();
+  if ((!q && !img) || btn.disabled) return;
+  btn.disabled = true;
 
   const thread = $("thread");
   const qEl = document.createElement("div");
@@ -397,7 +392,7 @@ async function ask() {
 
   const aEl = document.createElement("div");
   aEl.className = "turn-a";
-  aEl.innerHTML = `<div class="thinking">Searching the regulations…</div>`;
+  aEl.innerHTML = `<span class="turn-mode-badge">${mode === "short" ? "Short answer" : "Detailed answer"}</span><div class="thinking">Searching the regulations…</div>`;
   qEl.after(aEl);
 
   const candidates = retrieve(q, 24);          // wide net: keyword recall
@@ -416,12 +411,13 @@ async function ask() {
   aEl.querySelector(".thinking").textContent = "Drafting an answer…";
   try {
     const { answer, userContent } = await callClaude(q, hits, mode, img);
-    renderAnswer(aEl, answer, hits);
+    renderAnswer(aEl, answer, hits, mode);
     history.push({ role: "user", content: userContent }, { role: "assistant", content: answer });
     if (history.length > 8) history = history.slice(-8);
   } catch (err) {
-    aEl.innerHTML = `<div class="error-msg">${escapeHtml(err.message)}</div>`;
+    aEl.innerHTML = `<span class="turn-mode-badge">${mode === "short" ? "Short answer" : "Detailed answer"}</span><div class="error-msg">${escapeHtml(err.message)}</div>`;
   }
+  btn.disabled = false;
   updateReady();
 }
 
@@ -525,7 +521,7 @@ Rules for answering:
 }
 
 /* ---------- rendering ---------- */
-function renderAnswer(el, text, hits) {
+function renderAnswer(el, text, hits, mode) {
   const html = escapeHtml(text)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .split(/\n{2,}/).map(p => `<p>${p.replace(/\n/g, "<br>")}</p>`).join("");
@@ -542,7 +538,8 @@ function renderAnswer(el, text, hits) {
           <div class="prov-text">${escapeHtml(c.text)}</div>
         </div>`).join("") + `</div>`;
   }
-  el.innerHTML = `<div class="answer">${html}</div>${provHtml}`;
+  const badge = `<span class="turn-mode-badge">${mode === "short" ? "Short answer" : "Detailed answer"}</span>`;
+  el.innerHTML = `${badge}<div class="answer">${html}</div>${provHtml}`;
   el.querySelectorAll(".prov-head").forEach(h => {
     const toggle = () => h.parentElement.classList.toggle("open");
     h.addEventListener("click", toggle);
