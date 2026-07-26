@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "dce-guide-reenrollment",
+    "title": "DCE Reenrollment Step-by-Step Guide (English)",
+    "revision": "UNJSPF Guide: DCE Reenrollment Step-by-Step Guide (English)",
+    "effective_date": "current",
+    "language": "English",
+    "source_file": "DCE_Reenrollment-Step-By-Step-Guide-English.pdf",
+    "pages": null
+  },
+  "chunks": [
+    {
+      "id": "dce-guide-reenrollment-001",
+      "part": "DCE Reenrollment Guide",
+      "heading": "Downloading the app and logging in",
+      "page": null,
+      "text": "What you will need: your smart phone/tablet. For Android, find the app on Google Play Store as 'UNJSPF Digital Certificate of Entitlement'; for iOS, find it on Apple App Store as 'UNJSPF Digital CE'. After installing, if you see a login screen, enter your email and PIN code, then click 'ENTER' once it turns blue. If instead you see the Invitation Code screen, click the 'Login here' link at the bottom of the screen, which takes you to the login page where you can use your email and PIN Code to access the app."
+    },
+    {
+      "id": "dce-guide-reenrollment-002",
+      "part": "DCE Reenrollment Guide",
+      "heading": "When re-enrollment is required",
+      "page": null,
+      "text": "Once you have accessed the app, if you see a screen with a 'START' button and the message 'Your profile could not be restored on this device' (biometrics need to be restored), it means the biometric information on your mobile device has been lost. Click the button to begin the re-enrolment process, which is guided by the DCE app. Since you were previously enrolled, this approval process will not require a video call. Completing this re-enrolment is necessary to be ready to issue a DCE next year. Options on this screen also include 'Recover your profile' and 'Get assistance'."
+    },
+    {
+      "id": "dce-guide-reenrollment-003",
+      "part": "DCE Reenrollment Guide",
+      "heading": "When re-enrollment is NOT required",
+      "page": null,
+      "text": "If you do NOT see the 'START' button and only see 'Valid DCE issued' with an expiration date (e.g., 31 December or 1 January of the following year), no further action is required. Just open the DCE App at the start of the new year to issue that year's DCE."
+    },
+    {
+      "id": "dce-guide-reenrollment-004",
+      "part": "DCE Reenrollment Guide",
+      "heading": "Getting assistance during reenrollment",
+      "page": null,
+      "text": "You can visit the FAQ and contact support by clicking the '≡' menu icon on the top left corner of the app, which shows Support, FAQ, and Privacy policy options, plus app version/build information."
+    }
+  ]
+}

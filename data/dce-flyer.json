@@ -1,0 +1,69 @@
+{
+  "document": {
+    "id": "dce-flyer",
+    "title": "The UNJSPF Digital Identity Solution (DCE Flyer)",
+    "revision": "UNJSPF Flyer: The UNJSPF Digital Identity Solution",
+    "effective_date": "current",
+    "language": "English",
+    "source_file": "DCE-Flyer.pdf",
+    "pages": null
+  },
+  "chunks": [
+    {
+      "id": "dce-flyer-001",
+      "part": "DCE Flyer",
+      "heading": "Overview of the UNJSPF Digital Identity Solution",
+      "page": null,
+      "text": "Since its launch in 2021, UNJSPF has revolutionized the proof-of-life process of its retirees and beneficiaries with a Digital Identity solution. It leverages cutting-edge technologies to provide a secure, efficient, and user-friendly way to verify life status, ensuring continuous benefit payments, and solving the inefficiencies and potential fraud risks of the legacy paper-based and postal mailing certification process."
+    },
+    {
+      "id": "dce-flyer-002",
+      "part": "DCE Flyer",
+      "heading": "Value proposition for users",
+      "page": null,
+      "text": "Convenience: complete the process from the comfort of home. Speed: receive immediate confirmation upon submission. Accessibility: available to both retirees and active staff. Security: utilizes biometric facial recognition and blockchain technology."
+    },
+    {
+      "id": "dce-flyer-003",
+      "part": "DCE Flyer",
+      "heading": "Enrollment process (summary)",
+      "page": null,
+      "text": "1. Download the app: available on Apple App Store and Google Play. 2. Request an invitation code: sent by the Fund to eligible individuals. 3. Scan ID and face: use biometric facial recognition. 4. Video call confirmation: a quick call to verify identity. 5. Validate and issue: receive your DCE."
+    },
+    {
+      "id": "dce-flyer-004",
+      "part": "DCE Flyer",
+      "heading": "Technological backbone",
+      "page": null,
+      "text": "Blockchain: an open-source platform that ensures a tamper-proof and independently auditable ledger of all transactions. Biometrics: facial recognition for identity verification. Artificial Intelligence: supports authentication and detects/prevents potential fraud. Geolocation: validates physical location when necessary."
+    },
+    {
+      "id": "dce-flyer-005",
+      "part": "DCE Flyer",
+      "heading": "Achievements and recognition",
+      "page": null,
+      "text": "ISO27001 Certification for information security management. ISO/IEC 42001:2023 Certification for responsible and ethical use of Artificial Intelligence. UN Secretary-General Award for innovation and sustainability. Government Blockchain Association Award for social impact. Featured in a Gartner case study on public sector digital transformation."
+    },
+    {
+      "id": "dce-flyer-006",
+      "part": "DCE Flyer",
+      "heading": "Impact and benefits",
+      "page": null,
+      "text": "Environmental: reduces paper usage and postal services. Efficiency: streamlines the proof-of-life process. Security: enhances data protection and fraud prevention. Inclusivity: addresses the digital divide with a kiosk version for those without devices."
+    },
+    {
+      "id": "dce-flyer-007",
+      "part": "DCE Flyer",
+      "heading": "Supporting Sustainable Development Goals (SDGs)",
+      "page": null,
+      "text": "The DCE solution supports SDG 3 (Good Health and Well-Being), SDG 8 (Decent Work and Economic Growth), SDG 16.9 (Legal Identity), and SDG 17 (Partnerships for the Goals)."
+    },
+    {
+      "id": "dce-flyer-008",
+      "part": "DCE Flyer",
+      "heading": "Contact information",
+      "page": null,
+      "text": "For more information or support, visit the UNJSPF Digital Certificate of Entitlement web page or contact the DCE team at dce@unjspf.org."
+    }
+  ]
+}

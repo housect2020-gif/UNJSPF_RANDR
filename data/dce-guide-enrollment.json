@@ -1,0 +1,83 @@
+{
+  "document": {
+    "id": "dce-guide-enrollment",
+    "title": "DCE Step-by-Step Guide (English) - Downloading, Enrolment, and Issuing the Digital CE",
+    "revision": "UNJSPF Guide: DCE Step-by-Step Guide (English)",
+    "effective_date": "current",
+    "language": "English",
+    "source_file": "DCE_Step-By-Step-Guide-English.pdf",
+    "pages": null
+  },
+  "chunks": [
+    {
+      "id": "dce-guide-enrollment-001",
+      "part": "DCE Enrollment Guide",
+      "heading": "Downloading the DCE App",
+      "page": null,
+      "text": "What you will need: your smartphone/tablet. For Android users, the app can be found on Google Play Store as 'UNJSPF Digital Certificate of Entitlement'; for iOS (iPhone or iPad) the app can be found on Apple App Store as 'UNJSPF Digital CE'. Steps: (1) Open the Google Play Store or App Store and search for 'unjspf' — the app will show up. (2) Click 'Install'; it might take a few minutes. (3) Once installed, you are ready to use the app and start the enrolment process."
+    },
+    {
+      "id": "dce-guide-enrollment-002",
+      "part": "DCE Enrollment Guide",
+      "heading": "Starting enrolment: entering an Invitation Code",
+      "page": null,
+      "text": "What you will need: your smartphone/tablet, a government-issued ID, and your UNJSPF Unique Identification Number (UID) — email requestUIDonly@unjspf.org if you don't know your UID. Step 1: Open the UNJSPF Digital Certificate of Entitlement App. Step 2: Insert the Invitation Code if you have it; if not, request it by clicking 'Request Code'."
+    },
+    {
+      "id": "dce-guide-enrollment-003",
+      "part": "DCE Enrollment Guide",
+      "heading": "Requesting an Invitation Code",
+      "page": null,
+      "text": "Step 3: If you need to request an Invitation Code, fill in the form with your email, UNJSPF Unique Identification Number (UID), and date of birth — all fields are mandatory. The email you provide will be used for future communications related to the DCE and to log in. Step 4: You will shortly receive an Invitation Code by email. Once received, open the app again, insert the Invitation Code, and click 'Enter'."
+    },
+    {
+      "id": "dce-guide-enrollment-004",
+      "part": "DCE Enrollment Guide",
+      "heading": "Creating the PIN Code",
+      "page": null,
+      "text": "Step 5: Create a 6-digit PIN Code. You will need this code in the future to log in to the app, so keep it safe and remember it. Only numbers are accepted, and common combinations are not allowed (e.g. 123456). You can also enable biometric authentication at this step."
+    },
+    {
+      "id": "dce-guide-enrollment-005",
+      "part": "DCE Enrollment Guide",
+      "heading": "Starting enrolment and entering phone number",
+      "page": null,
+      "text": "Step 6: Start your enrolment by clicking 'Get Started' — it takes three simple steps. Step 7: Enter your phone number, making sure to select your country from the drop-down list, then click 'Next'."
+    },
+    {
+      "id": "dce-guide-enrollment-006",
+      "part": "DCE Enrollment Guide",
+      "heading": "Scanning the government-issued ID document",
+      "page": null,
+      "text": "Step 8: Have a government-issued picture ID document with a clear picture of your face and full name at hand — it must include your full name, date of birth, issuance and expiry dates, issuing authority, and your scripted signature. Standard acceptable documents are national passport, national ID card, national driver's license. Click 'Open Camera' to take the photo. Step 9: Position the document inside the frame and click 'Next'; rotate the photo if needed and click 'Next'; check that the document is captured correctly (clear capture, legible full name, well-captured face) and click 'Next' (or 'Re-scan' if not satisfied)."
+    },
+    {
+      "id": "dce-guide-enrollment-007",
+      "part": "DCE Enrollment Guide",
+      "heading": "Creating the biometric Face ID",
+      "page": null,
+      "text": "Step 10: Click 'Open Camera' to take a picture of your face to create your biometric ID; the app will keep this securely on your phone. Step 11: Click 'Start' and follow the on-screen instructions, keeping your face in the center; the app will automatically take pictures of your face and ask you to move your face around to complete the circle. Step 12: Check the picture meets the specifications (not blurred, face not covered, not dark) and click 'Send'; click 'Re-scan' if not satisfied. You will see a confirmation that your enrolment has been submitted for verification."
+    },
+    {
+      "id": "dce-guide-enrollment-008",
+      "part": "DCE Enrollment Guide",
+      "heading": "Scheduling the verification video call",
+      "page": null,
+      "text": "Step 13: The next screen shows 'Verification pending'. Click 'Schedule Preferences' to let the Fund know the best time to call you (time preferences are shown in your local time zone); you can add comments about your availability, then click 'Send preferences'. Step 14: The Fund will call you within 5 business days to confirm your identity and guide you through issuing your Digital CE."
+    },
+    {
+      "id": "dce-guide-enrollment-009",
+      "part": "DCE Enrollment Guide",
+      "heading": "Issuing the Digital Certificate of Entitlement",
+      "page": null,
+      "text": "Every year, the app will notify you when it is time to issue your Digital CE, and you can see the CE timeline when you open the app. Step 1: Once enrolment is complete, open the app and click 'Start' to issue your Digital CE. Step 2: Click 'Start' again and the app will automatically scan your face — keep your face centered and follow the instructions, moving your face around to complete the circle. Step 3: Once verification is done, your Digital CE is sent to the Fund for processing (this can take a few minutes); you will see a confirmation message and also receive a confirmation email once it is issued."
+    },
+    {
+      "id": "dce-guide-enrollment-010",
+      "part": "DCE Enrollment Guide",
+      "heading": "Getting assistance in the DCE App",
+      "page": null,
+      "text": "You can visit the FAQ and contact support by clicking the '≡' menu icon on the top left corner of the app, which shows Support, FAQ, and Privacy policy options."
+    }
+  ]
+}

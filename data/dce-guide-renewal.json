@@ -1,0 +1,41 @@
+{
+  "document": {
+    "id": "dce-guide-renewal",
+    "title": "DCE Renewal Step-by-Step Guide (English)",
+    "revision": "UNJSPF Guide: DCE Renewal Step-by-Step Guide (English)",
+    "effective_date": "current",
+    "language": "English",
+    "source_file": "DCE_Renewal-Step-By-Step-Guide-English.pdf",
+    "pages": null
+  },
+  "chunks": [
+    {
+      "id": "dce-guide-renewal-001",
+      "part": "DCE Renewal Guide",
+      "heading": "Downloading the app and logging in",
+      "page": null,
+      "text": "What you will need: your smart phone/tablet. For Android, find the app on Google Play Store as 'UNJSPF Digital Certificate of Entitlement'; for iOS, find it on Apple App Store as 'UNJSPF Digital CE'. If you see the login screen, enter your email and PIN code, then click 'ENTER' once it turns blue. If instead you see the Invitation Code screen, click 'Login here' at the bottom to reach the login page and use your email and PIN Code."
+    },
+    {
+      "id": "dce-guide-renewal-002",
+      "part": "DCE Renewal Guide",
+      "heading": "Starting the annual renewal",
+      "page": null,
+      "text": "Once you have accessed the app, to renew your DCE for the current year, click the 'RENEW DIGITAL CE FOR [year]' button shown on the home screen (e.g., 'RENEW DIGITAL CE FOR 2025'), which appears alongside the deadline by which the DCE can be issued (e.g., 'Your DCE can be issued until December 31, [year]')."
+    },
+    {
+      "id": "dce-guide-renewal-003",
+      "part": "DCE Renewal Guide",
+      "heading": "Completing the biometric scan and confirmation",
+      "page": null,
+      "text": "Follow the instructions and click 'Start'. Scan your face to validate and follow the prompts on the camera. After the facial scan reaches 100%, it will say 'Submitting request' — click 'Continue' afterward. After a few seconds, you will see the DCE for that year marked 'Valid' with a green check and the expiration date shown."
+    },
+    {
+      "id": "dce-guide-renewal-004",
+      "part": "DCE Renewal Guide",
+      "heading": "Getting assistance during renewal",
+      "page": null,
+      "text": "You can visit the FAQ and contact support by clicking the '≡' menu icon on the top left corner of the app, which shows Support, FAQ, and Privacy policy options."
+    }
+  ]
+}

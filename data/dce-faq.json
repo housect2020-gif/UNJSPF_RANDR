@@ -1,0 +1,188 @@
+{
+  "document": {
+    "id": "dce-faq",
+    "title": "Digital Certificate of Entitlement (DCE) - FAQ",
+    "revision": "UNJSPF Webpage: Digital Certificate of Entitlement (DCE) - FAQ",
+    "effective_date": "current",
+    "language": "English",
+    "source_file": "dce-faq-webpage.txt",
+    "pages": null
+  },
+  "chunks": [
+    {
+      "id": "dce-faq-001",
+      "part": "DCE FAQ",
+      "heading": "What is the Digital Certificate of Entitlement (DCE)?",
+      "page": null,
+      "text": "Every year the Fund needs to verify the continuing eligibility of retirees and beneficiaries to the benefits they are receiving; this verification is done through the Certificate of Entitlement (CE). The Digital Certificate of Entitlement (DCE) app is an alternative to the paper-based CE form. It can verify and guarantee the identity of retirees/beneficiaries as well as their location via biometrics, storing key elements (non-personal data) of the transactions on an immutable and independently auditable digital ledger using blockchain technologies. With the app, retirees and beneficiaries can complete the annual Certificate of Entitlement by providing their 'proof of life' in biometric format through the DCE App instead of returning the paper-based CE form or uploading it in MSS."
+    },
+    {
+      "id": "dce-faq-002",
+      "part": "DCE FAQ",
+      "heading": "What type of device do I need for the DCE App?",
+      "page": null,
+      "text": "The DCE App is compatible with: (i) Android devices running at least operating system version 7.0 (API version 24) installed at the date the device was purchased; and/or (ii) Apple devices with iOS version 11 or later installed at the date the device was purchased."
+    },
+    {
+      "id": "dce-faq-003",
+      "part": "DCE FAQ",
+      "heading": "Where do I download the DCE App?",
+      "page": null,
+      "text": "For Android, the app can be found on Google Play as 'UNJSPF Digital Certificate of Entitlement'. For iOS (iPhone or iPad), the app can be found on the Apple App Store as 'UNJSPF Digital CE'."
+    },
+    {
+      "id": "dce-faq-004",
+      "part": "DCE FAQ",
+      "heading": "Can I install the DCE App on several devices?",
+      "page": null,
+      "text": "If you have multiple devices (iPhone, iPad), you should ONLY install the App on one device and only use that device to enroll and issue the Digital CE."
+    },
+    {
+      "id": "dce-faq-005",
+      "part": "DCE FAQ",
+      "heading": "In which language is the DCE App available?",
+      "page": null,
+      "text": "The DCE App is available in English, French and Spanish. To get the French or Spanish version, your mobile device settings must be set to French or Spanish."
+    },
+    {
+      "id": "dce-faq-006",
+      "part": "DCE FAQ",
+      "heading": "I forgot my UID, how can I request it?",
+      "page": null,
+      "text": "Check the UID page on the UNJSPF website for guidance on requesting your Unique Identification Number (UID). You can also send an email to requestUIDonly@unjspf.org if you do not know your UID."
+    },
+    {
+      "id": "dce-faq-007",
+      "part": "DCE FAQ",
+      "heading": "Is there a deadline for enrollment and issuance of the Digital CE?",
+      "page": null,
+      "text": "Enrollment in the Digital CE and issuance of the Digital CE are possible until 31 December. If both enrollment and the Digital CE are not completed by 22 June, the Fund will send the CE form in hard copy by postal mail (also available for printing in Member Self Service if not paid on the two-track). After 22 June, you can either (i) submit the paper-based CE form to the Fund (by mail or MSS upload) by 31 December, or (ii) disregard the paper CE and enroll in the DCE App and submit the Digital CE via the app by 31 December, in which case there is no need to return the paper-based CE form that year."
+    },
+    {
+      "id": "dce-faq-008",
+      "part": "DCE FAQ",
+      "heading": "I changed my mobile device (lost or stolen phone). How can I continue using the DCE App?",
+      "page": null,
+      "text": "You can install the app on your new smartphone. If you have the same Apple ID (Apple device) or Google account (Android device) and had backed up your profile with your previous phone during initial enrolment, you can log in and use the app after installing it on the new phone. If your profile was not backed up (Android devices), you will be prompted to re-enroll after installing the App and logging in; you will then be contacted within 5 business days by a DCE Task Force Agent after choosing your time preference at the end of the re-enrollment process."
+    },
+    {
+      "id": "dce-faq-009",
+      "part": "DCE FAQ",
+      "heading": "My benefit is paid under the two-track. Can I use the DCE App?",
+      "page": null,
+      "text": "Yes, all retirees and beneficiaries can enroll in and use the DCE App regardless of which track they receive benefits under. If paid under the two-track (local track), you must be physically in your declared country of residence when issuing the DCE, or the Fund will assume you have moved to a different country and will ask you to submit form PENS.E/11 and corresponding proof of residence, which may impact your benefit payment."
+    },
+    {
+      "id": "dce-faq-010",
+      "part": "DCE FAQ",
+      "heading": "The app asked me for my 'Invitation Code'. What should I do?",
+      "page": null,
+      "text": "Check the Step-by-Step Guide provided under the resources section of the DCE page. If it still doesn't work, contact dce@unjspf.org; the DCE App team will respond within a maximum of 3 business days."
+    },
+    {
+      "id": "dce-faq-011",
+      "part": "DCE FAQ",
+      "heading": "What is the PIN Code?",
+      "page": null,
+      "text": "The PIN Code is a six-digit code created during DCE App enrollment. It cannot be a simple sequence like 123456; if the code created is not secure enough, the app will prompt for a new, safer code. Once created, the PIN Code is required together with the email address provided during enrollment to log in to the DCE App each time, and also when installing and accessing the app on a new device. The PIN Code is different from the Invitation Code: the Invitation Code is generated by the app and used only once to grant access to enrollment, while the PIN Code is created by the user and serves as ongoing login credentials."
+    },
+    {
+      "id": "dce-faq-012",
+      "part": "DCE FAQ",
+      "heading": "What type of ID document is accepted for DCE App enrollment?",
+      "page": null,
+      "text": "A valid, government-issued picture ID document is required, including photo, full name, date of birth, issuance and expiry dates, issuing authority, and a scripted signature accepted by UNJSPF. Accepted documents include national passport, national ID card, national driver's license, and government-issued official residency permits (e.g., Green Card in the USA, Carte de Séjour in France). If the Fund cannot confirm the ID document is acceptable, the user will be contacted at the email provided during enrollment, and the video appointment will be canceled and rescheduled once an acceptable ID document can be submitted."
+    },
+    {
+      "id": "dce-faq-013",
+      "part": "DCE FAQ",
+      "heading": "What do I do if my enrollment request was declined?",
+      "page": null,
+      "text": "You will have to start the DCE App enrollment process all over again, completing all steps including a new video appointment with UNJSPF to confirm ID and information. Reasons for rejection could include submission of an invalid ID document or information provided during enrollment not matching the information in the UNJSPF file."
+    },
+    {
+      "id": "dce-faq-014",
+      "part": "DCE FAQ",
+      "heading": "What are the reasons for rejection of DCE App enrollment or annual DCE?",
+      "page": null,
+      "text": "Two main reasons: (1) Submission of an invalid ID document that does not meet UNJSPF requirements, causing the video appointment to be canceled until an acceptable document is submitted; (2) Biometric ID not accepted — if the biometric picture taken does not meet technical requirements it will be rejected and enrollment cannot continue until a valid biometric ID is created. If the biometric ID created during the annual DCE process does NOT match the one created during enrollment, the user cannot fulfill the annual DCE requirements and should contact dce@unjspf.org for assistance."
+    },
+    {
+      "id": "dce-faq-015",
+      "part": "DCE FAQ",
+      "heading": "How should I take the biometric picture?",
+      "page": null,
+      "text": "Take the biometric picture as if taking a passport picture, with a good solid background and good light. Do not hold the phone in a way that the ceiling becomes the background; hold it directly facing you."
+    },
+    {
+      "id": "dce-faq-016",
+      "part": "DCE FAQ",
+      "heading": "The app is not able to verify my identity. What should I do?",
+      "page": null,
+      "text": "Carefully follow the Step-by-Step Guide under the resources section of the DCE page. If issues persist, contact the DCE support team at dce@unjspf.org."
+    },
+    {
+      "id": "dce-faq-017",
+      "part": "DCE FAQ",
+      "heading": "How can I verify that I have successfully issued the DCE / that the Fund received it?",
+      "page": null,
+      "text": "Check the Step-by-Step Guide for confirmation steps. At the end of the process an automated email is sent stating the Digital CE validity and duration; this confirmation email replaces tracking of the returned DCE inside Member Self-Service (MSS) and is sent only for Digital CEs, to the email address provided during DCE App enrollment (check spam/junk folders)."
+    },
+    {
+      "id": "dce-faq-018",
+      "part": "DCE FAQ",
+      "heading": "Why should I back up my profile, and how?",
+      "page": null,
+      "text": "Backing up your profile makes it easier to change devices without re-enrolling. On Apple devices, the profile is backed up automatically upon enrollment. On Android devices, you are prompted to connect to your Gmail account at the start of enrolment. You can only reconnect to your saved account on a new device if: the new device has the same operating system (Android or Apple) as before, the new device is connected to the same account (Apple ID or Google email), and the latest app version was installed on the previous device. If these conditions are not met, re-enrollment is required when changing devices."
+    },
+    {
+      "id": "dce-faq-019",
+      "part": "DCE FAQ",
+      "heading": "How secure is my personal information when using the DCE App?",
+      "page": null,
+      "text": "Any data collected by UNJSPF during a DCE transaction is stored and encrypted on the app itself or on computers maintained in data centers protected by United Nations privileges and immunities. No information is ever stored in the 'cloud'. The app does not store images/pictures of your face; it only generates transaction data recorded in an immutable and encrypted ledger for audit purposes. UNJSPF will not communicate this data to your government."
+    },
+    {
+      "id": "dce-faq-020",
+      "part": "DCE FAQ",
+      "heading": "What do I do if information presented in the app about me is incorrect?",
+      "page": null,
+      "text": "If personal information such as name or date of birth is incorrect: active UNJSPF participants and staff members of a UNJSPF member organization must inform their HR partner or Staff Pension Committee (SPC) office so records can be corrected and addressed with the Fund. Retirees or beneficiaries who have separated from service should contact dce@unjspf.org or use the online Contact Form on the Contact Us page."
+    },
+    {
+      "id": "dce-faq-021",
+      "part": "DCE FAQ",
+      "heading": "How secure is the Digital CE Solution and what are the privacy risks of my biometric data?",
+      "page": null,
+      "text": "The security of the entire Digital CE Solution has been tested and validated by an independent third party. Biometric data used by the App is captured and stored only locally, on the user's device, so users remain in full control of their data at all times. Because UNJSPF does not collect, process, store or transmit any biometric data, the risk of hacking is prevented. The Digital CE infrastructure is hosted by the United Nations International Computing Centre and protected by relevant applicable privileges and immunities."
+    },
+    {
+      "id": "dce-faq-022",
+      "part": "DCE FAQ",
+      "heading": "Who do I contact for questions or issues with the DCE App?",
+      "page": null,
+      "text": "Read the Step-by-Step Guide first. For issues not addressed there or in the FAQ, email the DCE support team at dce@unjspf.org, who will assist within a maximum of 3 business days. Assistance can also be requested inside the DCE App by clicking the question mark '?' on the top corner of some screens, which leads to a support screen with FAQs and the option to email the Fund from inside the app."
+    },
+    {
+      "id": "dce-faq-023",
+      "part": "DCE FAQ",
+      "heading": "Can I still use the paper-based Certificate of Entitlement instead of the app?",
+      "page": null,
+      "text": "Yes. The paper-based CE form remains available for those who do not want to adopt the Digital CE application. No action is required to continue receiving and submitting the paper-based CE form; refer to the CE webpage for the procedure."
+    },
+    {
+      "id": "dce-faq-024",
+      "part": "DCE FAQ",
+      "heading": "What if I change my mind and want to revert to the paper-based Certificate of Entitlement?",
+      "page": null,
+      "text": "If you enrolled for the DCE App but have not issued the digital CE before the end of June, you will receive (and/or can access in MSS) the paper-based annual CE form. If, before the end of June, you had already issued your Digital Certificate of Entitlement, you will not receive the paper-based CE for that year, as no further CE action is required."
+    },
+    {
+      "id": "dce-faq-025",
+      "part": "DCE FAQ",
+      "heading": "I received the paper-based CE even though I completed the exercise through the App. What should I do?",
+      "page": null,
+      "text": "Report this to UNJSPF by emailing dce@unjspf.org, and the Fund will respond with adequate advice."
+    }
+  ]
+}

@@ -78,6 +78,13 @@
     "form-pens-s3.json",
     "form-pens-s3-instructions.json",
     "form-pens-t1.json",
-    "form-pens-t1-instructions.json"
+    "form-pens-t1-instructions.json",
+    "dce-faq.json",
+    "dce-guide-enrollment.json",
+    "dce-guide-reenrollment.json",
+    "dce-guide-renewal.json",
+    "dce-flyer.json",
+    "dce-whitepaper-transforming-digital-identity.json",
+    "ce-webpage.json"
   ]
 }
