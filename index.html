@@ -71,6 +71,10 @@
   }
   .ask-actions { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; flex-wrap: wrap; gap: 8px; }
   .ask-actions .note { font-size: .76rem; color: var(--ink-soft); }
+  .sources-toggle { background: none; border: none; padding: 0; font: inherit; font-size: .76rem; color: var(--ink-soft); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+  .sources-toggle:hover { color: var(--ink); }
+  #docCount { display: none; margin-top: 6px; max-height: 220px; overflow-y: auto; }
+  #docCount.open { display: block; }
   #askBtn:disabled { opacity: .5; cursor: default; }
 
   .mode-row { display: flex; gap: 18px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); flex-wrap: wrap; align-items: center; }
@@ -174,9 +178,10 @@
       </label>
     </div>
     <div class="ask-actions">
-      <span class="note" id="docCount"></span>
+      <button type="button" class="sources-toggle" id="sourcesToggle">Show sources</button>
       <button class="btn" id="askBtn" disabled>Ask</button>
     </div>
+    <div class="note" id="docCount"></div>
   </section>
 
   <div id="thread"></div>
@@ -216,6 +221,7 @@ async function loadKB() {
     buildIndex();
     $("kbStatus").innerHTML = `<span class="dot ok"></span><b>${docs.length}</b> document${docs.length===1?"":"s"} · <b>${chunks.length}</b> sections loaded`;
     $("docCount").textContent = docs.map(d => `${d.revision || d.title} (eff. ${d.effective_date})`).join(" · ");
+    $("sourcesToggle").textContent = `Show sources (${docs.length})`;
     updateReady();
   } catch (e) {
     $("kbStatus").innerHTML = `<span class="dot err"></span>Could not load data/manifest.json — check the data folder`;
@@ -234,6 +240,12 @@ function updateReady() {
   $("askBtn").disabled = !(chunks.length && store.get("anthropic_key"));
 }
 $("settingsBtn").onclick = () => $("settings").classList.toggle("open");
+$("sourcesToggle").onclick = () => {
+  const list = $("docCount");
+  const open = list.classList.toggle("open");
+  const n = docs.length || 0;
+  $("sourcesToggle").textContent = open ? `Hide sources (${n})` : `Show sources (${n})`;
+};
 $("saveKey").onclick = () => {
   const v = $("apiKey").value.trim();
   if (v) { store.set("anthropic_key", v); $("apiKey").value = ""; $("settings").classList.remove("open"); }
