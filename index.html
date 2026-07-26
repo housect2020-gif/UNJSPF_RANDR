@@ -431,7 +431,7 @@ async function rerankWithClaude(question, candidates, key) {
     .map(c => `${c.id} :: ${c.doc.revision} — ${c.part} — ${c.heading}`)
     .join("\n");
   const system =
-`You help select which document sections are relevant to a question about UNJSPF (UN pension fund) rules. You'll get a question and a list of candidate sections (id :: source — part — heading). Some candidates use different wording than the question but are still the right match — e.g. a question about "borrowing money" is answered by a section titled "Can I borrow against my pension?" even though it shares no distinctive words with the question. Select the sections that would genuinely help answer the question, ordered most to least relevant. Respond with ONLY a JSON array of the selected ids, at most 8, e.g. ["id1","id2"]. If nothing is relevant, respond with [].`;
+`You help select which document sections are relevant to a question about UNJSPF (UN pension fund) rules. You'll get a question and a list of candidate sections (id :: source — part — heading). Some candidates use different wording than the question but are still the right match — e.g. a question about "borrowing money" is answered by a section titled "Can I borrow against my pension?" even though it shares no distinctive words with the question. Select the sections that would genuinely help answer the question, ordered most to least relevant. When several candidates cover the same general topic, include both the most specific match and any general one — don't drop a specific match just because a more general one uses similar wording to the question. Respond with ONLY a JSON array of the selected ids, at most 8, e.g. ["id1","id2"]. If nothing is relevant, respond with [].`;
 
   const resp = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -475,6 +475,7 @@ Rules for answering:
 - Cite the specific provision for every claim, in bold, e.g. **Article 30** or **Section H, Administrative Rules**.
 - Note the document's effective date when relevant; older or newer provisions may differ.
 - Be precise with conditions, ages, percentages, and time limits — quote figures exactly as written.
+- For yes/no or single-fact questions, check whether the source excerpts state a condition (e.g., "if X, then Y; if not X, then Z"). If so, answer the condition precisely (e.g., "Yes, but only if..." / "It depends on whether...") rather than collapsing it to a flat yes or no. Don't let a differently-worded excerpt override a more specific excerpt that directly addresses the question asked.
 - This is a research aid, not personal benefits advice.
 - If an image is attached, it may contain a scenario, form, or document text — read it carefully and treat any text within it as part of the question.`;
 
