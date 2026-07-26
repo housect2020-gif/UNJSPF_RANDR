@@ -1,54 +1,76 @@
 {
-  "document": "Instructions for Form PENS.E/6-B - Payment Instructions for a Withdrawal Settlement (less than 5 years of contributory service)",
-  "form_number": "PENS.E/6-B",
-  "type": "instructions",
-  "effective_date": "04.2025",
-  "governing_article": "Article 31 of the UNJSPF Regulations",
-  "chunks": [
-    {
-      "id": "form-pens-e6-b-instructions-1",
-      "heading": "Purpose of form PENS.E/6-B",
-      "text": "A participant with less than 5 years of contributory service is entitled, upon separation, only to a withdrawal settlement under article 31(b)(i). Form PENS.E/6-B requests payment of that withdrawal settlement."
-    },
-    {
-      "id": "form-pens-e6-b-instructions-2",
-      "heading": "What a withdrawal settlement consists of",
-      "text": "A withdrawal settlement is a one-time payment consisting of the reimbursement of the participant's own contributions plus interest. No other benefit is paid to the participant or to their survivors."
-    },
-    {
-      "id": "form-pens-e6-b-instructions-3",
-      "heading": "Restoring the service later if the participant rejoins the Fund",
-      "text": "If the participant receives a withdrawal settlement and later rejoins the Fund, they can restore the period for which the settlement was paid, under article 24, provided they apply within one year of re-entry (and before separation if separation occurs earlier). The intervening break in service is not pensionable."
-    },
-    {
-      "id": "form-pens-e6-b-instructions-4",
-      "heading": "Deferring payment instead of requesting it now",
-      "text": "Payment may be deferred for up to 36 months from the date of separation (no interest accrues during deferment) by using form PENS.E/6-A instead of PENS.E/6-B."
-    },
-    {
-      "id": "form-pens-e6-b-instructions-5",
-      "heading": "Forfeiture of the right to the withdrawal settlement",
-      "text": "The right to a withdrawal settlement is forfeited if, for two years after payment becomes due, the beneficiary fails to submit payment instructions or fails/refuses to accept payment."
-    },
-    {
-      "id": "form-pens-e6-b-instructions-6",
-      "heading": "Currency of payment options",
-      "text": "The default currency is USD. If a different currency is chosen, UNJSPF's bank(s) will convert and remit funds in that currency, but UNJSPF does not control the exchange rate or any fees deducted by intermediary banks. Alternatively, the participant can receive payment in USD and convert it themselves."
-    },
-    {
-      "id": "form-pens-e6-b-instructions-7",
-      "heading": "Documents to enclose with form PENS.E/6-B",
-      "text": "A valid government-issued photo ID and a recently dated bank statement/document (e.g. voided cheque) showing the participant's name and account number, matching the payment instructions and the Fund's records."
-    },
-    {
-      "id": "form-pens-e6-b-instructions-8",
-      "heading": "Identity verification if you no longer have work email access",
-      "text": "A separated participant without access to their work email must include their full name, last employing organization, last duty station, and five-digit alphanumeric retirement number in their UID request email so the MSS support team can verify identity."
-    },
-    {
-      "id": "form-pens-e6-b-instructions-9",
-      "heading": "How to submit form PENS.E/6-B",
-      "text": "The dated and hand-signed form must be returned to the secretary of the Staff Pension Committee, or directly to UNJSPF for UN family staff members, via MSS Document Upload or mailed to UNJSPF's New York or Geneva offices."
-    }
-  ]
+ "document": {
+  "id": "form-pens-e6-b-instructions",
+  "title": "Instructions for Form PENS.E/6-B — Payment Instructions for a Withdrawal Settlement (less than 5 years of contributory service)",
+  "revision": "UNJSPF Form Instructions: PENS.E/6-B (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e6-b-instructions.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e6-b-instructions-001",
+   "part": "Purpose and Key Information",
+   "heading": "Purpose of form PENS.E/6-B",
+   "page": null,
+   "text": "A participant with less than 5 years of contributory service is entitled, upon separation, only to a withdrawal settlement under article 31(b)(i). Form PENS.E/6-B requests payment of that withdrawal settlement."
+  },
+  {
+   "id": "form-pens-e6-b-instructions-002",
+   "part": "Purpose and Key Information",
+   "heading": "What a withdrawal settlement consists of",
+   "page": null,
+   "text": "A withdrawal settlement is a one-time payment consisting of the reimbursement of the participant's own contributions plus interest. No other benefit is paid to the participant or to their survivors."
+  },
+  {
+   "id": "form-pens-e6-b-instructions-003",
+   "part": "Purpose and Key Information",
+   "heading": "Restoring the service later if the participant rejoins the Fund",
+   "page": null,
+   "text": "If the participant receives a withdrawal settlement and later rejoins the Fund, they can restore the period for which the settlement was paid, under article 24, provided they apply within one year of re-entry (and before separation if separation occurs earlier). The intervening break in service is not pensionable."
+  },
+  {
+   "id": "form-pens-e6-b-instructions-004",
+   "part": "Purpose and Key Information",
+   "heading": "Deferring payment instead of requesting it now",
+   "page": null,
+   "text": "Payment may be deferred for up to 36 months from the date of separation (no interest accrues during deferment) by using form PENS.E/6-A instead of PENS.E/6-B."
+  },
+  {
+   "id": "form-pens-e6-b-instructions-005",
+   "part": "Purpose and Key Information",
+   "heading": "Forfeiture of the right to the withdrawal settlement",
+   "page": null,
+   "text": "The right to a withdrawal settlement is forfeited if, for two years after payment becomes due, the beneficiary fails to submit payment instructions or fails/refuses to accept payment."
+  },
+  {
+   "id": "form-pens-e6-b-instructions-006",
+   "part": "Purpose and Key Information",
+   "heading": "Currency of payment options",
+   "page": null,
+   "text": "The default currency is USD. If a different currency is chosen, UNJSPF's bank(s) will convert and remit funds in that currency, but UNJSPF does not control the exchange rate or any fees deducted by intermediary banks. Alternatively, the participant can receive payment in USD and convert it themselves."
+  },
+  {
+   "id": "form-pens-e6-b-instructions-007",
+   "part": "Purpose and Key Information",
+   "heading": "Documents to enclose with form PENS.E/6-B",
+   "page": null,
+   "text": "A valid government-issued photo ID and a recently dated bank statement/document (e.g. voided cheque) showing the participant's name and account number, matching the payment instructions and the Fund's records."
+  },
+  {
+   "id": "form-pens-e6-b-instructions-008",
+   "part": "Purpose and Key Information",
+   "heading": "Identity verification if you no longer have work email access",
+   "page": null,
+   "text": "A separated participant without access to their work email must include their full name, last employing organization, last duty station, and five-digit alphanumeric retirement number in their UID request email so the MSS support team can verify identity."
+  },
+  {
+   "id": "form-pens-e6-b-instructions-009",
+   "part": "Submission Instructions",
+   "heading": "How to submit form PENS.E/6-B",
+   "page": null,
+   "text": "The dated and hand-signed form must be returned to the secretary of the Staff Pension Committee, or directly to UNJSPF for UN family staff members, via MSS Document Upload or mailed to UNJSPF's New York or Geneva offices."
+  }
+ ]
 }

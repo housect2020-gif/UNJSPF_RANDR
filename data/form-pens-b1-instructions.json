@@ -1,79 +1,111 @@
 {
-  "document": "Instructions for Form PENS.B/1 - Expression of Interest to Validate Non-Contributory Service",
-  "form_number": "PENS.B/1",
-  "type": "instructions",
-  "effective_date": "04.2025",
-  "governing_article": "Article 23 of the UNJSPF Regulations",
-  "chunks": [
-    {
-      "id": "form-pens-b1-instructions-1",
-      "heading": "Purpose of form PENS.B/1",
-      "text": "Validation under article 23 of the UNJSPF Regulations allows a participant to add contributory service by paying contributions for prior service performed in any member organization of the Fund during which the participant was not eligible to participate. Form PENS.B/1 notifies the Fund of the participant's interest in validating such non-contributory service."
-    },
-    {
-      "id": "form-pens-b1-instructions-2",
-      "heading": "Deadline to submit an expression of interest to validate",
-      "text": "An expression of interest to validate non-contributory service must be submitted within one year of the participant's date of entry or re-entry into the Fund, and in any event before separation if separation occurs during that year. Failure to observe this time limit results in the permanent forfeiture of the right to validate."
-    },
-    {
-      "id": "form-pens-b1-instructions-3",
-      "heading": "Time limit on re-entering the Fund after non-contributory service",
-      "text": "The participant must enter or re-enter the Fund within two years from the date the last period of non-contributory service ended."
-    },
-    {
-      "id": "form-pens-b1-instructions-4",
-      "heading": "Which period of non-contributory service can be validated if there are multiple periods",
-      "text": "If a participant has multiple periods of non-contributory service with a break between them, only the most recent period can be validated if the break between that period and any earlier period was more than one year."
-    },
-    {
-      "id": "form-pens-b1-instructions-5",
-      "heading": "Service excluded from validation",
-      "text": "Prior periods of non-contributory service must not be expressly excluded from participation to be open for validation - for example, JSSA contracts and freelance interpreter/translator contracts are excluded and cannot be validated."
-    },
-    {
-      "id": "form-pens-b1-instructions-6",
-      "heading": "Must the entire period be validated?",
-      "text": "Yes. If a participant chooses to validate, they must validate the entire period of service that is open to validation - partial validation of an open period is not permitted."
-    },
-    {
-      "id": "form-pens-b1-instructions-7",
-      "heading": "Does submitting the form commit the participant to pay?",
-      "text": "No. Completing form PENS.B/1 only expresses interest; it does not commit the participant to pay. UNJSPF or the Staff Pension Committee reviews the application and, if eligible, calculates the contributions due based on the pensionable remuneration rates applicable during the prior period(s)."
-    },
-    {
-      "id": "form-pens-b1-instructions-8",
-      "heading": "What happens after the Fund calculates the amount due",
-      "text": "The participant is informed in writing of the amount due. If deemed ineligible, the participant receives written notification of ineligibility."
-    },
-    {
-      "id": "form-pens-b1-instructions-9",
-      "heading": "Deadline to pay after being notified of the amount due",
-      "text": "If the participant decides to pay to validate, they have 90 days from the date of notification of the amount due to pay the amount to their employer (not to the Fund). Failure to pay within 90 days irrevocably cancels the right to validate."
-    },
-    {
-      "id": "form-pens-b1-instructions-10",
-      "heading": "Employer's contribution once the participant pays",
-      "text": "If the participant pays the required amount on time, the Fund asks the employer to pay its share, which is twice the amount of the participant's own contributions."
-    },
-    {
-      "id": "form-pens-b1-instructions-11",
-      "heading": "How to find your Unique Identification number (UID)",
-      "text": "If the UID is unknown, the participant should email requestUIDonly@unjspf.org from their work email address (which serves as identity verification), including their index number and/or six-digit Pension Fund number in the request."
-    },
-    {
-      "id": "form-pens-b1-instructions-12",
-      "heading": "Restoring prior contributory service for new entrants/re-entrants",
-      "text": "New entrants or re-entrants may also be able to restore prior contributory service under article 24 (applied for within one year of entry/re-entry, and before separation if earlier), or use any applicable transfer agreement under article 13."
-    },
-    {
-      "id": "form-pens-b1-instructions-13",
-      "heading": "How to submit form PENS.B/1",
-      "text": "The dated and hand-signed form must be returned to the secretary of the participant's Staff Pension Committee, or to UNJSPF directly if the participant is a UN family staff member. It can be submitted electronically via the 'MSS Document Upload' tab of a member self-service (MSS) account (scan and upload as JPG, JPEG or PDF), or mailed physically to UNJSPF's New York or Geneva offices."
-    },
-    {
-      "id": "form-pens-b1-instructions-14",
-      "heading": "MSS Document Upload restrictions",
-      "text": "Access to the 'MSS Document Upload' tab may be restricted at the request of some UNJSPF member organizations; staff of such organizations should first check with their employing organization for the correct submission process."
-    }
-  ]
+ "document": {
+  "id": "form-pens-b1-instructions",
+  "title": "Instructions for Form PENS.B/1 — Expression of Interest to Validate Non-Contributory Service",
+  "revision": "UNJSPF Form Instructions: PENS.B/1 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-b1-instructions.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-b1-instructions-001",
+   "part": "Purpose and Key Information",
+   "heading": "Purpose of form PENS.B/1",
+   "page": null,
+   "text": "Validation under article 23 of the UNJSPF Regulations allows a participant to add contributory service by paying contributions for prior service performed in any member organization of the Fund during which the participant was not eligible to participate. Form PENS.B/1 notifies the Fund of the participant's interest in validating such non-contributory service."
+  },
+  {
+   "id": "form-pens-b1-instructions-002",
+   "part": "Submission Instructions",
+   "heading": "Deadline to submit an expression of interest to validate",
+   "page": null,
+   "text": "An expression of interest to validate non-contributory service must be submitted within one year of the participant's date of entry or re-entry into the Fund, and in any event before separation if separation occurs during that year. Failure to observe this time limit results in the permanent forfeiture of the right to validate."
+  },
+  {
+   "id": "form-pens-b1-instructions-003",
+   "part": "Purpose and Key Information",
+   "heading": "Time limit on re-entering the Fund after non-contributory service",
+   "page": null,
+   "text": "The participant must enter or re-enter the Fund within two years from the date the last period of non-contributory service ended."
+  },
+  {
+   "id": "form-pens-b1-instructions-004",
+   "part": "Purpose and Key Information",
+   "heading": "Which period of non-contributory service can be validated if there are multiple periods",
+   "page": null,
+   "text": "If a participant has multiple periods of non-contributory service with a break between them, only the most recent period can be validated if the break between that period and any earlier period was more than one year."
+  },
+  {
+   "id": "form-pens-b1-instructions-005",
+   "part": "Purpose and Key Information",
+   "heading": "Service excluded from validation",
+   "page": null,
+   "text": "Prior periods of non-contributory service must not be expressly excluded from participation to be open for validation - for example, JSSA contracts and freelance interpreter/translator contracts are excluded and cannot be validated."
+  },
+  {
+   "id": "form-pens-b1-instructions-006",
+   "part": "Purpose and Key Information",
+   "heading": "Must the entire period be validated?",
+   "page": null,
+   "text": "Yes. If a participant chooses to validate, they must validate the entire period of service that is open to validation - partial validation of an open period is not permitted."
+  },
+  {
+   "id": "form-pens-b1-instructions-007",
+   "part": "Submission Instructions",
+   "heading": "Does submitting the form commit the participant to pay?",
+   "page": null,
+   "text": "No. Completing form PENS.B/1 only expresses interest; it does not commit the participant to pay. UNJSPF or the Staff Pension Committee reviews the application and, if eligible, calculates the contributions due based on the pensionable remuneration rates applicable during the prior period(s)."
+  },
+  {
+   "id": "form-pens-b1-instructions-008",
+   "part": "Purpose and Key Information",
+   "heading": "What happens after the Fund calculates the amount due",
+   "page": null,
+   "text": "The participant is informed in writing of the amount due. If deemed ineligible, the participant receives written notification of ineligibility."
+  },
+  {
+   "id": "form-pens-b1-instructions-009",
+   "part": "Purpose and Key Information",
+   "heading": "Deadline to pay after being notified of the amount due",
+   "page": null,
+   "text": "If the participant decides to pay to validate, they have 90 days from the date of notification of the amount due to pay the amount to their employer (not to the Fund). Failure to pay within 90 days irrevocably cancels the right to validate."
+  },
+  {
+   "id": "form-pens-b1-instructions-010",
+   "part": "Purpose and Key Information",
+   "heading": "Employer's contribution once the participant pays",
+   "page": null,
+   "text": "If the participant pays the required amount on time, the Fund asks the employer to pay its share, which is twice the amount of the participant's own contributions."
+  },
+  {
+   "id": "form-pens-b1-instructions-011",
+   "part": "Purpose and Key Information",
+   "heading": "How to find your Unique Identification number (UID)",
+   "page": null,
+   "text": "If the UID is unknown, the participant should email requestUIDonly@unjspf.org from their work email address (which serves as identity verification), including their index number and/or six-digit Pension Fund number in the request."
+  },
+  {
+   "id": "form-pens-b1-instructions-012",
+   "part": "Purpose and Key Information",
+   "heading": "Restoring prior contributory service for new entrants/re-entrants",
+   "page": null,
+   "text": "New entrants or re-entrants may also be able to restore prior contributory service under article 24 (applied for within one year of entry/re-entry, and before separation if earlier), or use any applicable transfer agreement under article 13."
+  },
+  {
+   "id": "form-pens-b1-instructions-013",
+   "part": "Submission Instructions",
+   "heading": "How to submit form PENS.B/1",
+   "page": null,
+   "text": "The dated and hand-signed form must be returned to the secretary of the participant's Staff Pension Committee, or to UNJSPF directly if the participant is a UN family staff member. It can be submitted electronically via the 'MSS Document Upload' tab of a member self-service (MSS) account (scan and upload as JPG, JPEG or PDF), or mailed physically to UNJSPF's New York or Geneva offices."
+  },
+  {
+   "id": "form-pens-b1-instructions-014",
+   "part": "Purpose and Key Information",
+   "heading": "MSS Document Upload restrictions",
+   "page": null,
+   "text": "Access to the 'MSS Document Upload' tab may be restricted at the request of some UNJSPF member organizations; staff of such organizations should first check with their employing organization for the correct submission process."
+  }
+ ]
 }

@@ -1,34 +1,48 @@
 {
-  "document": "Additional Sheet to Form PENS.A/2 - Designation of Recipient(s) (Emergency Contact / Residual Settlement Recipients)",
-  "form_number": "PENS.A/2-A",
-  "type": "form",
-  "effective_date": "04.2025",
-  "governing_article": null,
-  "chunks": [
-    {
-      "id": "form-pens-a2-a-1",
-      "heading": "Purpose of the PENS.A/2-A additional sheet",
-      "text": "The additional sheet PENS.A/2-A is used together with form PENS.A/2 when a participant or retiree wants to designate more recipients than fit on the main form. It provides extra space (2 pages, 2 recipients per page, for a total of 4 additional recipients) to record recipient information for the designation of recipient(s) of a residual settlement and/or emergency contact."
-    },
-    {
-      "id": "form-pens-a2-a-2",
-      "heading": "How recipient shares must total 100 per cent",
-      "text": "If multiple recipients are designated across the form and additional sheet(s), the shares must total 100 per cent. If shares are not indicated for each recipient, or if the shares provided do not add up to 100 per cent, the recipients will share the settlement equally instead."
-    },
-    {
-      "id": "form-pens-a2-a-3",
-      "heading": "What happens if a designated recipient is a minor",
-      "text": "If a recipient designated on the additional sheet is a minor, the participant must provide additional information, specifically the full contact details of the parent or the appointed legal guardian who has custody of the minor, in the 'Additional information' field for that recipient."
-    },
-    {
-      "id": "form-pens-a2-a-4",
-      "heading": "Information required for each recipient on the additional sheet",
-      "text": "For each recipient, the sheet requires: full name, date of birth, sex, relationship to the participant, share (%), mailing address, country code/area code/phone number, and email, plus any additional information needed (e.g. for a minor recipient)."
-    },
-    {
-      "id": "form-pens-a2-a-5",
-      "heading": "Signing and dating the additional sheet",
-      "text": "Each page of the additional sheet must be dated and signed within the signature box, consistent with the requirement that all pages of UNJSPF forms be dated and hand-signed."
-    }
-  ]
+ "document": {
+  "id": "form-pens-a2-a",
+  "title": "Additional Sheet to Form PENS.A/2 — Designation of Recipient(s) (Emergency Contact / Residual Settlement Recipients)",
+  "revision": "UNJSPF Form: PENS.A/2-A (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-a2-a.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-a2-a-001",
+   "part": "Additional Sheet to Form PENS.A/2 — Designation of Recipient(s) (Emergency Contact / Residual Settlement Recipients)",
+   "heading": "Purpose of the PENS.A/2-A additional sheet",
+   "page": null,
+   "text": "The additional sheet PENS.A/2-A is used together with form PENS.A/2 when a participant or retiree wants to designate more recipients than fit on the main form. It provides extra space (2 pages, 2 recipients per page, for a total of 4 additional recipients) to record recipient information for the designation of recipient(s) of a residual settlement and/or emergency contact."
+  },
+  {
+   "id": "form-pens-a2-a-002",
+   "part": "Additional Sheet to Form PENS.A/2 — Designation of Recipient(s) (Emergency Contact / Residual Settlement Recipients)",
+   "heading": "How recipient shares must total 100 per cent",
+   "page": null,
+   "text": "If multiple recipients are designated across the form and additional sheet(s), the shares must total 100 per cent. If shares are not indicated for each recipient, or if the shares provided do not add up to 100 per cent, the recipients will share the settlement equally instead."
+  },
+  {
+   "id": "form-pens-a2-a-003",
+   "part": "Additional Sheet to Form PENS.A/2 — Designation of Recipient(s) (Emergency Contact / Residual Settlement Recipients)",
+   "heading": "What happens if a designated recipient is a minor",
+   "page": null,
+   "text": "If a recipient designated on the additional sheet is a minor, the participant must provide additional information, specifically the full contact details of the parent or the appointed legal guardian who has custody of the minor, in the 'Additional information' field for that recipient."
+  },
+  {
+   "id": "form-pens-a2-a-004",
+   "part": "Additional Sheet to Form PENS.A/2 — Designation of Recipient(s) (Emergency Contact / Residual Settlement Recipients)",
+   "heading": "Information required for each recipient on the additional sheet",
+   "page": null,
+   "text": "For each recipient, the sheet requires: full name, date of birth, sex, relationship to the participant, share (%), mailing address, country code/area code/phone number, and email, plus any additional information needed (e.g. for a minor recipient)."
+  },
+  {
+   "id": "form-pens-a2-a-005",
+   "part": "Additional Sheet to Form PENS.A/2 — Designation of Recipient(s) (Emergency Contact / Residual Settlement Recipients)",
+   "heading": "Signing and dating the additional sheet",
+   "page": null,
+   "text": "Each page of the additional sheet must be dated and signed within the signature box, consistent with the requirement that all pages of UNJSPF forms be dated and hand-signed."
+  }
+ ]
 }

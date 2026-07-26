@@ -1,24 +1,34 @@
 {
-  "document": "Form PENS.E/6-B - Payment Instructions for a Withdrawal Settlement (less than 5 years of contributory service)",
-  "form_number": "PENS.E/6-B",
-  "type": "form",
-  "effective_date": "04.2025",
-  "governing_article": "Article 31 of the UNJSPF Regulations",
-  "chunks": [
-    {
-      "id": "form-pens-e6-b-1",
-      "heading": "What form PENS.E/6-B is used for",
-      "text": "Form PENS.E/6-B requests payment of a withdrawal settlement for participants with less than 5 years of contributory service."
-    },
-    {
-      "id": "form-pens-e6-b-2",
-      "heading": "Sections on form PENS.E/6-B",
-      "text": "Section 1 - Participant information; Section 2 - Bank account information (payee name, bank, account number/IBAN, bank ID code, currency, account type, bank address, intermediary bank, additional bank account information); Section 3 - Acknowledgement and signature."
-    },
-    {
-      "id": "form-pens-e6-b-3",
-      "heading": "Key acknowledgement: withdrawal settlement extinguishes other rights",
-      "text": "By signing, the participant acknowledges that a withdrawal settlement extinguishes all rights to other entitlements, and confirms enclosing a valid government photo ID and a recent bank statement/document showing all banking information."
-    }
-  ]
+ "document": {
+  "id": "form-pens-e6-b",
+  "title": "Form PENS.E/6-B — Payment Instructions for a Withdrawal Settlement (less than 5 years of contributory service)",
+  "revision": "UNJSPF Form: PENS.E/6-B (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e6-b.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e6-b-001",
+   "part": "Form PENS.E/6-B — Payment Instructions for a Withdrawal Settlement (less than 5 years of contributory service)",
+   "heading": "What form PENS.E/6-B is used for",
+   "page": null,
+   "text": "Form PENS.E/6-B requests payment of a withdrawal settlement for participants with less than 5 years of contributory service."
+  },
+  {
+   "id": "form-pens-e6-b-002",
+   "part": "Form PENS.E/6-B — Payment Instructions for a Withdrawal Settlement (less than 5 years of contributory service)",
+   "heading": "Sections on form PENS.E/6-B",
+   "page": null,
+   "text": "Section 1 - Participant information; Section 2 - Bank account information (payee name, bank, account number/IBAN, bank ID code, currency, account type, bank address, intermediary bank, additional bank account information); Section 3 - Acknowledgement and signature."
+  },
+  {
+   "id": "form-pens-e6-b-003",
+   "part": "Form PENS.E/6-B — Payment Instructions for a Withdrawal Settlement (less than 5 years of contributory service)",
+   "heading": "Key acknowledgement: withdrawal settlement extinguishes other rights",
+   "page": null,
+   "text": "By signing, the participant acknowledges that a withdrawal settlement extinguishes all rights to other entitlements, and confirms enclosing a valid government photo ID and a recent bank statement/document showing all banking information."
+  }
+ ]
 }

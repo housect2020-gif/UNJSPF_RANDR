@@ -1,39 +1,55 @@
 {
-  "document": "Form PENS.C/8 - Expression of Interest to Restore Prior Contributory Service in the Case of a Deferred Retirement Benefit",
-  "form_number": "PENS.C/8",
-  "type": "form",
-  "effective_date": "04.2025",
-  "governing_article": "Article 24 bis of the UNJSPF Regulations",
-  "chunks": [
-    {
-      "id": "form-pens-c8-1",
-      "heading": "What form PENS.C/8 is used for and how it differs from PENS.C/1",
-      "text": "Form PENS.C/8 is used to restore prior contributory service for a period for which the participant previously elected a deferred retirement benefit that is not yet in payment, under article 24 bis. This applies to deferred retirement elections made on or after 1 April 2007 (elections before that date use form PENS.C/1 instead)."
-    },
-    {
-      "id": "form-pens-c8-2",
-      "heading": "Deadline and consequence of missing it",
-      "text": "If the participant does not elect to restore their prior contributory service within one year of re-entry into the Fund, the right to restore that period of prior contributory service is forfeited under article 24 bis."
-    },
-    {
-      "id": "form-pens-c8-3",
-      "heading": "Submitting a form for multiple periods",
-      "text": "A separate form PENS.C/8 must be submitted for each period of prior-contributory service the participant is interested in restoring."
-    },
-    {
-      "id": "form-pens-c8-4",
-      "heading": "Final election requirement",
-      "text": "The restoration will not proceed unless and until the participant submits a final election to restore using form PENS.C/9, in accordance with instructions provided with the estimate. Form PENS.C/9 must be submitted within 60 days of receipt of the estimate."
-    },
-    {
-      "id": "form-pens-c8-5",
-      "heading": "Sections on form PENS.C/8",
-      "text": "Section 1 - Participant information (including optional retirement number, prefixed 'R/'); Section 2 - Period of prior contributory service in the case of a deferred retirement benefit; Section 3 - Acknowledgement and signature."
-    },
-    {
-      "id": "form-pens-c8-6",
-      "heading": "New entrant/re-entrant note on form PENS.C/8",
-      "text": "New entrants or re-entrants may also validate non-contributory service and/or restore prior contributory service under articles 23 and 24 if applied for within one year of entry/re-entry (before separation if earlier), and may use any applicable transfer agreement under article 13."
-    }
-  ]
+ "document": {
+  "id": "form-pens-c8",
+  "title": "Form PENS.C/8 — Expression of Interest to Restore Prior Contributory Service in the Case of a Deferred Retirement Benefit",
+  "revision": "UNJSPF Form: PENS.C/8 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-c8.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-c8-001",
+   "part": "Form PENS.C/8 — Expression of Interest to Restore Prior Contributory Service in the Case of a Deferred Retirement Benefit",
+   "heading": "What form PENS.C/8 is used for and how it differs from PENS.C/1",
+   "page": null,
+   "text": "Form PENS.C/8 is used to restore prior contributory service for a period for which the participant previously elected a deferred retirement benefit that is not yet in payment, under article 24 bis. This applies to deferred retirement elections made on or after 1 April 2007 (elections before that date use form PENS.C/1 instead)."
+  },
+  {
+   "id": "form-pens-c8-002",
+   "part": "Form PENS.C/8 — Expression of Interest to Restore Prior Contributory Service in the Case of a Deferred Retirement Benefit",
+   "heading": "Deadline and consequence of missing it",
+   "page": null,
+   "text": "If the participant does not elect to restore their prior contributory service within one year of re-entry into the Fund, the right to restore that period of prior contributory service is forfeited under article 24 bis."
+  },
+  {
+   "id": "form-pens-c8-003",
+   "part": "Form PENS.C/8 — Expression of Interest to Restore Prior Contributory Service in the Case of a Deferred Retirement Benefit",
+   "heading": "Submitting a form for multiple periods",
+   "page": null,
+   "text": "A separate form PENS.C/8 must be submitted for each period of prior-contributory service the participant is interested in restoring."
+  },
+  {
+   "id": "form-pens-c8-004",
+   "part": "Form PENS.C/8 — Expression of Interest to Restore Prior Contributory Service in the Case of a Deferred Retirement Benefit",
+   "heading": "Final election requirement",
+   "page": null,
+   "text": "The restoration will not proceed unless and until the participant submits a final election to restore using form PENS.C/9, in accordance with instructions provided with the estimate. Form PENS.C/9 must be submitted within 60 days of receipt of the estimate."
+  },
+  {
+   "id": "form-pens-c8-005",
+   "part": "Form PENS.C/8 — Expression of Interest to Restore Prior Contributory Service in the Case of a Deferred Retirement Benefit",
+   "heading": "Sections on form PENS.C/8",
+   "page": null,
+   "text": "Section 1 - Participant information (including optional retirement number, prefixed 'R/'); Section 2 - Period of prior contributory service in the case of a deferred retirement benefit; Section 3 - Acknowledgement and signature."
+  },
+  {
+   "id": "form-pens-c8-006",
+   "part": "Form PENS.C/8 — Expression of Interest to Restore Prior Contributory Service in the Case of a Deferred Retirement Benefit",
+   "heading": "New entrant/re-entrant note on form PENS.C/8",
+   "page": null,
+   "text": "New entrants or re-entrants may also validate non-contributory service and/or restore prior contributory service under articles 23 and 24 if applied for within one year of entry/re-entry (before separation if earlier), and may use any applicable transfer agreement under article 13."
+  }
+ ]
 }

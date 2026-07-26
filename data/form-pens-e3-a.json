@@ -1,24 +1,34 @@
 {
-  "document": "Form PENS.E/3-A - Spouse Married After Separation: Expression of Interest to Purchase an Annuity",
-  "form_number": "PENS.E/3-A",
-  "type": "form",
-  "effective_date": "04.2025",
-  "governing_article": "Article 35 ter of the UNJSPF Regulations",
-  "chunks": [
-    {
-      "id": "form-pens-e3-a-1",
-      "heading": "What form PENS.E/3-A is used for",
-      "text": "Form PENS.E/3-A expresses a retiree's interest in purchasing an annuity for a spouse married after separation, under article 35 ter."
-    },
-    {
-      "id": "form-pens-e3-a-2",
-      "heading": "Sections on form PENS.E/3-A",
-      "text": "Section 1 - Retiree information (including optional retirement number, prefixed 'R/'); Section 2 - Spouse information (name, date of birth, sex, email, phone); Section 3 - Marriage information (date and place of marriage); Section 4 - Acknowledgement and signature."
-    },
-    {
-      "id": "form-pens-e3-a-3",
-      "heading": "Acknowledgements on form PENS.E/3-A",
-      "text": "The retiree confirms interest in purchasing the annuity, confirms being in receipt of a periodic benefit, confirms having read article 35 ter and the form's instructions, requests an estimate, understands the purchase will not proceed without a final election, and confirms enclosing a copy of the marriage certificate and the spouse's valid government-issued photo ID."
-    }
-  ]
+ "document": {
+  "id": "form-pens-e3-a",
+  "title": "Form PENS.E/3-A — Spouse Married After Separation: Expression of Interest to Purchase an Annuity",
+  "revision": "UNJSPF Form: PENS.E/3-A (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e3-a.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e3-a-001",
+   "part": "Form PENS.E/3-A — Spouse Married After Separation: Expression of Interest to Purchase an Annuity",
+   "heading": "What form PENS.E/3-A is used for",
+   "page": null,
+   "text": "Form PENS.E/3-A expresses a retiree's interest in purchasing an annuity for a spouse married after separation, under article 35 ter."
+  },
+  {
+   "id": "form-pens-e3-a-002",
+   "part": "Form PENS.E/3-A — Spouse Married After Separation: Expression of Interest to Purchase an Annuity",
+   "heading": "Sections on form PENS.E/3-A",
+   "page": null,
+   "text": "Section 1 - Retiree information (including optional retirement number, prefixed 'R/'); Section 2 - Spouse information (name, date of birth, sex, email, phone); Section 3 - Marriage information (date and place of marriage); Section 4 - Acknowledgement and signature."
+  },
+  {
+   "id": "form-pens-e3-a-003",
+   "part": "Form PENS.E/3-A — Spouse Married After Separation: Expression of Interest to Purchase an Annuity",
+   "heading": "Acknowledgements on form PENS.E/3-A",
+   "page": null,
+   "text": "The retiree confirms interest in purchasing the annuity, confirms being in receipt of a periodic benefit, confirms having read article 35 ter and the form's instructions, requests an estimate, understands the purchase will not proceed without a final election, and confirms enclosing a copy of the marriage certificate and the spouse's valid government-issued photo ID."
+  }
+ ]
 }
