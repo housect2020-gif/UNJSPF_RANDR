@@ -1,0 +1,59 @@
+{
+  "document": "Form PENS.E/7-B - Payment Instructions for a Benefit (5 years or more of contributory service)",
+  "form_number": "PENS.E/7-B",
+  "type": "form",
+  "effective_date": "04.2025",
+  "governing_article": "Articles 28, 29, 30, 31 of the UNJSPF Regulations",
+  "chunks": [
+    {
+      "id": "form-pens-e7-b-1",
+      "heading": "What form PENS.E/7-B is used for",
+      "text": "Form PENS.E/7-B elects a benefit option and provides payment instructions for a participant with 5 or more years of contributory service. Only ONE benefit option may be selected."
+    },
+    {
+      "id": "form-pens-e7-b-2",
+      "heading": "Benefit option A: Normal retirement benefit (article 28)",
+      "text": "Three sub-options: (1) full retirement benefit paid as a monthly benefit with no lump sum; (2) maximum lump sum with the balance paid as a monthly benefit; (3) a fixed lump-sum commutation (less than the maximum lump sum) with the balance paid as a monthly benefit - the requested fixed lump sum amount (A3) is entered in US dollars."
+    },
+    {
+      "id": "form-pens-e7-b-3",
+      "heading": "Benefit option B: Early retirement benefit (article 29)",
+      "text": "Mirrors option A's three sub-options for early retirement: full monthly benefit with no lump sum; maximum lump sum plus monthly balance; or a fixed lump-sum commutation (B3, in US dollars) plus monthly balance."
+    },
+    {
+      "id": "form-pens-e7-b-4",
+      "heading": "Benefit option C: Deferred retirement benefit (article 30)",
+      "text": "A single option to elect a deferred retirement benefit."
+    },
+    {
+      "id": "form-pens-e7-b-5",
+      "heading": "Benefit option D: Withdrawal settlement (article 31)",
+      "text": "A final cash withdrawal settlement, which extinguishes all other entitlements."
+    },
+    {
+      "id": "form-pens-e7-b-6",
+      "heading": "Section 3: bank account for a monthly benefit",
+      "text": "Applicable only if the participant elects a monthly benefit under option A or B - requires payee name, bank name, account number/IBAN, bank ID code, currency, account type, bank address, and intermediary bank details if applicable."
+    },
+    {
+      "id": "form-pens-e7-b-7",
+      "heading": "Section 4/5: bank account for a lump sum or withdrawal settlement",
+      "text": "Applicable only if the participant elects option D, or wants the lump sum under option A or B paid to a different account than the one used for the monthly benefit in Section 3."
+    },
+    {
+      "id": "form-pens-e7-b-8",
+      "heading": "Section 5: emergency contact",
+      "text": "For UNJSPF's use only when all efforts to reach the participant through normal channels fail."
+    },
+    {
+      "id": "form-pens-e7-b-9",
+      "heading": "Documents required with form PENS.E/7-B",
+      "text": "A valid government-issued photo ID showing full name, date of birth and scripted signature, and a recently dated bank statement/document (e.g. voided cheque) showing all banking information."
+    },
+    {
+      "id": "form-pens-e7-b-10",
+      "heading": "Acknowledgements on form PENS.E/7-B",
+      "text": "The participant confirms having read articles 28, 29, 30 and 31 of the UNJSPF Regulations and the form's instructions, and confirms enclosing the required photo ID and banking documentation."
+    }
+  ]
+}

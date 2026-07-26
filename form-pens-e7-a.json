@@ -1,0 +1,19 @@
+{
+  "document": "Form PENS.E/7-A - Election to Defer Choice of Benefit (5 years or more of contributory service)",
+  "form_number": "PENS.E/7-A",
+  "type": "form",
+  "effective_date": "04.2025",
+  "governing_article": "Article 32 of the UNJSPF Regulations",
+  "chunks": [
+    {
+      "id": "form-pens-e7-a-1",
+      "heading": "What form PENS.E/7-A is used for",
+      "text": "Form PENS.E/7-A elects to defer the choice of benefit for up to 36 months after separation, for participants with 5 or more years of contributory service."
+    },
+    {
+      "id": "form-pens-e7-a-2",
+      "heading": "Acknowledgements on form PENS.E/7-A",
+      "text": "The participant confirms electing to defer the choice of benefit under article 32 for up to 36 months, confirms having read articles 24, 24 bis, 32 and 46 of the UNJSPF Regulations and the form's instructions, understands that failing to submit form PENS.E/7-B within 36 months results in the Fund automatically deeming a deferred retirement benefit elected, and confirms enclosing a valid government-issued photo ID."
+    }
+  ]
+}
