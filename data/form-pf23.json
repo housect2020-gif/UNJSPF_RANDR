@@ -1,0 +1,48 @@
+{
+ "document": {
+  "id": "form-pf23",
+  "title": "Form PF.23 — Change in Payment Instructions",
+  "revision": "UNJSPF Form: PF.23 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pf23.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pf23-001",
+   "part": "Form PF.23 — Change in Payment Instructions",
+   "heading": "What is Form PF.23 used for?",
+   "page": null,
+   "text": "Form PF.23 (\"Change in Payment Instructions\") is used to: (a) change previously provided payment instructions for benefit payments; (b) allow the legal representative of an estate, when requested by the Fund, to receive payment due to the estate of a deceased participant or beneficiary; or (c) allow a party requested by the Fund to receive a split payment under Article 45 of the UNJSPF Regulations to satisfy a marital or parental legal obligation."
+  },
+  {
+   "id": "form-pf23-002",
+   "part": "Form PF.23 — Change in Payment Instructions",
+   "heading": "What information is required in Section 1, and how are multiple retirement numbers handled?",
+   "page": null,
+   "text": "Section 1 (Retiree or beneficiary or estate administration information) requires UID, pension number, retirement number, date of birth, full name, and contact information. If you have multiple retirement numbers, the change applies to all of your benefits unless you check the box to apply the change to the specified retirement number only."
+  },
+  {
+   "id": "form-pf23-003",
+   "part": "Form PF.23 — Change in Payment Instructions",
+   "heading": "What is required in Section 2 (Bank Account Information)?",
+   "page": null,
+   "text": "Section 2 requires standard bank details: payee name, bank name, account number/IBAN, bank ID code, currency of payment, account type, bank address, intermediary/correspondent bank (if applicable), and additional bank account information for accounts held at institutions such as brokerage firms, UNESCO USLS, AMFIE/AMFI or UNSSCA."
+  },
+  {
+   "id": "form-pf23-004",
+   "part": "Form PF.23 — Change in Payment Instructions",
+   "heading": "When is Section 4 (Signature Authentication) required?",
+   "page": null,
+   "text": "Section 4 is required only if you sign the form by affixing a thumbprint instead of a scripted signature, or if your signature has changed. It requires certification by an authenticating official (or, for thumbprint authentication, an attending physician) that the person identified in Section 1 signed in their presence."
+  },
+  {
+   "id": "form-pf23-005",
+   "part": "Form PF.23 — Change in Payment Instructions",
+   "heading": "What note applies about how long payment instructions must remain in force?",
+   "page": null,
+   "text": "For administrative reasons, the payment instructions provided must remain in force for at least one year."
+  }
+ ]
+}

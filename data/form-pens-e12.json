@@ -1,0 +1,41 @@
+{
+ "document": {
+  "id": "form-pens-e12",
+  "title": "Form PENS.E/12 — Application for Emergency Fund Assistance",
+  "revision": "UNJSPF Form: PENS.E/12 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e12.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e12-001",
+   "part": "Form PENS.E/12 — Application for Emergency Fund Assistance",
+   "heading": "What is Form PENS.E/12 used for?",
+   "page": null,
+   "text": "Form PENS.E/12 (\"Application for Emergency Fund Assistance\") is used to apply for financial assistance from the UNJSPF Emergency Fund. This form is not applicable for active staff — it is for retirees and beneficiaries already receiving a periodic benefit."
+  },
+  {
+   "id": "form-pens-e12-002",
+   "part": "Form PENS.E/12 — Application for Emergency Fund Assistance",
+   "heading": "What information is required in Sections 1 and 2?",
+   "page": null,
+   "text": "Section 1 (Retiree or beneficiary information) requires the retiree's/beneficiary's UID, pension number, retirement number and full name. Section 2 (Applicant information) requires the applicant's full name, date of birth, mailing address, email and phone — the applicant may be the retiree/beneficiary themselves, their spouse, or an immediate dependant."
+  },
+  {
+   "id": "form-pens-e12-003",
+   "part": "Form PENS.E/12 — Application for Emergency Fund Assistance",
+   "heading": "What is required in Section 3 (Nature of the Emergency)?",
+   "page": null,
+   "text": "You must select the nature of the emergency (medical expenses — indicating whether the retiree/beneficiary has medical insurance —, funeral expenses, natural disasters, or other with specification), state the amount requested, and clearly describe the circumstances surrounding the financial hardship."
+  },
+  {
+   "id": "form-pens-e12-004",
+   "part": "Form PENS.E/12 — Application for Emergency Fund Assistance",
+   "heading": "What does Section 4 (Bank Account Information) and Section 5 (Acknowledgement) require?",
+   "page": null,
+   "text": "Section 4 requires standard bank account details (payee name, bank name, account number/IBAN, bank ID code, currency, account type, bank address, intermediary bank information). Section 5 requires confirming that the information is true and correct, that the instructions have been read, that supporting documents for the need and costs are included, and that a government photo ID and a recent bank statement/voided cheque are enclosed."
+  }
+ ]
+}

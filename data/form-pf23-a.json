@@ -1,0 +1,41 @@
+{
+ "document": {
+  "id": "form-pf23-a",
+  "title": "Form PF.23/A — Payment Instructions for the Commencement of a Deferred Retirement Benefit",
+  "revision": "UNJSPF Form: PF.23/A (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pf23-a.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pf23-a-001",
+   "part": "Form PF.23/A — Payment Instructions for the Commencement of a Deferred Retirement Benefit",
+   "heading": "What is Form PF.23/A used for?",
+   "page": null,
+   "text": "Form PF.23/A is used to request the commencement of a deferred retirement benefit under Article 30 of the UNJSPF Regulations."
+  },
+  {
+   "id": "form-pf23-a-002",
+   "part": "Form PF.23/A — Payment Instructions for the Commencement of a Deferred Retirement Benefit",
+   "heading": "What information is required in Sections 1 and 2?",
+   "page": null,
+   "text": "Section 1 (Participant information) requires UID, pension number, date of birth, full name, mailing address, phone, and personal email. Section 2 (Date of commencement of deferred retirement benefit) requires the desired date on which the benefit is to become payable."
+  },
+  {
+   "id": "form-pf23-a-003",
+   "part": "Form PF.23/A — Payment Instructions for the Commencement of a Deferred Retirement Benefit",
+   "heading": "What is required in Sections 3 and 4?",
+   "page": null,
+   "text": "Section 3 requires standard bank account information (payee name, bank details, currency, account type, intermediary bank, and additional bank account information for institutions such as brokerage firms). Section 4 requires confirming the form's instructions have been read, and enclosing a government photo ID and a recent bank statement or voided cheque plus all other required documents."
+  },
+  {
+   "id": "form-pf23-a-004",
+   "part": "Form PF.23/A — Payment Instructions for the Commencement of a Deferred Retirement Benefit",
+   "heading": "When is Section 5 (Signature Authentication) required?",
+   "page": null,
+   "text": "Section 5 requires a UN official, government official, or notary public to certify that the person identified in Section 1 signed the form in their presence, providing their printed name, title/licence/index number, email, signature, date, and official stamp/seal of office."
+  }
+ ]
+}

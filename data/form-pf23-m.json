@@ -1,0 +1,34 @@
+{
+ "document": {
+  "id": "form-pf23-m",
+  "title": "Form PF.23/M — Change of Contact Information",
+  "revision": "UNJSPF Form: PF.23/M (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pf23-m.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pf23-m-001",
+   "part": "Form PF.23/M — Change of Contact Information",
+   "heading": "What is Form PF.23/M used for, and when should it NOT be used?",
+   "page": null,
+   "text": "Form PF.23/M is used to update contact information (mailing address, phone number, email, and emergency contact). If you are on the two-track system, this form should NOT be used to report a change of country of residence — use form PENS.E/11 instead."
+  },
+  {
+   "id": "form-pf23-m-002",
+   "part": "Form PF.23/M — Change of Contact Information",
+   "heading": "What information is required in Sections 1 through 3?",
+   "page": null,
+   "text": "Section 1 (Retiree or beneficiary information) requires UID, pension number, retirement number, and full name. Section 2 (Contact information) requires the mailing address, phone number and email. Section 3 (Emergency contact) requires the emergency contact's full name, mailing address, phone number, relationship, and email."
+  },
+  {
+   "id": "form-pf23-m-003",
+   "part": "Form PF.23/M — Change of Contact Information",
+   "heading": "What do I acknowledge and confirm by signing Section 4?",
+   "page": null,
+   "text": "You confirm that the information provided is true and correct, that you have read the form's instructions, and that you have enclosed any other required documents listed in the instructions."
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "document": {
+  "id": "form-pens-t2",
+  "title": "Form PENS.T/2 — Transfer-Out Form",
+  "revision": "UNJSPF Form: PENS.T/2 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-t2.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-t2-001",
+   "part": "Form PENS.T/2 — Transfer-Out Form",
+   "heading": "What is Form PENS.T/2 used for?",
+   "page": null,
+   "text": "Form PENS.T/2 (\"Transfer-Out Form\") is used to submit an expression of interest to transfer accrued pension rights from UNJSPF to a new employing organization under Article 13 of the UNJSPF Regulations, under the terms of the relevant transfer agreement between UNJSPF and that organization. All pages must be dated and hand-signed, and information should be typed or printed in BLOCK LETTERS."
+  },
+  {
+   "id": "form-pens-t2-002",
+   "part": "Form PENS.T/2 — Transfer-Out Form",
+   "heading": "What information is required in Section 1 (Participant Information)?",
+   "page": null,
+   "text": "Section 1 requires the Unique Identification Number (UID) (required), pension number (optional), current employing organization index number, full name, date of birth, former employing organization, duty station, phone number, and work email."
+  },
+  {
+   "id": "form-pens-t2-003",
+   "part": "Form PENS.T/2 — Transfer-Out Form",
+   "heading": "What information is required in Section 2 (New Employing Organization for the Transfer-Out)?",
+   "page": null,
+   "text": "Section 2 requires the name of the new employing organization, date of entry, and the full name, functional title and work email of the point of contact at the new employing organization."
+  },
+  {
+   "id": "form-pens-t2-004",
+   "part": "Form PENS.T/2 — Transfer-Out Form",
+   "heading": "What do I acknowledge and confirm by signing Section 3 of Form PENS.T/2?",
+   "page": null,
+   "text": "By signing, you confirm that you are interested in transferring your accrued pension rights to the organization named in Section 2; that you have read Article 13 of the UNJSPF Regulations and the relevant transfer agreement; that failing to elect to transfer within the deadline set in that agreement forfeits your right to transfer; that you have read the form's instructions; that you request an estimate of the transfer value; and that the transfer will not proceed unless and until you submit a final election to transfer-out form."
+  },
+  {
+   "id": "form-pens-t2-005",
+   "part": "Form PENS.T/2 — Transfer-Out Form",
+   "heading": "What note applies to new entrants or re-entrants completing Form PENS.T/2?",
+   "page": null,
+   "text": "New entrants or re-entrants may also be able to validate prior non-contributory service and/or restore prior contributory service under Articles 23 and 24 of the UNJSPF Regulations, provided they apply within one year of their date of entry or re-entry into the Fund, but before separation should they separate earlier."
+  }
+ ]
+}

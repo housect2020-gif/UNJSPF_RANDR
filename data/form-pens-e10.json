@@ -1,0 +1,41 @@
+{
+ "document": {
+  "id": "form-pens-e10",
+  "title": "Form PENS.E/10 — Declaration of Country of Residence (for the two-track system only)",
+  "revision": "UNJSPF Form: PENS.E/10 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e10.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e10-001",
+   "part": "Form PENS.E/10 — Declaration of Country of Residence (for the two-track system only)",
+   "heading": "What is Form PENS.E/10 used for?",
+   "page": null,
+   "text": "Form PENS.E/10 is the official election to receive a benefit under the two-track system, an optional feature of the UNJSPF Pension Adjustment System that protects the purchasing power of periodic benefits for beneficiaries residing outside the United States. Submitting the form together with acceptable proof of residence elects to have the benefit adjusted for cost-of-living changes in the declared country of residence. This election is irrevocable."
+  },
+  {
+   "id": "form-pens-e10-002",
+   "part": "Form PENS.E/10 — Declaration of Country of Residence (for the two-track system only)",
+   "heading": "What information is required in Sections 1 and 2?",
+   "page": null,
+   "text": "Section 1 (Retiree or beneficiary information) requires UID, pension number, retirement number, date of birth, full name, and contact information. Section 2 (Declaration of country of residence) requires the street address, city, state/province, ZIP/postal code, and country of residence — PO Box and c/o addresses are not accepted."
+  },
+  {
+   "id": "form-pens-e10-003",
+   "part": "Form PENS.E/10 — Declaration of Country of Residence (for the two-track system only)",
+   "heading": "What must be attached in Section 3 (Proof of Residence and Supporting Documents)?",
+   "page": null,
+   "text": "A certificate of residence issued by a local government officer or the local police is required. A duly completed, dated and signed original change of payment options form (PF.23) may also be attached, but only if you want to change your payment instructions and/or currency of payment — its submission is optional."
+  },
+  {
+   "id": "form-pens-e10-004",
+   "part": "Form PENS.E/10 — Declaration of Country of Residence (for the two-track system only)",
+   "heading": "What do I acknowledge and confirm by signing Section 4?",
+   "page": null,
+   "text": "You confirm having read the form's instructions and the relevant provisions on the two-track system; that you elect to have your benefit paid under the two-track provisions; that this election is irrevocable; that you reside at least six months of every year in your declared country of residence; that the two-track system may be suspended for your country of residence; that you undertake to notify the Fund immediately of any change in country of residence (failure to do so, or providing a false statement, may cause loss of cost-of-living adjustments); and that the information provided is true and correct."
+  }
+ ]
+}

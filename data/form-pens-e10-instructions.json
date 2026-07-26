@@ -1,0 +1,83 @@
+{
+ "document": {
+  "id": "form-pens-e10-instructions",
+  "title": "Instructions for Form PENS.E/10",
+  "revision": "UNJSPF Form Instructions: PENS.E/10 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e10-instructions.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e10-instructions-001",
+   "part": "Purpose and Key Information",
+   "heading": "What is the two-track system, and what does electing it mean?",
+   "page": null,
+   "text": "The two-track system is an optional feature of the Pension Adjustment System that protects the purchasing power of periodic benefits for beneficiaries residing outside the United States. Opting in means the pension is adjusted according to the cost of living in the declared country of residence, based on UN-reported inflation data. Once elected, the decision is irrevocable except in very limited circumstances. The system is meant to provide income stability in real terms, not financial gain, and UNJSPF may suspend a country from the two-track system, in which case the benefit is recalculated on the US dollar track."
+  },
+  {
+   "id": "form-pens-e10-instructions-002",
+   "part": "Purpose and Key Information",
+   "heading": "Is Form PENS.E/10 required to process my pension?",
+   "page": null,
+   "text": "No. Form PENS.E/10 is optional and should be submitted only if you elect to opt in to the two-track system. Without it, your pension is calculated on the US dollar track and periodically adjusted based on the US consumer price index. Submitting it means your benefit is calculated and adjusted on the two-track system instead."
+  },
+  {
+   "id": "form-pens-e10-instructions-003",
+   "part": "Purpose and Key Information",
+   "heading": "Do I need to opt in to the two-track system to be paid in a local currency?",
+   "page": null,
+   "text": "No. You do not need to opt for the two-track system to have your benefit paid in your local currency — submit a duly completed PF.23 form instead if you want your benefit paid in a currency other than USD or wish to update your payment instructions."
+  },
+  {
+   "id": "form-pens-e10-instructions-004",
+   "part": "Purpose and Key Information",
+   "heading": "Should I run an estimate before switching to the two-track system?",
+   "page": null,
+   "text": "Yes. Before deciding, you should run an estimate of your benefit under the two-track system via your member self-service (MSS) account, or request an estimate from the Fund, to determine whether opting in would result in a higher benefit at that time — noting that the two-track system may be more or less advantageous at different points in the future."
+  },
+  {
+   "id": "form-pens-e10-instructions-005",
+   "part": "Purpose and Key Information",
+   "heading": "When can I switch to the two-track system, and what proof of residence is needed?",
+   "page": null,
+   "text": "You may switch at any time after separation from service by submitting Form PENS.E/10 together with a certificate of residence as proof. The certificate must be issued by a local government officer or the local police, and is accepted only if its issue date is on or after the date of entitlement and no more than three months prior to submission — except that beneficiaries retiring in their country of nationality (also their last duty station) may submit a certificate issued up to one month before the date of entitlement. Without an acceptable proof of residence document, the form is considered invalid."
+  },
+  {
+   "id": "form-pens-e10-instructions-006",
+   "part": "Purpose and Key Information",
+   "heading": "When does the two-track system become effective, and are retroactive payments made?",
+   "page": null,
+   "text": "If the form and proof of residence are submitted within six months of the commencement of entitlement, the two-track system becomes effective from the date of entitlement, with any retroactive payments due. If submitted later than six months after commencement, the local currency base amount is still calculated from the date of commencement, but the two-track system becomes effective only from the first day of the quarter following acceptance of the form, with no retroactive payments."
+  },
+  {
+   "id": "form-pens-e10-instructions-007",
+   "part": "Purpose and Key Information",
+   "heading": "What should I do if I move to a different country, or my address changes within the same country?",
+   "page": null,
+   "text": "If you move to a different country, you must inform the Fund immediately by submitting Form PENS.E/11. If only your address changes but your declared country of residence stays the same, you must inform the Fund using form PF.23/M instead."
+  },
+  {
+   "id": "form-pens-e10-instructions-008",
+   "part": "Section 1-4 Instructions",
+   "heading": "What is required in Sections 1 through 4?",
+   "page": null,
+   "text": "Section 1 requires your UID, full name, date of birth and contact information (UID request: email requestUIDonly@unjspf.org with full name, last employing organization, last duty station and five-digit alphanumeric retirement number). Section 2 requires your country of residence and full address (PO Box and c/o addresses not accepted). Section 3 requires the applicable proof-of-residence checkboxes — the certificate of residence must bear a letterhead, signature and seal of the issuing local government officer or police, and cover a country where you reside six or more months per year. Section 4 (Acknowledgement and signature) — the form must be completed in full, dated and signed, and cannot be dated or submitted more than two weeks before the date of commencement of entitlement."
+  },
+  {
+   "id": "form-pens-e10-instructions-009",
+   "part": "Supporting Documents",
+   "heading": "What are examples of acceptable proof of residence documents by country?",
+   "page": null,
+   "text": "Examples include: Austria (Meldebestätigung), Canada (municipal certificate of residence/domicile, IRCC permanent residence certificate, or certified tax return), France (carte de séjour or certificate of residence), Italy (Certificato di residenza), Switzerland (autorisation d'établissement or cantonal certificate), United Kingdom (certificate from district council, local police, or HMRC), and United States (stamped passport and/or green card). Many other countries have similar government- or police-issued certificates of residence or domicile; the list is not exhaustive, and acceptability is determined case by case."
+  },
+  {
+   "id": "form-pens-e10-instructions-010",
+   "part": "Submission Instructions",
+   "heading": "How do I submit Form PENS.E/10?",
+   "page": null,
+   "text": "The dated and hand-signed form must be returned to UNJSPF, either via the 'MSS Document Upload' tab of an MSS account, or by mail to UNJSPF's New York or Geneva offices."
+  }
+ ]
+}

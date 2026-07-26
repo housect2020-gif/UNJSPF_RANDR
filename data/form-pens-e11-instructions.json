@@ -1,0 +1,62 @@
+{
+ "document": {
+  "id": "form-pens-e11-instructions",
+  "title": "Instructions for Form PENS.E/11",
+  "revision": "UNJSPF Form Instructions: PENS.E/11 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e11-instructions.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e11-instructions-001",
+   "part": "Purpose and Key Information",
+   "heading": "What is the purpose of Form PENS.E/11, and when should it NOT be used?",
+   "page": null,
+   "text": "Form PENS.E/11 notifies the Fund of a change in country of residence for a beneficiary receiving a benefit under the two-track system, and must be submitted with satisfactory proof of relocation and proof of arrival. It should NOT be used if you change address but continue to reside in the same country (use form PF.23/M instead), and it does not cover changes to payment instructions — to change currency of payment, submit a separate duly completed PF.23 form."
+  },
+  {
+   "id": "form-pens-e11-instructions-002",
+   "part": "Purpose and Key Information",
+   "heading": "What is the deadline to notify the Fund of a change in country of residence?",
+   "page": null,
+   "text": "Under section N of the UNJSPF Regulations, beneficiaries on the two-track system must promptly notify the Fund of any change in country of residence and provide satisfactory proof of residence and arrival, no later than six months from the date of arrival in the new country."
+  },
+  {
+   "id": "form-pens-e11-instructions-003",
+   "part": "Purpose and Key Information",
+   "heading": "How is the local currency track recalculated after a change in country of residence?",
+   "page": null,
+   "text": "Once the form and satisfactory proof of residence/arrival are accepted, the local currency track is recalculated based on the new country of residence using the 36-month average exchange rate in effect when the benefit commenced. If submitted within six months of arrival, the new track becomes effective from the first day of the quarter following the date of arrival, with retroactive payments/recoveries from that date. If submitted later, the track is still recalculated from the benefit's commencement date, but becomes effective only from the first day of the quarter following acceptance, with NO retroactive adjustment (though any excess payments made are recovered)."
+  },
+  {
+   "id": "form-pens-e11-instructions-004",
+   "part": "Purpose and Key Information",
+   "heading": "What happens if no new proof of residence and arrival is ever provided?",
+   "page": null,
+   "text": "If no new proof of residence and proof of arrival are provided, the benefit amount will be frozen and no further adjustment made until acceptable proof for the new country of residence is received."
+  },
+  {
+   "id": "form-pens-e11-instructions-005",
+   "part": "Section 1-4 Instructions",
+   "heading": "What is required in Sections 1 through 4?",
+   "page": null,
+   "text": "Section 1 requires UID, full name, date of birth and contact information (UID request process is the same as other forms). Section 2 requires the former country of residence, new country of residence, full address, and date of arrival — PO Box and third-party (c/o) addresses are not accepted. Section 3 requires checking the applicable proof-of-residence options and specifying supporting documents proving date of arrival. Section 4 requires the form to be completed in full, dated and signed."
+  },
+  {
+   "id": "form-pens-e11-instructions-006",
+   "part": "Supporting Documents",
+   "heading": "What are examples of acceptable proof of residence documents by country?",
+   "page": null,
+   "text": "Similar to Form PENS.E/10: examples include Austria's Meldebestätigung, Canada's municipal certificate of residence or IRCC permanent residence certificate, France's carte de séjour, Italy's Certificato di residenza, Switzerland's autorisation d'établissement, the UK's district council/police/HMRC certificate, and a stamped US passport/green card for the United States, among many others. The document must show the beneficiary's full name and address and have an issue date after arrival in the new country."
+  },
+  {
+   "id": "form-pens-e11-instructions-007",
+   "part": "Submission Instructions",
+   "heading": "How do I submit Form PENS.E/11?",
+   "page": null,
+   "text": "The dated and hand-signed form must be returned to UNJSPF, either via the 'MSS Document Upload' tab of an MSS account, or by mail to UNJSPF's New York or Geneva offices."
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "document": {
+  "id": "form-pf23-a-instructions",
+  "title": "Instructions for Form PF.23/A",
+  "revision": "UNJSPF Form Instructions: PF.23/A (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pf23-a-instructions.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pf23-a-instructions-001",
+   "part": "Purpose and Key Information",
+   "heading": "What is the purpose of Form PF.23/A?",
+   "page": null,
+   "text": "Form PF.23/A is used to request the commencement of a deferred retirement benefit under Article 30 of the UNJSPF Regulations."
+  },
+  {
+   "id": "form-pf23-a-instructions-002",
+   "part": "Purpose and Key Information",
+   "heading": "When does a deferred retirement benefit become payable, and can it start earlier?",
+   "page": null,
+   "text": "A deferred retirement benefit, whether elected or deemed elected, becomes payable when you reach normal retirement age (NRA). You may elect to receive it earlier, any time between early retirement age (ERA) and NRA, in which case a reduction factor is applied as it would be for an early retirement benefit. NRA and ERA are determined based on the date your participation in the Fund commenced or recommenced."
+  },
+  {
+   "id": "form-pf23-a-instructions-003",
+   "part": "Purpose and Key Information",
+   "heading": "Can a deferred retirement benefit be commuted into a lump sum?",
+   "page": null,
+   "text": "It is not possible to commute part of the benefit into a lump sum. The full benefit may only be commuted into a one-time lump sum, at your express written request, if the rate of the benefit payable at NRA was less than 1,000 United States dollars per year. If commuted into a lump sum, no survivors' benefits would be payable. There is also no child's benefit payable under a deferred retirement benefit."
+  },
+  {
+   "id": "form-pf23-a-instructions-004",
+   "part": "Purpose and Key Information",
+   "heading": "Can I change my election from a deferred retirement benefit to a withdrawal settlement?",
+   "page": null,
+   "text": "Yes, by submitting a written request to the Fund, if payment has not yet commenced. However, doing so will not make you eligible to later restore that period of contributory service under Article 24 if you rejoin the Fund, since restoration under Article 24 is precluded for anyone who elected or was deemed to have elected a deferred retirement benefit on or after 1 April 2007."
+  },
+  {
+   "id": "form-pf23-a-instructions-005",
+   "part": "Purpose and Key Information",
+   "heading": "What is the forfeiture rule for benefit entitlements?",
+   "page": null,
+   "text": "The right to a retirement, early retirement, deferred retirement or disability benefit, widow's/widower's benefit, divorced surviving spouse's benefit, child's benefit, or secondary dependant's benefit is forfeited if, for five years after payment becomes due, the beneficiary fails to submit payment instructions or fails/refuses to accept payment."
+  },
+  {
+   "id": "form-pf23-a-instructions-006",
+   "part": "Section 1-3 Instructions",
+   "heading": "What is required in Sections 1 through 3?",
+   "page": null,
+   "text": "Section 1 requires UID, full name, date of birth and contact information (UID request process is standard, via requestUIDonly@unjspf.org with identifying details). Section 2 requires the desired date of commencement of the benefit. Section 3 requires standard bank account details, following the same banking requirements table (by currency and bank location) used across other UNJSPF payment forms."
+  },
+  {
+   "id": "form-pf23-a-instructions-007",
+   "part": "Section 4-5 Instructions",
+   "heading": "What documents and authentication are required in Sections 4 and 5?",
+   "page": null,
+   "text": "Section 4 requires a government photo ID, a recent bank statement/voided cheque, and — where applicable — a copy of your spouse's government photo ID or birth certificate, a marriage certificate, and any divorce decree(s) for previous marriages. Section 5 requires signature authentication by a UN official, government official, or notary public, who must complete their printed name, email, official title/licence/index number, signature, authentication date, and official stamp/seal."
+  },
+  {
+   "id": "form-pf23-a-instructions-008",
+   "part": "Submission Instructions",
+   "heading": "How do I submit Form PF.23/A?",
+   "page": null,
+   "text": "The dated, hand-signed and duly authenticated form must be returned to UNJSPF, either via the 'MSS Document Upload' tab of an MSS account, or by mail to UNJSPF's New York or Geneva offices."
+  }
+ ]
+}

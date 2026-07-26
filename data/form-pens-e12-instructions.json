@@ -1,0 +1,69 @@
+{
+ "document": {
+  "id": "form-pens-e12-instructions",
+  "title": "Instructions for Form PENS.E/12",
+  "revision": "UNJSPF Form Instructions: PENS.E/12 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e12-instructions.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e12-instructions-001",
+   "part": "Purpose and Key Information",
+   "heading": "What is the purpose of the Emergency Fund, and who can apply?",
+   "page": null,
+   "text": "If you are in receipt of a periodic benefit and facing temporary unforeseen hardship, you may apply for Emergency Fund assistance. The Emergency Fund was set up under note A of the UNJSPF Regulations to provide financial assistance to beneficiaries currently receiving a periodic benefit who face temporary unforeseen hardship due to an emergency, such as exceptional medical expenses, funeral expenses, or natural disasters."
+  },
+  {
+   "id": "form-pens-e12-instructions-002",
+   "part": "Purpose and Key Information",
+   "heading": "What is the Emergency Fund NOT intended for?",
+   "page": null,
+   "text": "The Emergency Fund is not intended to supplement pensions considered insufficient due to general or local economic conditions or limited contributory service. It also cannot be used as a source for loans, scholarships or further education for a retiree or beneficiaries, or for homebuilding, home purchase, or home improvements (unless justified for medical reasons)."
+  },
+  {
+   "id": "form-pens-e12-instructions-003",
+   "part": "Purpose and Key Information",
+   "heading": "How are applications assessed, and how are they processed?",
+   "page": null,
+   "text": "Applications are examined case by case, considering factors such as years of contributory service, amount of the UNJSPF benefit, country of residence, and availability of national health insurance coverage. Applications are processed on a priority basis once all necessary supporting documentation is received, and beneficiaries are notified promptly of the decision. The Fund reimburses expenses already incurred — advance payments are not made — and requests will not be granted if there is an existing overpayment that needs to be recovered."
+  },
+  {
+   "id": "form-pens-e12-instructions-004",
+   "part": "Purpose and Key Information",
+   "heading": "Where is Emergency Fund assistance paid?",
+   "page": null,
+   "text": "If approved, payment is made to the bank account currently on record with the Fund, to which periodic pension payments are made. Applicants other than the retiree or beneficiary themselves must provide their own banking instructions."
+  },
+  {
+   "id": "form-pens-e12-instructions-005",
+   "part": "Section 1-3 Instructions",
+   "heading": "What information is required in Sections 1, 2 and 3?",
+   "page": null,
+   "text": "Section 1 requires the retiree's or beneficiary's UID and full name (if the applicant is not the retiree/beneficiary, provide the retiree's/beneficiary's UID and name; UID requests go to requestUIDonly@unjspf.org). Section 2 requires the applicant's full name, date of birth and contact information. Section 3 requires selecting the applicable nature-of-emergency option(s) — indicating medical insurance status if 'medical expenses' is selected — and stating the amount requested and a clear description of the financial hardship."
+  },
+  {
+   "id": "form-pens-e12-instructions-006",
+   "part": "Section 4-5 Instructions",
+   "heading": "What is required in Sections 4 and 5?",
+   "page": null,
+   "text": "Section 4 requires standard bank account information (payee name matching the bank statement, bank name, account number/IBAN, bank ID code, currency, account type, bank address, intermediary bank if applicable, and additional information for accounts held at institutions such as brokerage firms, UNESCO USLS, AMFIE/AMFI or UNSSCA). Section 5 requires the form to be completed, dated and signed, with supporting documents relating to both the need for assistance and the associated costs, a government photo ID, and a recent bank statement or voided cheque."
+  },
+  {
+   "id": "form-pens-e12-instructions-007",
+   "part": "Supporting Documents",
+   "heading": "What supporting documents are required for each type of emergency?",
+   "page": null,
+   "text": "For medical expenses: a dated physician's certificate confirming the diagnosis and necessity for treatment, original or certified invoices/detailed bills, corresponding proof of payment (dated receipts), and statements from insurance/national health plans showing out-of-pocket costs. For funeral expenses or other emergencies: original or certified invoices/bills and corresponding dated proof-of-payment receipts. For natural disasters: proof of address."
+  },
+  {
+   "id": "form-pens-e12-instructions-008",
+   "part": "Submission Instructions",
+   "heading": "How do I submit Form PENS.E/12?",
+   "page": null,
+   "text": "The dated and hand-signed form must be returned to UNJSPF, either via the 'MSS Document Upload' tab of an MSS account, or by mail to UNJSPF's New York or Geneva offices."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "document": {
+  "id": "form-pens-e11",
+  "title": "Form PENS.E/11 — Change of Country of Residence (for the two-track system only)",
+  "revision": "UNJSPF Form: PENS.E/11 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-e11.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-e11-001",
+   "part": "Form PENS.E/11 — Change of Country of Residence (for the two-track system only)",
+   "heading": "What is Form PENS.E/11 used for?",
+   "page": null,
+   "text": "Form PENS.E/11 notifies UNJSPF of a change in country of residence for a beneficiary paid under the two-track system."
+  },
+  {
+   "id": "form-pens-e11-002",
+   "part": "Form PENS.E/11 — Change of Country of Residence (for the two-track system only)",
+   "heading": "What information is required in Sections 1 and 2?",
+   "page": null,
+   "text": "Section 1 (Retiree or beneficiary information) requires UID, pension number, retirement number, full name, date of birth, and contact information. Section 2 (Change of country of residence) requires the former country of residence, new country of residence, full new address (PO Box and third-party/c/o addresses not accepted), and date of arrival in the new country."
+  },
+  {
+   "id": "form-pens-e11-003",
+   "part": "Form PENS.E/11 — Change of Country of Residence (for the two-track system only)",
+   "heading": "What must be attached in Section 3 (Proof of Residence and Supporting Documents)?",
+   "page": null,
+   "text": "A certificate of residence issued by a local government officer or the local police is required, and a change of payment options form (PF.23) may optionally be attached if changing payment instructions and/or currency. Proof of date of arrival must also be provided — such as a copy of the passport page with the immigration/customs stamp, a transportation ticket stub, a boarding pass, or other official document showing the date of arrival."
+  },
+  {
+   "id": "form-pens-e11-004",
+   "part": "Form PENS.E/11 — Change of Country of Residence (for the two-track system only)",
+   "heading": "What do I acknowledge and confirm by signing Section 4?",
+   "page": null,
+   "text": "You confirm having read the form's instructions and that the information provided is true and correct."
+  }
+ ]
+}

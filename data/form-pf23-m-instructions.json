@@ -1,0 +1,55 @@
+{
+ "document": {
+  "id": "form-pf23-m-instructions",
+  "title": "Instructions for Form PF.23/M",
+  "revision": "UNJSPF Form Instructions: PF.23/M (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pf23-m-instructions.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pf23-m-instructions-001",
+   "part": "Purpose and Key Information",
+   "heading": "What is the purpose of Form PF.23/M?",
+   "page": null,
+   "text": "Form PF.23/M is used to update your contact information, including mailing address, telephone number, email and emergency contact details."
+  },
+  {
+   "id": "form-pf23-m-instructions-002",
+   "part": "Purpose and Key Information",
+   "heading": "Why is it important to keep contact information up to date?",
+   "page": null,
+   "text": "All retirees and beneficiaries are strongly encouraged to keep their contact information current so they receive all correspondence relating to their benefits in a timely manner. Failing to provide updated contact information may mean not receiving important correspondence, such as a certificate of entitlement, which could result in the suspension of the periodic benefit. It is the beneficiary's responsibility to keep contact information current."
+  },
+  {
+   "id": "form-pf23-m-instructions-003",
+   "part": "Purpose and Key Information",
+   "heading": "When should Form PF.23/M NOT be used?",
+   "page": null,
+   "text": "If you are on the two-track system, do NOT use this form to report a change of your country of residence — use form PENS.E/11 instead."
+  },
+  {
+   "id": "form-pf23-m-instructions-004",
+   "part": "Section 1-2 Instructions",
+   "heading": "What is required in Sections 1 and 2?",
+   "page": null,
+   "text": "Section 1 requires your UID and full name (UID request process is standard, via requestUIDonly@unjspf.org). Section 2 requires your full address (preferably a street address rather than PO Box), telephone number, and email — following the destination country's postal code practice, without abbreviating the country name, and including any apartment/room/suite number. PO Box numbers may be used only if your post office does not deliver to your street address; mail in care of a third party should be entered as 'c/o' followed by that party's name and address. Note: 'c/o' and PO Box addresses are NOT accepted if your benefit is paid under the two-track system."
+  },
+  {
+   "id": "form-pf23-m-instructions-005",
+   "part": "Section 3-4 Instructions",
+   "heading": "What is required in Sections 3 and 4?",
+   "page": null,
+   "text": "Section 3 requires the details of your emergency contact, for UNJSPF's use only when all efforts to reach you through normal channels fail. Section 4 requires the form to be completed in full, dated and signed. If a legal guardian is signing on behalf of the retiree or beneficiary and has not already done so, they must submit a full copy of the judicial decision appointing them as legal guardian, their contact details, and a copy of their passport or official photo ID — all documents in English or French, or accompanied by a professional translation."
+  },
+  {
+   "id": "form-pf23-m-instructions-006",
+   "part": "Submission Instructions",
+   "heading": "How do I submit Form PF.23/M?",
+   "page": null,
+   "text": "The dated and hand-signed form must be returned to UNJSPF, either via the 'MSS Document Upload' tab of an MSS account, or by mail to UNJSPF's New York or Geneva offices."
+  }
+ ]
+}

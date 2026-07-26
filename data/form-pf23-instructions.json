@@ -1,0 +1,62 @@
+{
+ "document": {
+  "id": "form-pf23-instructions",
+  "title": "Instructions for Form PF.23",
+  "revision": "UNJSPF Form Instructions: PF.23 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pf23-instructions.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pf23-instructions-001",
+   "part": "Purpose and Key Information",
+   "heading": "What is the purpose of Form PF.23?",
+   "page": null,
+   "text": "Form PF.23 should be used if: (a) you wish to change previously provided payment instructions for benefit payments; (b) you are the legal representative of an estate and the Fund has requested that you submit the form to receive payment due to the estate of a deceased participant or beneficiary; or (c) the Fund has requested that you submit the form to receive a split payment under Article 45 of the UNJSPF Regulations to satisfy a marital or parental legal obligation."
+  },
+  {
+   "id": "form-pf23-instructions-002",
+   "part": "Section 1 Instructions",
+   "heading": "What information is required in Section 1?",
+   "page": null,
+   "text": "Provide your UID, full name, date of birth and contact information (UID request process: email requestUIDonly@unjspf.org with full name, last employing organization, last duty station, and five-digit alphanumeric retirement number). The pension number and retirement number fields are optional; if you have multiple retirement numbers but want the change to apply to only one, specify that number and check the corresponding box on the form."
+  },
+  {
+   "id": "form-pf23-instructions-003",
+   "part": "Section 2 Instructions",
+   "heading": "What information is required in Section 2 (Bank Account Information)?",
+   "page": null,
+   "text": "Payee name must match your bank statement; payment can only be made to an account in your name or a joint account also in your name (not by cheque to a mailing address, nor to a third party) — if you are unable to manage your financial affairs, a legal guardian must be appointed. Monthly benefits are paid into one account only and cannot be split. Default currency of payment is USD, but periodic benefits may also be paid in AUD, CAD, CHF, CLP, DKK, EUR, GBP, INR, JPY, NOK, NZD, PEN, PKR, RUB, SEK, SGD, XAF or XOF at the UNJSPF quarterly exchange rate, regardless of country of residence under the two-track system. Accounts held at institutions such as brokerage firms, UNESCO USLS, AMFIE/AMFI or UNSSCA require completing '10. Additional bank account information' as well."
+  },
+  {
+   "id": "form-pf23-instructions-004",
+   "part": "Section 2 Instructions",
+   "heading": "What are the banking requirements by currency and bank location?",
+   "page": null,
+   "text": "Requirements for account number format, bank ID code, and intermediary bank vary by currency and location — e.g. US accounts need a 9-digit ACH routing number; UK accounts a 6-digit sort code; EUR SEPA/Eurozone accounts an IBAN plus SWIFT code; UNFCU accounts an 11- or 13-digit account number with fixed ID 226078609; and accounts outside these specified locations generally need a SWIFT code and an intermediary/correspondent bank."
+  },
+  {
+   "id": "form-pf23-instructions-005",
+   "part": "Section 3 Instructions",
+   "heading": "What is required in Section 3 (Acknowledgement and Signature)?",
+   "page": null,
+   "text": "The form must be completed in full, dated and signed. You must also submit a copy of a valid government-issued photo ID showing your full name, date of birth and scripted signature, and a recently dated bank statement or bank document (e.g. voided cheque) showing all your banking information matching the payment instructions."
+  },
+  {
+   "id": "form-pf23-instructions-006",
+   "part": "Section 4 Instructions",
+   "heading": "What is required in Section 4 (Signature Authentication)?",
+   "page": null,
+   "text": "This section is required only if you sign by thumbprint instead of a scripted signature, or if your signature has changed. For thumbprint authentication, an attending physician must witness the thumbprint and date after verifying your identity via a government photo ID or UN ID card, complete all authentication fields, and separately issue a medical certificate (ideally in English or French) to UNJSPF attesting to your health situation. For a changed signature, a UN official, government official, or notary public must certify the signature was made in their presence, completing their printed name, title/licence/index number, email, signature, authentication date, and official stamp/seal."
+  },
+  {
+   "id": "form-pf23-instructions-007",
+   "part": "Submission Instructions",
+   "heading": "How do I submit Form PF.23?",
+   "page": null,
+   "text": "The dated, hand-signed (or duly authenticated) form must be returned to UNJSPF, either via the 'MSS Document Upload' tab of an MSS account, or by mail to UNJSPF's New York or Geneva offices."
+  }
+ ]
+}
