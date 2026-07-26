@@ -1,0 +1,55 @@
+{
+ "document": {
+  "id": "form-pens-a2",
+  "title": "Form PENS.A/2 — Designation of Recipient(s) of a Residual Settlement",
+  "revision": "UNJSPF Form: PENS.A/2 (04.2025)",
+  "effective_date": "2025-04",
+  "language": "English",
+  "source_file": "form-pens-a2.txt",
+  "pages": null
+ },
+ "chunks": [
+  {
+   "id": "form-pens-a2-001",
+   "part": "Form PENS.A/2 — Designation of Recipient(s) of a Residual Settlement",
+   "heading": "What is Form PENS.A/2 used for?",
+   "page": null,
+   "text": "Form PENS.A/2 (\"Designation of Recipient(s) of a Residual Settlement and Any Retroactive Benefit Due\") is used to designate the person(s) or institution(s) who would receive any residual settlement and any retroactive but unpaid benefit owing at the time of the participant's death, under Article 38 of the UNJSPF Regulations and Section J.3 of the Administrative Rules. All pages must be dated and hand-signed, and information should be typed or printed in BLOCK LETTERS."
+  },
+  {
+   "id": "form-pens-a2-002",
+   "part": "Form PENS.A/2 — Designation of Recipient(s) of a Residual Settlement",
+   "heading": "What information is required in Section 1 (Participant Information) of Form PENS.A/2?",
+   "page": null,
+   "text": "Section 1 requires the participant's Unique Identification Number (UID) (required), pension number and retirement number (both optional), date of birth, full name (last, first, middle), mailing address (street, city, state/province, ZIP/postal code, country), phone number, and personal email."
+  },
+  {
+   "id": "form-pens-a2-003",
+   "part": "Form PENS.A/2 — Designation of Recipient(s) of a Residual Settlement",
+   "heading": "How do I designate recipients in Section 2 of Form PENS.A/2, and what are the share rules?",
+   "page": null,
+   "text": "Section 2 allows designation of up to four recipients directly on the form, each with full name, date of birth, sex, relationship, share (%), mailing address, phone, and email. Multiple shares must total 100 per cent; if shares are not indicated or do not total 100 per cent, multiple recipients will share equally. If designating more than four recipients, check the box provided on the form and attach additional sheet(s). If a recipient is a minor, provide the full contact details of the parent or appointed legal guardian who has custody of the minor."
+  },
+  {
+   "id": "form-pens-a2-004",
+   "part": "Form PENS.A/2 — Designation of Recipient(s) of a Residual Settlement",
+   "heading": "What do I acknowledge and confirm by signing Section 3 of Form PENS.A/2?",
+   "page": null,
+   "text": "By signing Section 3, you acknowledge and confirm that: you are designating the person(s)/institution(s) named in Section 2 (and any additional sheet) as recipients of any residual settlement and any retroactive due but unpaid benefit owing at the time of your death; you have read Article 38 of the UNJSPF Regulations and Sections B.5 and J.3 of the Administrative Rules and the instructions for the form; this designation revokes all previous designations, and future changes require submitting a new designation; and a new designation must be completed for each new participation in the Fund."
+  },
+  {
+   "id": "form-pens-a2-005",
+   "part": "Form PENS.A/2 — Designation of Recipient(s) of a Residual Settlement",
+   "heading": "When is Section 4 (Signature Authentication) of Form PENS.A/2 required, and what does it involve?",
+   "page": null,
+   "text": "Section 4 is only applicable if one of the designated recipients is an institution. In that case, a United Nations official, government official, or notary public must certify that the person identified in Section 1 signed the form in their presence, providing their printed full name, official title and licence or index number, email, signature, date, and an official stamp/seal of office."
+  },
+  {
+   "id": "form-pens-a2-006",
+   "part": "Form PENS.A/2 — Designation of Recipient(s) of a Residual Settlement",
+   "heading": "What note applies to new entrants or re-entrants completing Form PENS.A/2?",
+   "page": null,
+   "text": "New entrants or re-entrants may be able to validate non-contributory service and/or restore prior contributory service, if any, under Articles 23 and 24 of the UNJSPF Regulations, provided they apply within one year of their date of entry or re-entry into the Fund (or before separation, if that occurs earlier). They may also avail themselves of the provisions of any transfer agreement entered into by the Fund to secure continuity of pension rights under Article 13 of the UNJSPF Regulations, in accordance with the terms of the relevant agreement."
+  }
+ ]
+}
