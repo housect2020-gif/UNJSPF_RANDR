@@ -1,0 +1,41 @@
+{
+    "document": {
+        "id": "form-pens-t1",
+        "title": "Form PENS.T/1 \u2014 Transfer-In: Expression of Interest to Transfer Accrued Pension Rights to UNJSPF",
+        "revision": "UNJSPF Form: PENS.T/1 (04.2025)",
+        "effective_date": "2025-04",
+        "language": "English",
+        "source_file": "form-pens-t1.txt",
+        "pages": null
+    },
+    "chunks": [
+        {
+            "id": "form-pens-t1-001",
+            "part": "Form PENS.T/1 \u2014 Transfer-In: Expression of Interest to Transfer Accrued Pension Rights to UNJSPF",
+            "heading": "What form PENS.T/1 is used for",
+            "page": null,
+            "text": "Form PENS.T/1 is used to express interest in transferring accrued pension rights from a former employing organization into UNJSPF, under article 13 of the UNJSPF Regulations, where a valid transfer agreement exists."
+        },
+        {
+            "id": "form-pens-t1-002",
+            "part": "Form PENS.T/1 \u2014 Transfer-In: Expression of Interest to Transfer Accrued Pension Rights to UNJSPF",
+            "heading": "Sections on form PENS.T/1",
+            "page": null,
+            "text": "Section 1 - Participant information (UID, pension number, former employing organization index number, date of birth, current organization, duty station, contact details); Section 2 - Former employing organization for the transfer-in (name, date of separation, contact person); Section 3 - Acknowledgement and signature."
+        },
+        {
+            "id": "form-pens-t1-003",
+            "part": "Form PENS.T/1 \u2014 Transfer-In: Expression of Interest to Transfer Accrued Pension Rights to UNJSPF",
+            "heading": "Acknowledgements and process on form PENS.T/1",
+            "page": null,
+            "text": "By submitting this form the participant is only expressing interest, not yet committing to transfer; they confirm having read article 13 and the relevant transfer agreement, understand that missing the deadline forfeits the transfer right, and request an estimate of the additional pensionable service credit that would result. The transfer will not proceed unless and until a final election to transfer-in is submitted."
+        },
+        {
+            "id": "form-pens-t1-004",
+            "part": "Form PENS.T/1 \u2014 Transfer-In: Expression of Interest to Transfer Accrued Pension Rights to UNJSPF",
+            "heading": "Validation and restoration of prior service for new entrants or re-entrants",
+            "page": null,
+            "text": "New entrants or re-entrants may also be able to validate prior non-contributory service and/or restore prior contributory service under articles 23 and 24 of the UNJSPF Regulations, provided they apply within one year of their date of entry or re-entry into the Fund, but before separation should they separate earlier."
+        }
+    ]
+}

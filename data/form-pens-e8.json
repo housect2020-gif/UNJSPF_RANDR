@@ -1,0 +1,48 @@
+{
+    "document": {
+        "id": "form-pens-e8",
+        "title": "Form PENS.E/8 \u2014 Payment Instructions for a Benefit under Article 40(c)",
+        "revision": "UNJSPF Form: PENS.E/8 (04.2025)",
+        "effective_date": "2025-04",
+        "language": "English",
+        "source_file": "form-pens-e8.txt",
+        "pages": null
+    },
+    "chunks": [
+        {
+            "id": "form-pens-e8-001",
+            "part": "Form PENS.E/8 \u2014 Payment Instructions for a Benefit under Article 40(c)",
+            "heading": "What form PENS.E/8 is used for",
+            "page": null,
+            "text": "Form PENS.E/8 is used to elect payment instructions for a benefit under article 40(c) of the UNJSPF Regulations, for participants with less than 5 years of additional contributory service after rejoining and again separating from the Fund."
+        },
+        {
+            "id": "form-pens-e8-002",
+            "part": "Form PENS.E/8 \u2014 Payment Instructions for a Benefit under Article 40(c)",
+            "heading": "Sections on form PENS.E/8",
+            "page": null,
+            "text": "Section 1 - Participant information (UID, pension number, date of birth, name, mailing address, phone, email); Section 2 - Election of benefit (choose one of five options); Section 3 - Bank account information (applicable only if option A, B or D is elected); Section 4 - Emergency contact; Section 5 - Acknowledgement and signature."
+        },
+        {
+            "id": "form-pens-e8-003",
+            "part": "Form PENS.E/8 \u2014 Payment Instructions for a Benefit under Article 40(c)",
+            "heading": "Election of benefit options on form PENS.E/8",
+            "page": null,
+            "text": "The participant selects ONE option only: A. Full retirement benefit (article 28); B. Full early retirement benefit (article 29); C. Deferred retirement benefit (article 30); D. Withdrawal settlement (article 31); E. Deferment of payment or choice of benefit (article 32)."
+        },
+        {
+            "id": "form-pens-e8-004",
+            "part": "Form PENS.E/8 \u2014 Payment Instructions for a Benefit under Article 40(c)",
+            "heading": "Bank account information on form PENS.E/8",
+            "page": null,
+            "text": "Section 3 (bank account information) only needs to be completed if the participant elects option A, B or D. The participant chooses either to be paid using current payment instructions on record, or to provide new bank account details, including payee name, bank name, account number/IBAN, bank ID code, currency of payment, account type, bank address, and intermediary/correspondent bank details if applicable."
+        },
+        {
+            "id": "form-pens-e8-005",
+            "part": "Form PENS.E/8 \u2014 Payment Instructions for a Benefit under Article 40(c)",
+            "heading": "Acknowledgements on form PENS.E/8",
+            "page": null,
+            "text": "The participant confirms having read articles 32, 40 and 46 of the UNJSPF Regulations and the form's instructions, and confirms enclosing a copy of a valid government-issued photo ID and a recently dated bank statement and/or bank document, such as a voided cheque, showing all required banking information."
+        }
+    ]
+}

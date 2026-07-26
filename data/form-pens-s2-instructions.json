@@ -1,0 +1,55 @@
+{
+    "document": {
+        "id": "form-pens-s2-instructions",
+        "title": "Instructions for Form PENS.S/2",
+        "revision": "UNJSPF Form Instructions: PENS.S/2 (04.2025)",
+        "effective_date": "2025-04",
+        "language": "English",
+        "source_file": "form-pens-s2-instructions.txt",
+        "pages": null
+    },
+    "chunks": [
+        {
+            "id": "form-pens-s2-instructions-001",
+            "part": "Purpose and Key Information",
+            "heading": "What is the purpose of Form PENS.S/2?",
+            "page": null,
+            "text": "Form PENS.S/2 is used by appointed legal guardians who have been approved by the Fund to register their signature with UNJSPF."
+        },
+        {
+            "id": "form-pens-s2-instructions-002",
+            "part": "Purpose and Key Information",
+            "heading": "How does someone become recognized as a legal guardian by UNJSPF?",
+            "page": null,
+            "text": "To be recognized by the Fund as a legal guardian, a person must be appointed by an appropriate judicial authority in the retiree's or beneficiary's country of residence, and a full copy of the judicial decision must be provided to the Fund for approval. Guidance and a full list of required supporting documents are available on the UNJSPF website's legal guardianship and estate page."
+        },
+        {
+            "id": "form-pens-s2-instructions-003",
+            "part": "Section 1 and Section 2",
+            "heading": "How do I complete Sections 1 and 2 if I don't know the retiree's or my own Unique Identification number (UID)?",
+            "page": null,
+            "text": "If the retiree's or beneficiary's UID is unknown, an email must be sent to requestUIDonly@unjspf.org including the retiree's or beneficiary's full name, last employing organization, last duty station, and five-digit alphanumeric retirement number. If the legal guardian's own UID is unknown, the email should include the guardian's full name and the retiree's or beneficiary's full name, last employing organization, last duty station, and five-digit alphanumeric retirement number."
+        },
+        {
+            "id": "form-pens-s2-instructions-004",
+            "part": "Section 3: Acknowledgement and Signature Specimen",
+            "heading": "What must be submitted along with the signature specimen on form PENS.S/2?",
+            "page": null,
+            "text": "The form must be completed in full, dated and signed to be valid, with a signature specimen provided within the lines of the box, along with a copy of a valid government-issued photo ID showing the guardian's full name, date of birth and scripted signature."
+        },
+        {
+            "id": "form-pens-s2-instructions-005",
+            "part": "Section 4: Signature Authentication",
+            "heading": "What is required for signature authentication on form PENS.S/2?",
+            "page": null,
+            "text": "The signature and date must be affixed in the presence of an authenticating official (a United Nations official, government official or notary public), who must complete all fields: printed full name, email address, official title/licence or index number, original ink signature, authentication date (matching the signing date), and official stamp/seal of office. UNJSPF retains the signature on file for verification, and all future signatures must match the authenticated specimen; a new form is required if the signature changes."
+        },
+        {
+            "id": "form-pens-s2-instructions-006",
+            "part": "How to Submit",
+            "heading": "How is form PENS.S/2 submitted to UNJSPF?",
+            "page": null,
+            "text": "The physical form, duly completed, dated and hand-signed, must be mailed directly to UNJSPF: by regular postal mail to PO Box 5036, New York, NY 10163-5036, USA; by express courier or registered mail to 37th floor, 1 DHP, 885 Second Avenue, New York, NY 10017, USA; or to the Geneva Office at s/c Palais des Nations, 1211 Gen\u00e8ve 10, Suisse."
+        }
+    ]
+}

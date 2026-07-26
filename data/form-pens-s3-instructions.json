@@ -1,0 +1,62 @@
+{
+    "document": {
+        "id": "form-pens-s3-instructions",
+        "title": "Instructions for Form PENS.S/3",
+        "revision": "UNJSPF Form Instructions: PENS.S/3 (04.2025)",
+        "effective_date": "2025-04",
+        "language": "English",
+        "source_file": "form-pens-s3-instructions.txt",
+        "pages": null
+    },
+    "chunks": [
+        {
+            "id": "form-pens-s3-instructions-001",
+            "part": "Purpose and Key Information",
+            "heading": "What is the purpose of Form PENS.S/3?",
+            "page": null,
+            "text": "Form PENS.S/3 is completed by a child aged 16 years or older whose benefit is being paid directly into his or her own bank account, to register the child's signature with UNJSPF."
+        },
+        {
+            "id": "form-pens-s3-instructions-002",
+            "part": "Section 1 and Section 2",
+            "heading": "How do I complete Sections 1 and 2 if I don't know the retiree's or the child's Unique Identification number (UID)?",
+            "page": null,
+            "text": "If the retiree's or beneficiary's UID is unknown, an email must be sent to requestUIDonly@unjspf.org including the retiree's or beneficiary's full name, last employing organization, last duty station, and five-digit alphanumeric retirement number. If the child's own UID is unknown, the email should include the child's full name and the retiree's or beneficiary's full name, last employing organization, last duty station, and five-digit alphanumeric retirement number."
+        },
+        {
+            "id": "form-pens-s3-instructions-003",
+            "part": "Purpose and Key Information",
+            "heading": "When can a child's benefit be paid directly to the child, and what happens to the signature?",
+            "page": null,
+            "text": "At the request of a retiree or beneficiary or under specific exceptional circumstances, a child's benefit may be paid directly to a child aged 16 years or older who is able to open a bank account. The Fund requires this form, and the child's signature is retained on file for verification purposes; all future signatures provided by the child must match the authenticated signature, and a new form is required if the signature changes."
+        },
+        {
+            "id": "form-pens-s3-instructions-004",
+            "part": "Section 3: Acknowledgement and Signature Specimen",
+            "heading": "What must be submitted along with the signature specimen on form PENS.S/3?",
+            "page": null,
+            "text": "The form must be completed in full, dated and signed to be valid, with a signature specimen provided within the lines of the box, along with a copy of a valid government-issued photo ID showing the child's full name, date of birth and scripted signature."
+        },
+        {
+            "id": "form-pens-s3-instructions-005",
+            "part": "Section 4: Signature Authentication",
+            "heading": "What is required for signature authentication on form PENS.S/3?",
+            "page": null,
+            "text": "The child must sign the form in the presence of an authenticating official (a United Nations official, government official or notary public), who must complete all fields: printed full name, email address, official title/licence or index number, original ink signature, authentication date (matching the signing date), and official stamp/seal of office."
+        },
+        {
+            "id": "form-pens-s3-instructions-006",
+            "part": "How to Submit",
+            "heading": "How is form PENS.S/3 submitted to UNJSPF?",
+            "page": null,
+            "text": "The dated and hand-signed form must be returned to UNJSPF. Registered MSS users can submit it electronically under the 'MSS Document Upload' tab after downloading, completing, printing, dating and hand-signing it from the 'E-Forms' tab, then scanning and uploading it in JPG, JPEG or PDF format; no physical copy is needed after successful electronic submission."
+        },
+        {
+            "id": "form-pens-s3-instructions-007",
+            "part": "How to Submit",
+            "heading": "Where can form PENS.S/3 be mailed if not submitted electronically?",
+            "page": null,
+            "text": "The completed, dated and hand-signed physical form can be mailed to UNJSPF: by regular postal mail to PO Box 5036, New York, NY 10163-5036, USA; by express courier or registered mail to 37th floor, 1 DHP, 885 Second Avenue, New York, NY 10017, USA; or to the Geneva Office at s/c Palais des Nations, 1211 Gen\u00e8ve 10, Suisse."
+        }
+    ]
+}

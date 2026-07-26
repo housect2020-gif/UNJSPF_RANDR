@@ -1,0 +1,34 @@
+{
+    "document": {
+        "id": "form-pens-s3",
+        "title": "Form PENS.S/3 \u2014 Signature Specimen of Child Aged 16 Years or Older",
+        "revision": "UNJSPF Form: PENS.S/3 (04.2025)",
+        "effective_date": "2025-04",
+        "language": "English",
+        "source_file": "form-pens-s3.txt",
+        "pages": null
+    },
+    "chunks": [
+        {
+            "id": "form-pens-s3-001",
+            "part": "Form PENS.S/3 \u2014 Signature Specimen of Child Aged 16 Years or Older",
+            "heading": "What form PENS.S/3 is used for",
+            "page": null,
+            "text": "Form PENS.S/3 is completed by a child aged 16 years or older whose benefit is being paid directly into his or her own bank account, to register the child's signature with UNJSPF."
+        },
+        {
+            "id": "form-pens-s3-002",
+            "part": "Form PENS.S/3 \u2014 Signature Specimen of Child Aged 16 Years or Older",
+            "heading": "Sections on form PENS.S/3",
+            "page": null,
+            "text": "Section 1 - Retiree or beneficiary information (UID, pension number, retirement number, name); Section 2 - Child information (UID, date of birth, name, address, contact details); Section 3 - Acknowledgement and signature specimen; Section 4 - Signature authentication."
+        },
+        {
+            "id": "form-pens-s3-003",
+            "part": "Form PENS.S/3 \u2014 Signature Specimen of Child Aged 16 Years or Older",
+            "heading": "When and how a child's benefit is paid directly to the child under form PENS.S/3",
+            "page": null,
+            "text": "At the request of a retiree or beneficiary, or under specific exceptional circumstances, a child's benefit may be paid directly to a child aged 16 years or older who is able to open a bank account. The child must sign the form in the presence of a United Nations official, government official or notary public, and the signature is retained on file for verification; a new form must be submitted if the signature changes."
+        }
+    ]
+}

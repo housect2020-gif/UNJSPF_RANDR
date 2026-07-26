@@ -1,0 +1,69 @@
+{
+    "document": {
+        "id": "form-pens-t1-instructions",
+        "title": "Instructions for Form PENS.T/1",
+        "revision": "UNJSPF Form Instructions: PENS.T/1 (04.2025)",
+        "effective_date": "2025-04",
+        "language": "English",
+        "source_file": "form-pens-t1-instructions.txt",
+        "pages": null
+    },
+    "chunks": [
+        {
+            "id": "form-pens-t1-instructions-001",
+            "part": "Purpose and Key Information",
+            "heading": "What is the purpose of Form PENS.T/1?",
+            "page": null,
+            "text": "Pension transfer agreements accommodate the transfer of staff between employers, other than UNJSPF member organizations, by securing continuity of their pension rights; UNJSPF has entered into transfer agreements with several international organizations and Governments. Form PENS.T/1 submits an expression of interest to transfer accrued pension rights to UNJSPF under the terms of the relevant transfer agreement and article 13 of the UNJSPF Regulations, Rules and Pension Adjustment System, used by UNJSPF to verify eligibility and calculate the additional pensionable service credit that would result."
+        },
+        {
+            "id": "form-pens-t1-instructions-002",
+            "part": "Important Notes",
+            "heading": "What are the deadline and eligibility conditions for transferring accrued pension rights?",
+            "page": null,
+            "text": "An election to transfer accrued pension rights must be submitted within the deadline set in the relevant transfer agreement between UNJSPF and the former employing organization, and the participant must meet the other eligibility conditions in that agreement; failure to observe the deadline results in permanent forfeiture of the right to transfer. Terms differ between agreements, so participants should read the agreement relevant to their case."
+        },
+        {
+            "id": "form-pens-t1-instructions-003",
+            "part": "Important Notes",
+            "heading": "When is it not possible to transfer accrued pension rights, and what must happen first?",
+            "page": null,
+            "text": "It is not possible to transfer accrued pension rights while on secondment, special leave without pay, or loan from the former employing organization; the participant must separate from service before applying. Transfer at the end of special leave without pay is governed by the relevant transfer agreement and may only be initiated after the period of special leave without pay and employment with the former organization are terminated. A transfer cannot occur if benefits have already been withdrawn from the former organization's pension scheme, and all transfer payments must be sent directly from the former employing organization to UNJSPF."
+        },
+        {
+            "id": "form-pens-t1-instructions-004",
+            "part": "Important Notes",
+            "heading": "What information does UNJSPF need from the former employing organization to verify a transfer?",
+            "page": null,
+            "text": "UNJSPF requires from the former employing organization: the date of separation; total contributory service; total amount of contributions and any accumulated interest; any breaks in service or periods of special leave without pay; and the estimated value of accrued pension rights available under the relevant transfer agreement, if applicable. UNJSPF then provides an estimate of the pensionable service credit that would result, accompanied by a final election to transfer-in form."
+        },
+        {
+            "id": "form-pens-t1-instructions-005",
+            "part": "Important Notes",
+            "heading": "What happens once the decision to transfer is accepted by UNJSPF?",
+            "page": null,
+            "text": "Once the participant's decision to transfer is accepted by UNJSPF, it is final and irrevocable, and the participant ceases to be entitled to any benefit under the former employing organization's pension scheme. After the transfer payment is made, the participant receives confirmation of the pensionable service credits received in UNJSPF from the transfer."
+        },
+        {
+            "id": "form-pens-t1-instructions-006",
+            "part": "Section 1 and Section 2",
+            "heading": "How do I complete Section 1 if I don't know my Unique Identification number (UID), and what goes in Section 2?",
+            "page": null,
+            "text": "If the UID is unknown, the participant must email requestUIDonly@unjspf.org from their work email address (which serves as identity verification), including their index number and/or six-digit pension number. Section 2 requires the name of the former employing organization, date of separation, and the full name, functional title and contact details of the point of contact at the former employing organization for the transfer-in."
+        },
+        {
+            "id": "form-pens-t1-instructions-007",
+            "part": "How to Submit",
+            "heading": "How is form PENS.T/1 submitted to UNJSPF?",
+            "page": null,
+            "text": "The dated and hand-signed form is returned to the secretary of the participant's Staff Pension Committee, or to UNJSPF if the participant is a staff member of the United Nations family. Most registered MSS users can submit it electronically under the 'MSS Document Upload' tab after downloading, completing, printing, dating and hand-signing it from the 'E-Forms' tab, then scanning and uploading it in JPG, JPEG or PDF format; access to this tab may be restricted for staff of some member organizations, who should check with their employing organization on the correct submission process."
+        },
+        {
+            "id": "form-pens-t1-instructions-008",
+            "part": "How to Submit",
+            "heading": "Where can form PENS.T/1 be mailed if not submitted electronically?",
+            "page": null,
+            "text": "The completed, dated and hand-signed physical form can be mailed to UNJSPF: by regular postal mail to PO Box 5036, New York, NY 10163-5036, USA; by express courier or registered mail to 37th floor, 1 DHP, 885 Second Avenue, New York, NY 10017, USA; or to the Geneva Office at s/c Palais des Nations, 1211 Gen\u00e8ve 10, Suisse."
+        }
+    ]
+}

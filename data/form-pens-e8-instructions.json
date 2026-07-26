@@ -1,0 +1,111 @@
+{
+    "document": {
+        "id": "form-pens-e8-instructions",
+        "title": "Instructions for Form PENS.E/8",
+        "revision": "UNJSPF Form Instructions: PENS.E/8 (04.2025)",
+        "effective_date": "2025-04",
+        "language": "English",
+        "source_file": "form-pens-e8-instructions.txt",
+        "pages": null
+    },
+    "chunks": [
+        {
+            "id": "form-pens-e8-instructions-001",
+            "part": "Purpose and Key Information",
+            "heading": "What is the purpose of Form PENS.E/8?",
+            "page": null,
+            "text": "If a participant rejoined the Fund and was again separated after less than five years of additional contributory service, they use form PENS.E/8 to elect their benefit under article 40(c) of the UNJSPF Regulations, Rules and Pension Adjustment System. UNJSPF uses this information to process the benefit."
+        },
+        {
+            "id": "form-pens-e8-instructions-002",
+            "part": "Benefit Options under Article 40(c)",
+            "heading": "What benefit options are available under article 40(c)?",
+            "page": null,
+            "text": "(a) Full retirement benefit (article 28) if separated on or after normal retirement age (NRA), which carries survivors' and child's benefits; (b) Full early retirement benefit (article 29) if separated after early retirement age (ERA) but before NRA, with child's benefit commencing only at NRA or death if earlier; (c) Deferred retirement benefit (article 30), payable at NRA or, at a reduced amount, between ERA and NRA, carrying survivors' benefits but not a child's benefit; (d) Withdrawal settlement (article 31), a one-time payment of the participant's own contributions plus interest, extinguishing all other entitlements for that period; (e) Deferment of payment or choice of benefit (article 32) for up to 36 months."
+        },
+        {
+            "id": "form-pens-e8-instructions-003",
+            "part": "Benefit Options under Article 40(c)",
+            "heading": "Can a retirement, early retirement or deferred retirement benefit under article 40(c) be commuted to a lump sum?",
+            "page": null,
+            "text": "No. Under article 40(c)(ii), if the participant chooses a retirement, early retirement or deferred retirement benefit (articles 28, 29 or 30), the benefit may not be commuted into a lump sum, in whole or in part, and is not subject to any minimum provisions. Total benefits payable across separate periods of contributory service cannot exceed what would have been payable had participation been continuous."
+        },
+        {
+            "id": "form-pens-e8-instructions-004",
+            "part": "Retirement Ages",
+            "heading": "How is normal retirement age (NRA) determined?",
+            "page": null,
+            "text": "Normal retirement age is based on when the participant commenced or recommenced participation in the Fund: 60 if joined/rejoined before 1 January 1990; 62 if joined/rejoined between 1 January 1990 and 31 December 2013; 65 if joined/rejoined on or after 1 January 2014."
+        },
+        {
+            "id": "form-pens-e8-instructions-005",
+            "part": "Retirement Ages",
+            "heading": "How is early retirement age (ERA) determined?",
+            "page": null,
+            "text": "Early retirement age is based on when the participant commenced or recommenced participation in the Fund: 55 if joined/rejoined before 1 January 2014; 58 if joined/rejoined on or after 1 January 2014."
+        },
+        {
+            "id": "form-pens-e8-instructions-006",
+            "part": "Forfeiture of Benefits",
+            "heading": "When is the right to a benefit forfeited?",
+            "page": null,
+            "text": "The right to a retirement, early retirement, deferred retirement or disability benefit, widow's or widower's benefit, divorced surviving spouse's benefit, child's benefit or secondary dependant's benefit is forfeited if, for five years after the first payment has been due, the beneficiary has failed to submit payment instructions or has failed or refused to accept payment."
+        },
+        {
+            "id": "form-pens-e8-instructions-007",
+            "part": "Section 1: Participant Information",
+            "heading": "How do I complete Section 1 if I don't know my Unique Identification number (UID)?",
+            "page": null,
+            "text": "If separated and without access to a work email, the participant must email requestUIDonly@unjspf.org including full name, last employing organization, last duty station, and five-digit alphanumeric retirement number, so the MSS support team can verify identity. If still with work email access, the request must be sent from that work email, including index number and/or six-digit Pension Fund number."
+        },
+        {
+            "id": "form-pens-e8-instructions-008",
+            "part": "Section 3: Bank Account Information",
+            "heading": "What are the rules for the payee name and bank institution on form PENS.E/8?",
+            "page": null,
+            "text": "The payee name must match the name on the bank statement; payment can only be made to an account in the participant's own name or a joint account also held in their name, not to a third party or via cheque to a mailing address. Payment can only be made to a bank or financial institution, not to non-banking institutions or money transfer agencies, and monthly benefits are paid into one account only and cannot be split."
+        },
+        {
+            "id": "form-pens-e8-instructions-009",
+            "part": "Section 3: Bank Account Information",
+            "heading": "What currencies can a benefit under form PENS.E/8 be paid in?",
+            "page": null,
+            "text": "The default currency is USD, but periodic benefits may also be paid in AUD, CAD, CHF, CLP, DKK, EUR, GBP, INR, JPY, NOK, NZD, PEN, PKR, RUB, SEK, SGD, XAF or XOF, applying the UNJSPF quarterly exchange rate, to any bank of the participant's choice regardless of country of residence. UNJSPF does not control exchange rates or additional fees charged by banks or intermediaries."
+        },
+        {
+            "id": "form-pens-e8-instructions-010",
+            "part": "Section 3: Bank Account Information",
+            "heading": "What is an intermediary or correspondent bank, and when is it needed on form PENS.E/8?",
+            "page": null,
+            "text": "Intermediary or correspondent banks are often used when payment is made in a currency different from the local currency (e.g., payment in USD to an account held in France). Any intermediary or correspondent bank fees are incurred by the participant; UNJSPF is only liable for remitting bank fees."
+        },
+        {
+            "id": "form-pens-e8-instructions-011",
+            "part": "Section 4 and Section 5",
+            "heading": "What is the emergency contact used for, and what supporting documents are required on form PENS.E/8?",
+            "page": null,
+            "text": "The emergency contact in Section 4 is used by UNJSPF only when all efforts to reach the participant through normal channels fail. Required supporting documents for Section 5 include a valid government-issued photo ID and a recently dated bank statement or bank document (such as a voided cheque) showing the participant's name and account number matching the payment instructions; if applicable, a spouse's photo ID or birth certificate, children's birth certificates, marriage certificate, and any divorce decree(s)."
+        },
+        {
+            "id": "form-pens-e8-instructions-012",
+            "part": "Banking Requirements Table",
+            "heading": "What are the IBAN and SWIFT code, and where do banking requirements vary by currency and bank location?",
+            "page": null,
+            "text": "The IBAN (International Bank Account Number) is an internationally agreed standard identifying an individual's account, consisting of a two-letter ISO country code, two check digits, and up to 30 alphanumeric characters. The SWIFT code is a Business Identifier Code used for international transfers. The instructions include a detailed banking requirements table specifying beneficiary account number format, bank ID code, and any intermediary bank or other information requirements, organized by currency of payment and bank location (e.g., USD in the United States requires up to 17 digits and a 9-digit ACH routing number; EUR within the SEPA zone requires an IBAN and SWIFT code; JPY in Japan requires a 7-digit Zengin code)."
+        },
+        {
+            "id": "form-pens-e8-instructions-013",
+            "part": "How to Submit",
+            "heading": "How is form PENS.E/8 submitted to UNJSPF?",
+            "page": null,
+            "text": "The dated and hand-signed form is returned to the secretary of the participant's Staff Pension Committee, or to UNJSPF directly if the participant is a staff member of the United Nations family. Registered MSS users can submit it electronically via the 'MSS Document Upload' tab after downloading, completing, printing, dating and hand-signing the form from the 'E-Forms' tab, then scanning and uploading it in JPG, JPEG or PDF format; no physical copy is needed after successful electronic submission."
+        },
+        {
+            "id": "form-pens-e8-instructions-014",
+            "part": "How to Submit",
+            "heading": "Where can form PENS.E/8 be mailed if not submitted electronically?",
+            "page": null,
+            "text": "The completed, dated and hand-signed physical form can be mailed to UNJSPF: by regular postal mail to PO Box 5036, New York, NY 10163-5036, USA; by express courier or registered mail to 37th floor, 1 DHP, 885 Second Avenue, New York, NY 10017, USA; or to the Geneva Office at s/c Palais des Nations, 1211 Gen\u00e8ve 10, Suisse."
+        }
+    ]
+}

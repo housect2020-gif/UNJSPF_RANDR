@@ -1,0 +1,34 @@
+{
+    "document": {
+        "id": "form-pens-s1",
+        "title": "Form PENS.S/1 \u2014 Signature Specimen of Participant, Retiree or Beneficiary",
+        "revision": "UNJSPF Form: PENS.S/1 (04.2025)",
+        "effective_date": "2025-04",
+        "language": "English",
+        "source_file": "form-pens-s1.txt",
+        "pages": null
+    },
+    "chunks": [
+        {
+            "id": "form-pens-s1-001",
+            "part": "Form PENS.S/1 \u2014 Signature Specimen of Participant, Retiree or Beneficiary",
+            "heading": "What form PENS.S/1 is used for",
+            "page": null,
+            "text": "Form PENS.S/1 registers the signature of a participant, retiree or beneficiary with UNJSPF. Having a signature on file may reduce the time needed to process benefit payments."
+        },
+        {
+            "id": "form-pens-s1-002",
+            "part": "Form PENS.S/1 \u2014 Signature Specimen of Participant, Retiree or Beneficiary",
+            "heading": "Sections on form PENS.S/1",
+            "page": null,
+            "text": "Section 1 - Participant, retiree or beneficiary information (UID, pension number, retirement number, date of birth, name, address, contact details); Section 2 - Acknowledgement and signature specimen; Section 3 - Signature authentication."
+        },
+        {
+            "id": "form-pens-s1-003",
+            "part": "Form PENS.S/1 \u2014 Signature Specimen of Participant, Retiree or Beneficiary",
+            "heading": "Signature authentication requirement on form PENS.S/1",
+            "page": null,
+            "text": "The form must be signed in the presence of a United Nations official, government official or notary public, who certifies the signature by completing Section 3. UNJSPF retains the signature on file for verification; all future signatures provided must match the authenticated specimen, and a new form must be submitted if the signature changes."
+        }
+    ]
+}
